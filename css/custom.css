@@ -4148,6 +4148,11 @@ footer {
     line-height: 24px;
     margin-bottom: 0;
   }
+  .page-portfolio #section1 .project-box .description a {
+    display: block;
+    width: 200px;
+    margin: 15px auto !important;
+  }
   .page-portfolio footer .copyright {
     width: auto;
     font-size: 10px;

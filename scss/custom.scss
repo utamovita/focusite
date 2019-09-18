@@ -5107,6 +5107,16 @@ footer {
                 line-height: 24px;
                 margin-bottom: 0;
             }
+
+            .project-box {
+                .description {
+                    a {
+                        display: block;
+                        width: 200px;
+                        margin: 15px auto !important;
+                    }
+                }
+            }
         }
 
         footer {
