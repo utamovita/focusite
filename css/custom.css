@@ -1917,6 +1917,8 @@ footer br {
   float: left;
   width: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .page-portfolio #section1 .project-box .description {
   padding: 0 75px;
@@ -2288,6 +2290,9 @@ footer {
     width: 60vw;
     left: -10vw;
   }
+  .page-portfolio #section1 h1 {
+    margin-bottom: 25px;
+  }
   .page-portfolio .bottom-wave {
     width: 50vw;
   }
@@ -2534,11 +2539,20 @@ footer {
     width: 82vw;
     left: -21vw;
   }
-  .page-portfolio #section1 {
-    min-height: 650px;
-  }
   .page-portfolio #section1 h1 {
     font-size: 42px;
+    margin-bottom: 15px;
+  }
+  .page-portfolio #section1 h2 {
+    font-size: 20px;
+  }
+  .page-portfolio #section1 .project-box .description {
+    padding: 0 30px;
+  }
+  .page-portfolio #section1 .project-box .description a {
+    width: auto;
+    padding: 0 20px;
+    font-size: 12px;
   }
   .page-portfolio .bottom-wave {
     width: 50vw;
@@ -2764,6 +2778,31 @@ footer {
   }
   .page-portfolio #section1 h1 {
     padding-top: 150px;
+  }
+  .page-portfolio #section1 .project-box {
+    padding: 75px 0;
+  }
+  .page-portfolio #section1 .project-box .description svg {
+    width: 35px;
+    margin: 0 5px;
+  }
+  .page-portfolio #section1 .project-box .description svg.js {
+    width: 35px;
+  }
+  .page-portfolio #section1 .project-box .description p {
+    font-size: 13px;
+  }
+  .page-portfolio #section1 .project-box .description h3 {
+    font-size: 28px;
+  }
+  .page-portfolio #section1 .project-box .description a {
+    padding: 0 15px;
+    height: 45px;
+    line-height: 45px;
+    min-width: 0;
+  }
+  .page-portfolio #section1 .project-box .gif {
+    padding: 0 35px;
   }
   .page-portfolio .wave-top {
     width: 92vw;
@@ -3522,6 +3561,29 @@ footer {
     background-position: left top;
     background-size: 370px;
   }
+  .page-portfolio #section1 .project-box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+  }
+  .page-portfolio #section1 .project-box .line {
+    display: none;
+  }
+  .page-portfolio #section1 .project-box .gif {
+    order: 1;
+    max-width: 500px;
+  }
+  .page-portfolio #section1 .project-box .description {
+    order: 2;
+    margin-top: 25px;
+  }
+  .page-portfolio #section1 .project-box.align-left, .page-portfolio #section1 .project-box.align-right {
+    text-align: center;
+  }
+  .page-portfolio #section1 .project-box.align-left .description p, .page-portfolio #section1 .project-box.align-right .description p {
+    padding: 0;
+  }
   .page-portfolio footer {
     background-image: url(../img/contact-mobile-bottom-wave.png);
     background-repeat: no-repeat;
@@ -4080,10 +4142,11 @@ footer {
     font-size: 32px;
     padding-top: 100px;
     line-height: 32px;
-    margin-bottom: 40px;
   }
   .page-portfolio #section1 h2 {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
   }
   .page-portfolio footer .copyright {
     width: auto;

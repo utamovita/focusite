@@ -2244,6 +2244,8 @@ footer {
             float: left;
             width: 100%;
             position: relative;
+            display: flex;
+            align-items: center;
 
             .description {
                 padding: 0 75px;
@@ -2731,6 +2733,12 @@ footer {
             left: -10vw;
         }
 
+        #section1 {
+            h1 {
+                margin-bottom: 25px;
+            }
+        }
+
         .bottom-wave {
             width: 50vw;
         }
@@ -3047,10 +3055,25 @@ footer {
         }
 
         #section1 {
-            min-height: 650px;
-
             h1 {
                 font-size: 42px;
+                margin-bottom: 15px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .project-box {
+                .description {
+                    padding: 0 30px;
+
+                    a {
+                        width: auto;
+                        padding: 0 20px;
+                        font-size: 12px;
+                    }
+                }
             }
         }
 
@@ -3367,6 +3390,40 @@ footer {
 
             h1 {
                 padding-top: 150px;
+            }
+
+            .project-box {
+                padding: 75px 0;
+
+                .description {
+                    svg {
+                        width: 35px;
+                        margin: 0 5px;
+
+                        &.js {
+                            width: 35px;
+                        }
+                    }
+
+                    p {
+                        font-size: 13px;
+                    }
+
+                    h3 {
+                        font-size: 28px;
+                    }
+
+                    a {
+                        padding: 0 15px;
+                        height: 45px;
+                        line-height: 45px;
+                        min-width: 0;
+                    }
+                }
+
+                .gif {
+                    padding: 0 35px;
+                }
             }
         }
 
@@ -4307,6 +4364,38 @@ footer {
             background-repeat: no-repeat;
             background-position: left top;
             background-size: 370px;
+
+            .project-box {
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                margin: 0;
+
+                .line {
+                    display: none;
+                }
+
+                .gif {
+                    order: 1;
+                    max-width: 500px;
+                }
+
+                .description {
+                    order: 2;
+                    margin-top: 25px;
+                }
+
+                &.align-left,
+                &.align-right {
+                    text-align: center;
+
+                    .description {
+                        p {
+                            padding: 0;
+                        }
+                    }
+                }
+            }
         }
 
         footer {
@@ -5011,11 +5100,12 @@ footer {
                 font-size: 32px;
                 padding-top: 100px;
                 line-height: 32px;
-                margin-bottom: 40px;
             }
 
             h2 {
-                font-size: 18px;
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 0;
             }
         }
 
