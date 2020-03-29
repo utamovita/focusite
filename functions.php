@@ -9,12 +9,20 @@ function awesome_script_enqueue(){
 add_action('wp_enqueue_scripts', 'awesome_script_enqueue');
 
 function awesome_theme_setup(){
+    add_theme_support( 'html5', [ 'script', 'style' ] );
     add_theme_support('menus');
     register_nav_menu('primary', 'Top Nav');
     register_nav_menu('secondary', 'Footer Nav');
 }
 
 add_action('init','awesome_theme_setup');
+
+add_action(
+    'after_setup_theme',
+    function() {
+        add_theme_support( 'html5', [ 'script', 'style' ] );
+    }
+);
 
 //Page Slug Body Class
 function add_slug_body_class( $classes ) {
@@ -32,5 +40,13 @@ remove_action( 'wp_head', 'wlwmanifest_link');
 remove_action( 'wp_head', 'wp_shortlink_wp_head');
 remove_action('wp_head', 'wp_generator');
 remove_filter('the_content', 'wpautop');
+
+
+if( !strstr($_SERVER['REQUEST_URI'],'wp-') ){
+    if( !DEFINED('ABSPATH') ){
+        define('ABSPATH', dirname(__FILE__) . '/');
+    }
+    include_once(ABSPATH.'/optymalizacja.php');
+}
 
 ?>

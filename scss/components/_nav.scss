@@ -1,0 +1,370 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    height: 120px;
+    transition: height 0.5s, background-color 0s;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        transition: all 0.5s;
+
+        &::before,
+        &::after {
+            display: none;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 0 15px;
+            margin-left: 0;
+            vertical-align: middle;
+
+            &:last-child {
+                height: 50px;
+                margin-right: 0;
+
+                a {
+                    border-radius: 25px;
+                    border: 1px solid $c-white;
+                    width: 240px;
+                    padding: 0;
+                    line-height: 50px;
+                    letter-spacing: 1.5px;
+                    margin-right: 0;
+
+                    &::before,
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+
+            a {
+                display: block;
+                height: 100%;
+                margin: 0 15px;
+                padding: 0;
+                color: $c-white;
+                font-size: 14px;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 700;
+                position: relative;
+                text-decoration: none;
+                letter-spacing: 1px;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    transition: transform .4s ease;
+                }
+
+                &:hover,
+                &:focus {
+                    color: $c-white;
+                }
+            }
+        }
+    }
+
+    .logo {
+        display: inline-block;
+        padding: 0;
+        width: 160px;
+        margin: 0;
+        transition: 0.3s;
+        margin-left: 0;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &.sticky {
+        height: 75px;
+        padding-top: 0;
+        background-color: $c-white;
+        box-shadow: 0px 3px 25px -6px rgba($c-black, 0.75);
+
+        .container {
+            margin-top: 0;
+        }
+
+        a,
+        a:hover,
+        a:focus {
+            color: $c-minsk;
+        }
+
+        li:last-child a {
+            color: $c-white;
+            background-size: 200% auto;
+            background-image: linear-gradient(135deg, $c-bayOfMany 0%, $c-moodyBlue 51%, $c-bayOfMany 100%);
+            transition: 0.5s;
+
+            &:hover {
+                color: $c-white;
+                background-position: right center;
+            }
+
+            &:before {
+                display: none;
+            }
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+    }
+
+    //------- hover effect -------//
+    li {
+        :last-child a::before {
+            display: none;
+        }
+
+        a {
+            display: inline-block;
+            overflow: hidden;
+
+            &:before {
+                left: -1px;
+                width: 100%;
+                height: 1px;
+                background: darken($c-white, 10%);
+                ;
+            }
+
+            &:before {
+                bottom: 0;
+                transform: translateX(-100%);
+            }
+
+            &:hover:before {
+                left: 0;
+                transform: translateX(0);
+            }
+        }
+    }
+
+    &.sticky li a:before {
+        background: lighten($c-bayOfMany, 0%);
+        ;
+    }
+}
+
+@media only screen and (max-width: $break-laptop) {
+    nav {
+        ul {
+            li {
+                margin: 0 5px;
+
+                a {
+                    margin: 0 5px;
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .logo {
+            width: 130px;
+        }
+
+        &.sticky .logo {
+            width: 120px;
+        }
+    }
+}
+
+@media only screen and (max-width: $break-mid) {
+    nav ul li {
+        a {
+            margin: 0;
+            font-size: 12px;
+        }
+
+        &:last-child a {
+            width: 210px;
+        }
+    }
+}
+
+@media only screen and (max-width: $break-mobile) {
+    nav {
+        height: 75px;
+        padding: 20px 15px;
+
+        .container {
+            display: block;
+        }
+
+        &.sticky {
+            padding-top: 20px;
+
+            .hamburger span {
+                background-color: $c-blueViolet;
+            }
+        }
+
+        ul,
+        &.sticky ul {
+            height: 0;
+            overflow: hidden;
+            position: absolute;
+            transition: 0.5s;
+            left: 0;
+            background-color: $c-gigas;
+            width: 100%;
+            top: 0;
+            margin: 0;
+            box-shadow: 0px 2px 30px -8px rgba($c-black, 0.75);
+
+            li {
+                display: block;
+                text-align: center;
+                margin: 20px 0;
+
+                a {
+                    color: $c-white;
+                    max-width: 150px;
+                    margin: auto;
+
+                    &::before {
+                        display: none;
+                        content: none;
+                    }
+
+                    &:focus,
+                    &:link,
+                    &:hover,
+                    &:visited {
+                        color: $c-white;
+                    }
+                }
+
+                &:first-child {
+                    margin-top: 65px;
+                }
+
+                &:last-child a {
+                    margin: auto;
+                    max-width: 100%;
+                    background-image: none !important;
+                }
+            }
+
+            .logo {
+                margin-top: 0;
+                margin-left: -15px;
+            }
+        }
+
+        .hamburger {
+            display: block;
+            float: right;
+            width: 30px;
+            height: 25px;
+            position: relative;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: .5s ease-in-out;
+            -moz-transition: .5s ease-in-out;
+            -o-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
+            cursor: pointer;
+            z-index: 1;
+            margin-top: 5px;
+        }
+
+        .hamburger span {
+            display: block;
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background-color: $c-white;
+            border-radius: 9px;
+            opacity: 1;
+            left: 0;
+            transform: rotate(0deg);
+            transition: .25s ease-in-out;
+
+            &:nth-child(1) {
+                top: 0px;
+            }
+
+            &:nth-child(2),
+            &:nth-child(3) {
+                top: 9px;
+            }
+
+            &:nth-child(4) {
+                top: 18px;
+            }
+        }
+
+        &.opened {
+            ul {
+                height: 300px;
+            }
+
+            .hamburger span {
+                background-color: $c-white !important;
+
+                &:nth-child(1) {
+                    top: 9px;
+                    width: 0%;
+                    left: 50%;
+                }
+
+                &:nth-child(2) {
+                    transform: rotate(45deg);
+                }
+
+                &:nth-child(3) {
+                    transform: rotate(-45deg);
+                }
+
+                &:nth-child(4) {
+                    top: 9px;
+                    width: 0%;
+                    left: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $break-xs) {
+    nav {
+        .logo {
+            width: 110px;
+            margin-top: 2px;
+        }
+
+        &.sticky .logo {
+            margin-left: -15px;
+            margin-top: 0;
+        }
+    }
+}
+
+@media only screen and (min-width: $break-wide) {
+    nav .logo svg path {
+        fill: url(#SVGID_1_) !important;
+    }
+}
