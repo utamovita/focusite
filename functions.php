@@ -77,7 +77,7 @@ if( !strstr($_SERVER['REQUEST_URI'],'wp-') ){
     if( !DEFINED('ABSPATH') ){
         define('ABSPATH', dirname(__FILE__) . '/');
     }
-    include_once(ABSPATH.'/optymalizacja.php');
+    include_once('optymalizacja.php');
 }
 
 ?>
