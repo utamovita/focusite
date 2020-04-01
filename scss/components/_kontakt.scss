@@ -1,594 +1,516 @@
 .page-kontakt {
-    padding-top: 100px;
+  padding-top: 100px;
 
-    main {
-        min-height: calc(100vh - 181px);
-        padding-top: 50px;
-        padding-bottom: 100px;
+  main {
+    min-height: calc(100vh - 181px);
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .wave-top {
+    width: 50vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  h1 {
+    font-size: 50px;
+    color: $c-emperor;
+    font-weight: 300;
+    margin-top: 15px;
+
+    span {
+      display: block;
+      font-weight: 700;
+
+      span {
+        display: inline-block;
+      }
+    }
+  }
+
+  .contact-us ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 50px;
+
+    li {
+      height: 60px;
+      margin: 30px 0;
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 50px auto;
+
+      a,
+      &:last-child,
+      &.address {
+        height: 100%;
+        display: inline-block;
+        padding-left: 80px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 60px;
+        vertical-align: middle;
+        color: $c-doveGray;
+        padding-right: 10px;
+      }
     }
 
-    .wave-top {
-        width: 50vw;
-        position: absolute;
-        top: 0;
-        left: 0;
+    li.email {
+      background-image: url(../img/email.svg);
     }
 
-    nav {
-        &:not(.sticky) {
-            .logo svg path {
-                fill: $c-white;
-            }
-
-            .menu-nawigacja-gorna-container::after {
-                content: '';
-                left: 10px;
-                bottom: -38px;
-                position: absolute;
-                display: block;
-                border-bottom: 1px solid $c-mercury;
-                width: 100vw;
-            }
-        }
-
-        ul li {
-            &:last-child a {
-                color: $c-white;
-                background-size: 200% auto;
-                background-image: linear-gradient(135deg, $c-bayOfMany 0%, $c-moodyBlue 51%, $c-bayOfMany 100%);
-                transition: 0.5s;
-
-                &:hover {
-                    color: $c-white;
-                    background-position: right center;
-                }
-
-                &:before {
-                    display: none;
-                }
-            }
-
-            a {
-                color: $c-bayOfMany;
-
-                &::before {
-                    background: lighten($c-bayOfMany, 0%);
-                    ;
-                }
-            }
-        }
-
-        .menu-nawigacja-gorna-container {
-            position: relative
-        }
+    li.fb {
+      background-image: url(../img/facebook.svg);
     }
 
-    h1 {
-        font-size: 50px;
-        color: $c-emperor;
-        font-weight: 300;
-        margin-top: 15px;
-
-        span {
-            display: block;
-            font-weight: 700;
-
-            span {
-                display: inline-block;
-            }
-        }
+    li.phone {
+      background-image: url(../img/phone.svg);
     }
 
-    .contact-us ul {
-        list-style: none;
-        padding-left: 0;
-        margin-top: 50px;
-
-        li {
-            height: 60px;
-            margin: 30px 0;
-            background-position: left center;
-            background-repeat: no-repeat;
-            background-size: 50px auto;
-
-            a,
-            &:last-child,
-            &.address {
-                height: 100%;
-                display: inline-block;
-                padding-left: 80px;
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 60px;
-                vertical-align: middle;
-                color: $c-doveGray;
-                padding-right: 10px;
-            }
-        }
-
-        li.email {
-            background-image: url(../img/email.svg);
-        }
-
-        li.fb {
-            background-image: url(../img/facebook.svg);
-        }
-
-        li.phone {
-            background-image: url(../img/phone.svg);
-        }
-
-        li.hours {
-            background-image: url(../img/time.svg);
-            display: block;
-            line-height: 28px;
-        }
-
-        li.address {
-            background-image: url(../img/location.svg);
-            display: block;
-            line-height: 28px;
-        }
+    li.hours {
+      background-image: url(../img/time.svg);
+      display: block;
+      line-height: 28px;
     }
 
-    .contact-form {
-        tr {
-            margin: 10px 0;
-        }
+    li.address {
+      background-image: url(../img/location.svg);
+      display: block;
+      line-height: 28px;
+    }
+  }
 
-        table {
-            table-layout: fixed;
-            width: 100%;
-            margin-top: 22px;
-        }
-
-        td:first-child {
-            width: 200px;
-        }
-
-        label {
-            width: 100%;
-            text-align: right;
-            float: left;
-            font-size: 14px;
-            color: $c-emperor;
-            font-weight: 500;
-            padding-right: 15px;
-        }
-
-        input[type="text"],
-        input[type="email"],
-        input[type="number"] {
-            height: 50px;
-            border: 1px solid $c-alto;
-            border-radius: 25px;
-            outline: none;
-            padding: 0 30px;
-            width: 100%;
-            margin: 7px 0;
-        }
-
-        input[type="text"]:focus,
-        input[type="email"]:focus,
-        input[type="number"]:focus,
-        textarea:focus {
-            border: 1px solid $c-wildBlueYonder;
-        }
-
-        /* hide up/down arrows ("spinners") on input fields marked type="number" */
-        #phone {
-            -moz-appearance: textfield;
-        }
-
-        #phone::-webkit-outer-spin-button,
-        #phone::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
-        }
-
-        .align-top {
-            vertical-align: top;
-        }
-
-        .align-top label {
-            margin-top: 17px;
-        }
-
-        textarea {
-            height: 265px;
-            width: 100%;
-            border: 1px solid $c-alto;
-            resize: none;
-            outline: none;
-            padding: 15px 30px;
-            margin: 7px 0;
-        }
-
-        .btn {
-            margin: auto;
-            padding: 0 30px;
-            margin-top: 10px;
-            border: none;
-        }
-
-        .checkbox-container {
-            width: 100%;
-            text-align: left;
-        }
-
-        /* Customize the label (the container) */
-        .checkbox-container {
-            display: block;
-            position: relative;
-            margin-bottom: 12px;
-            padding-left: 35px;
-            cursor: pointer;
-            font-size: 11px;
-            color: $c-emperor;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        /* Hide the browser's default checkbox */
-        .checkbox-container input {
-            position: absolute;
-            opacity: 0;
-            cursor: pointer;
-            height: 0;
-            width: 0;
-        }
-
-        /* Create a custom checkbox */
-        .checkmark {
-            position: absolute;
-            top: 13px;
-            left: 0;
-            height: 16px;
-            width: 16px;
-            border: 1px solid $c-alto;
-        }
-
-        /* Create the checkmark/indicator (hidden when not checked) */
-        .checkmark:after {
-            content: "";
-            position: absolute;
-            display: none;
-        }
-
-        /* Show the checkmark when checked */
-        .checkbox-container input:checked~.checkmark:after {
-            display: block;
-        }
-
-        .checkbox-container input:checked~.checkmark {
-            border: 1px solid $c-bayOfMany;
-        }
-
-        /* Style the checkmark/indicator */
-        .checkbox-container .checkmark:after {
-            left: 5px;
-            top: 2px;
-            width: 4px;
-            height: 9px;
-            border: solid $c-bayOfMany;
-            border-width: 0 2px 2px 0;
-            -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
-        }
+  .contact-form {
+    tr {
+      margin: 10px 0;
     }
 
-    .privacy {
-        color: $c-moodyBlue;
-        text-decoration: underline;
+    table {
+      table-layout: fixed;
+      width: 100%;
+      margin-top: 22px;
     }
 
-    .bottom-wave {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width: 45vw;
-        z-index: -1;
+    td:first-child {
+      width: 200px;
     }
 
-    .light-box {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        min-width: 400px;
-        width: 600px;
-        background-color: $c-white;
-        max-width: 80%;
-        padding: 50px;
-        color: $c-black;
-        font-size: 16px;
-        margin: auto;
-        height: 300px;
-        text-align: center;
-        display: none;
-        z-index: 100;
-        border-radius: 15px;
-        box-shadow: 0px 0px 70px -22px rgba($c-black, 0.75);
-
-        &.on {
-            display: block;
-        }
-
-        .close-btn {
-            position: absolute;
-            right: 0;
-            top: 0;
-            font-size: 24px;
-            right: 30px;
-            top: 30px;
-            width: 35px;
-            height: 35px;
-            background: none;
-            border: none;
-            background-image: url('../img/close-icon.png');
-            background-repeat: no-repeat;
-            background-size: cover;
-            cursor: pointer;
-            outline: none;
-        }
-
-        h3 {
-            margin: 25px;
-        }
-
-        p {
-            margin: 10px 0;
-        }
+    label {
+      width: 100%;
+      text-align: right;
+      float: left;
+      font-size: 14px;
+      color: $c-emperor;
+      font-weight: 500;
+      padding-right: 15px;
     }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+      height: 50px;
+      border: 1px solid $c-alto;
+      border-radius: 25px;
+      outline: none;
+      padding: 0 30px;
+      width: 100%;
+      margin: 7px 0;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="number"]:focus,
+    textarea:focus {
+      border: 1px solid $c-wildBlueYonder;
+    }
+
+    /* hide up/down arrows ("spinners") on input fields marked type="number" */
+    #phone {
+      -moz-appearance: textfield;
+    }
+
+    #phone::-webkit-outer-spin-button,
+    #phone::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    .align-top {
+      vertical-align: top;
+    }
+
+    .align-top label {
+      margin-top: 17px;
+    }
+
+    textarea {
+      height: 265px;
+      width: 100%;
+      border: 1px solid $c-alto;
+      resize: none;
+      outline: none;
+      padding: 15px 30px;
+      margin: 7px 0;
+    }
+
+    .btn {
+      margin: auto;
+      padding: 0 30px;
+      margin-top: 10px;
+      border: none;
+    }
+
+    .checkbox-container {
+      width: 100%;
+      text-align: left;
+    }
+
+    /* Customize the label (the container) */
+    .checkbox-container {
+      display: block;
+      position: relative;
+      margin-bottom: 12px;
+      padding-left: 35px;
+      cursor: pointer;
+      font-size: 11px;
+      color: $c-emperor;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    /* Hide the browser's default checkbox */
+    .checkbox-container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+      position: absolute;
+      top: 13px;
+      left: 0;
+      height: 16px;
+      width: 16px;
+      border: 1px solid $c-alto;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .checkbox-container input:checked ~ .checkmark:after {
+      display: block;
+    }
+
+    .checkbox-container input:checked ~ .checkmark {
+      border: 1px solid $c-bayOfMany;
+    }
+
+    /* Style the checkmark/indicator */
+    .checkbox-container .checkmark:after {
+      left: 5px;
+      top: 2px;
+      width: 4px;
+      height: 9px;
+      border: solid $c-bayOfMany;
+      border-width: 0 2px 2px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+
+  .privacy {
+    color: $c-moodyBlue;
+    text-decoration: underline;
+  }
+
+  .bottom-wave {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 45vw;
+    z-index: -1;
+  }
+
+  .light-box {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    min-width: 400px;
+    width: 600px;
+    background-color: $c-white;
+    max-width: 80%;
+    padding: 50px;
+    color: $c-black;
+    font-size: 16px;
+    margin: auto;
+    height: 300px;
+    text-align: center;
+    display: none;
+    z-index: 100;
+    border-radius: 15px;
+    box-shadow: 0px 0px 70px -22px rgba($c-black, 0.75);
+
+    &.on {
+      display: block;
+    }
+
+    .close-btn {
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 24px;
+      right: 30px;
+      top: 30px;
+      width: 35px;
+      height: 35px;
+      background: none;
+      border: none;
+      background-image: url("../img/close-icon.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+      outline: none;
+    }
+
+    h3 {
+      margin: 25px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+  }
 }
 
 @media only screen and (max-width: $break-desktop) {
-    .page-kontakt {
-        .wave-top {
-            width: 60vw;
-            left: -10vw;
-        }
-
-        .bottom-wave {
-            width: 50vw;
-        }
-
-        #section1 {
-            padding-bottom: 50px;
-        }
+  .page-kontakt {
+    .wave-top {
+      width: 60vw;
+      left: -10vw;
     }
+
+    .bottom-wave {
+      width: 50vw;
+    }
+
+    #section1 {
+      padding-bottom: 50px;
+    }
+  }
 }
 
 @media only screen and (max-width: $break-laptop) {
-    .page-kontakt {
-        .wave-top {
-            width: 82vw;
-            left: -21vw;
-        }
-
-        h1 {
-            font-size: 36px;
-        }
-
-        .bottom-wave {
-            width: 52vw;
-        }
-
-        #section1 {
-            padding-bottom: 50px;
-        }
-
-        .contact-us ul li {
-            background-size: 45px auto;
-
-            a {
-                padding-left: 70px;
-                font-size: 16px;
-            }
-
-            &:last-child,
-            &.address {
-                padding-left: 70px;
-                font-size: 16px;
-            }
-        }
+  .page-kontakt {
+    .wave-top {
+      width: 82vw;
+      left: -21vw;
     }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    .bottom-wave {
+      width: 52vw;
+    }
+
+    #section1 {
+      padding-bottom: 50px;
+    }
+
+    .contact-us ul li {
+      background-size: 45px auto;
+
+      a {
+        padding-left: 70px;
+        font-size: 16px;
+      }
+
+      &:last-child,
+      &.address {
+        padding-left: 70px;
+        font-size: 16px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: $break-mid) {
-    .page-kontakt {
-        .wave-top {
-            width: 92vw;
-            left: -28vw;
-        }
-
-        .bottom-wave {
-            width: 60vw;
-        }
-
-        h1 {
-            font-size: 30px;
-        }
-
-        #section1 {
-            padding-bottom: 50px;
-        }
-
-        .contact-us ul li {
-            background-size: 35px auto;
-
-            a {
-                padding-left: 55px;
-                font-size: 14px;
-            }
-
-            &:last-child,
-            &.address {
-                padding-left: 55px;
-                font-size: 14px;
-            }
-        }
-
-        .contact-form {
-            input[type="text"] {
-                height: 40px;
-            }
-
-            textarea {
-                height: 150px;
-            }
-        }
-
-        nav:not(.sticky) .menu-nawigacja-gorna-container::after {
-            display: none;
-        }
+  .page-kontakt {
+    .wave-top {
+      width: 92vw;
+      left: -28vw;
     }
+
+    .bottom-wave {
+      width: 60vw;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    #section1 {
+      padding-bottom: 50px;
+    }
+
+    .contact-us ul li {
+      background-size: 35px auto;
+
+      a {
+        padding-left: 55px;
+        font-size: 14px;
+      }
+
+      &:last-child,
+      &.address {
+        padding-left: 55px;
+        font-size: 14px;
+      }
+    }
+
+    .contact-form {
+      input[type="text"] {
+        height: 40px;
+      }
+
+      textarea {
+        height: 150px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: $break-mobile) {
-    .page-kontakt {
-        padding-top: 0;
+  .page-kontakt {
+    padding-top: 0;
 
-        nav {
-            .logo {
-                margin-left: 0;
-                margin-top: -1px;
-            }
-
-            .hamburger span {
-                background: $c-blueViolet;
-            }
-
-            .menu-nawigacja-gorna-container {
-                position: static;
-            }
-
-            ul li a,
-            ul li a:hover,
-            ul li a:focus {
-                color: $c-white;
-            }
-        }
-
-        .wave-top {
-            display: none;
-        }
-
-        main {
-            padding-top: 0;
-        }
-
-        #section1 {
-            background-image: url('../img/contact-mobile-top-wave.png');
-            background-repeat: no-repeat;
-            background-position: left top;
-            background-size: 370px;
-            padding-top: 120px;
-        }
-
-        .contact-us ul {
-            margin-top: 25px;
-
-            li {
-                width: 50%;
-                display: inline-block;
-                margin: auto;
-
-                &:last-child,
-                &.address {
-                    display: inline-block;
-                }
-            }
-        }
-
-        h1 {
-            font-size: 40px;
-        }
-
-        .contact-form {
-            td {
-                display: block;
-            }
-
-            label {
-                width: 100%;
-                text-align: left;
-                margin: 0;
-                margin-top: 10px;
-            }
-
-            .checkmark {
-                top: 2px;
-            }
-        }
-
-        #section1 {
-            padding-bottom: 30px;
-        }
-
-        .light-box {
-            padding: 30px;
-            width: 600px;
-            height: 250px;
-
-            p {
-                font-size: 14px;
-            }
-        }
+    .wave-top {
+      display: none;
     }
+
+    main {
+      padding-top: 0;
+    }
+
+    #section1 {
+      background-image: url("../img/contact-mobile-top-wave.png");
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-size: 370px;
+      padding-top: 120px;
+    }
+
+    .contact-us ul {
+      margin-top: 25px;
+
+      li {
+        width: 50%;
+        display: inline-block;
+        margin: auto;
+
+        &:last-child,
+        &.address {
+          display: inline-block;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .contact-form {
+      td {
+        display: block;
+      }
+
+      label {
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        margin-top: 10px;
+      }
+
+      .checkmark {
+        top: 2px;
+      }
+    }
+
+    #section1 {
+      padding-bottom: 30px;
+    }
+
+    .light-box {
+      padding: 30px;
+      width: 600px;
+      height: 250px;
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: $break-xs) {
-    .page-kontakt {
-        nav .logo {
-            margin-left: -15px;
-        }
-
-        #section1 {
-            background-size: 300px;
-            padding-bottom: 0;
-        }
-
-        h1 {
-            font-size: 25px;
-        }
-
-        .contact-us ul li {
-            width: 100%;
-            margin: 5px 0;
-
-            &:last-child {
-                margin-top: 10px;
-            }
-        }
-
-        .btn {
-            font-size: 11px;
-        }
-
-        .light-box {
-            min-width: 200px;
-            padding: 25px;
-            width: 600px;
-            height: 250px;
-
-            p {
-                font-size: 14px;
-            }
-        }
+  .page-kontakt {
+    #section1 {
+      background-size: 300px;
+      padding-bottom: 0;
     }
+
+    h1 {
+      font-size: 25px;
+    }
+
+    .contact-us ul li {
+      width: 100%;
+      margin: 5px 0;
+
+      &:last-child {
+        margin-top: 10px;
+      }
+    }
+
+    .btn {
+      font-size: 11px;
+    }
+
+    .light-box {
+      min-width: 200px;
+      padding: 25px;
+      width: 600px;
+      height: 250px;
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: $break-wide) {
-    .page-kontakt {
-        .copyright {
-            width: 100%;
-            margin-top: 25px;
-            text-align: center;
-        }
+  .page-kontakt {
+    .copyright {
+      width: 100%;
+      margin-top: 25px;
+      text-align: center;
     }
+  }
 }

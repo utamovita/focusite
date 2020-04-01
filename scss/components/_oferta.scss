@@ -1,734 +1,679 @@
 .page-oferta {
-    padding-top: 100px;
+  padding-top: 100px;
 
-    main {
-        padding: 50px 0;
+  main {
+    padding: 50px 0;
+  }
+
+  #section1 {
+    padding-bottom: 50px;
+  }
+
+  .wave-top {
+    width: 50vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  h1 {
+    font-size: 50px;
+    color: $c-emperor;
+    font-weight: 300;
+    margin-top: 15px;
+
+    span {
+      display: block;
+      font-weight: 700;
+
+      span {
+        display: inline-block;
+        padding-left: 25px;
+      }
+    }
+  }
+
+  .offer p {
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: $c-doveGray;
+    line-height: 28px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    max-width: 480px;
+  }
+
+  .laptop-img {
+    width: 500px;
+    margin-left: 25px;
+  }
+
+  .wp-img {
+    position: absolute;
+    width: 470px;
+    left: -170px;
+    top: 70px;
+    z-index: -1;
+  }
+
+  .offer ul {
+    list-style: none;
+    padding-left: 30px;
+
+    li {
+      display: block;
+      height: 60px;
+      margin: 20px 0;
+      padding-left: 80px;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 60px;
+      color: $c-doveGray;
+      padding-right: 10px;
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 50px auto;
     }
 
-    #section1 {
-        padding-bottom: 50px;
+    li.simple {
+      background-image: url(../img/prostota.svg);
     }
 
-    .wave-top {
-        width: 50vw;
-        position: absolute;
-        top: 0;
-        left: 0;
+    li.optimized {
+      background-image: url(../img/optymalizacja.svg);
     }
 
-    nav:not(.sticky) .logo svg path {
-        fill: $c-white;
+    li.speed {
+      background-image: url(../img/szybkosc.svg);
     }
 
-    nav ul li a {
-        color: $c-bayOfMany;
+    li.responsive {
+      background-image: url(../img/responsive.svg);
+    }
+  }
+
+  #section2 {
+    .container {
+      padding: 0 30px;
+      text-align: center;
     }
 
-    li:last-child a {
-        color: $c-white;
-        background-size: 200% auto;
-        background-image: linear-gradient(135deg, $c-bayOfMany 0%, $c-moodyBlue 51%, $c-bayOfMany 100%);
-        transition: 0.5s;
-
-        &:hover {
-            color: $c-white;
-            background-position: right center;
-        }
-
-        &:before {
-            display: none;
-        }
+    h2 {
+      margin: 40px 0;
+      margin-top: 60px;
     }
 
-    nav li a::before {
-        background: lighten($c-bayOfMany, 0%);
-        ;
+    .bg {
+      height: 350px;
+      background-color: $c-alabaster;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
     }
 
-    h1 {
-        font-size: 50px;
-        color: $c-emperor;
-        font-weight: 300;
-        margin-top: 15px;
+    .btn-box {
+      float: left;
+      margin-top: 70px;
+      width: 100%;
 
-        span {
-            display: block;
-            font-weight: 700;
+      .btn {
+        margin: auto;
+      }
+    }
+  }
 
-            span {
-                display: inline-block;
-                padding-left: 20
-            }
-        }
+  .type {
+    border-top: 7px solid $c-moodyBlue;
+    width: 30%;
+    float: left;
+    background-color: $c-white;
+    box-shadow: 0px 3px 53px -19px rgba($c-black, 0.75);
+    padding: 25px;
+
+    &.second {
+      margin: 0 5%;
     }
 
-    .offer p {
-        padding-left: 30px;
-        font-size: 16px;
+    h3 {
+      font-size: 24px;
+      font-weight: 700;
+      margin: 15px 0;
+      display: flex;
+      align-content: center;
+      min-height: 56px;
+
+      span {
+        display: block;
+        margin: auto;
+      }
+    }
+
+    ul {
+      margin-top: 0;
+      list-style: none;
+      padding-left: 0;
+      float: left;
+
+      li {
+        min-height: 45px;
+        margin: 30px 0;
+        font-family: "Montserrat";
         font-weight: 500;
+        font-size: 16px;
+        position: relative;
+        padding-left: 55px;
+        text-align: left;
+
+        &::before {
+          content: "";
+          display: block;
+          background-image: url("../img/purple-check-mark.svg");
+          width: 30px;
+          height: 30px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          left: 0;
+          top: 6px;
+        }
+
+        &:last-child {
+          text-align: center;
+          margin-top: 50px;
+          padding-left: 0;
+          margin-bottom: 00px;
+
+          &::before {
+            top: -3px;
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  #section3 {
+    padding: 100px 0;
+
+    p {
+      padding-left: 30px;
+      font-size: 16px;
+      font-weight: 500;
+      color: $c-doveGray;
+      line-height: 28px;
+      margin-top: 40px;
+      margin-bottom: 25px;
+      max-width: 480px;
+    }
+
+    .btn-box {
+      float: left;
+      margin-top: 30px;
+      width: 100%;
+
+      .btn {
+        margin: auto;
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0px;
+      width: 480px;
+
+      li {
+        display: inline-block;
+        width: 31.3%;
+        padding: 0 10px;
+        padding-top: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        vertical-align: middle;
         color: $c-doveGray;
-        line-height: 28px;
-        margin-top: 40px;
-        margin-bottom: 25px;
-        max-width: 480px;
+        padding-right: 10px;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        text-align: center;
+        margin: 30px 0;
+
+        &:first-child {
+          background-size: 70%;
+          background-position: top -7px center;
+        }
+      }
+
+      li.second {
+        margin: 0 3%;
+      }
+
+      li.deadline {
+        background-image: url(../img/terminy.svg);
+      }
+
+      li.team {
+        background-image: url(../img/team.svg);
+      }
+
+      li.passion {
+        background-image: url(../img/pasja.svg);
+      }
     }
+  }
 
-    .laptop-img {
-        width: 500px;
-        margin-left: 25px;
-    }
-
-    .wp-img {
-        position: absolute;
-        width: 470px;
-        left: -170px;
-        top: 70px;
-        z-index: -1;
-    }
-
-    .offer ul {
-        list-style: none;
-        padding-left: 30px;
-
-        li {
-            display: block;
-            height: 60px;
-            margin: 20px 0;
-            padding-left: 80px;
-            font-size: 18px;
-            font-weight: 500;
-            line-height: 60px;
-            color: $c-doveGray;
-            padding-right: 10px;
-            background-position: left center;
-            background-repeat: no-repeat;
-            background-size: 50px auto;
-        }
-
-        li.simple {
-            background-image: url(../img/prostota.svg);
-        }
-
-        li.optimized {
-            background-image: url(../img/optymalizacja.svg);
-        }
-
-        li.speed {
-            background-image: url(../img/szybkosc.svg);
-        }
-
-        li.responsive {
-            background-image: url(../img/responsive.svg);
-        }
-    }
-
-    #section2 {
-        .container {
-            padding: 0 30px;
-            text-align: center;
-        }
-
-        h2 {
-            margin: 40px 0;
-            margin-top: 60px;
-        }
-
-        .bg {
-            height: 350px;
-            background-color: $c-alabaster;
-            position: absolute;
-            z-index: -1;
-            width: 100%;
-        }
-
-        .btn-box {
-            float: left;
-            margin-top: 70px;
-            width: 100%;
-
-            .btn {
-                margin: auto;
-            }
-        }
-    }
-
-    .type {
-        border-top: 7px solid $c-moodyBlue;
-        width: 30%;
-        float: left;
-        background-color: $c-white;
-        box-shadow: 0px 3px 53px -19px rgba($c-black, 0.75);
-        padding: 25px;
-
-        &.second {
-            margin: 0 5%;
-        }
-
-        h3 {
-            font-size: 24px;
-            font-weight: 700;
-            margin: 15px 0;
-            display: flex;
-            align-content: center;
-            min-height: 56px;
-
-            span {
-                display: block;
-                margin: auto;
-            }
-        }
-
-        ul {
-            margin-top: 0;
-            list-style: none;
-            padding-left: 0;
-            float: left;
-
-            li {
-                min-height: 45px;
-                margin: 30px 0;
-                font-family: "Montserrat";
-                font-weight: 500;
-                font-size: 16px;
-                position: relative;
-                padding-left: 55px;
-                text-align: left;
-
-                &::before {
-                    content: '';
-                    display: block;
-                    background-image: url('../img/purple-check-mark.svg');
-                    width: 30px;
-                    height: 30px;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    position: absolute;
-                    left: 0;
-                    top: 6px;
-                }
-
-                &:last-child {
-                    text-align: center;
-                    margin-top: 50px;
-                    padding-left: 0;
-                    margin-bottom: 00px;
-
-                    &::before {
-                        top: -3px;
-                        display: none;
-                    }
-                }
-            }
-        }
-
-    }
-
-    #section3 {
-        padding: 100px 0;
-
-        p {
-            padding-left: 30px;
-            font-size: 16px;
-            font-weight: 500;
-            color: $c-doveGray;
-            line-height: 28px;
-            margin-top: 40px;
-            margin-bottom: 25px;
-            max-width: 480px;
-        }
-
-        .btn-box {
-            float: left;
-            margin-top: 30px;
-            width: 100%;
-
-            .btn {
-                margin: auto;
-            }
-        }
-
-        ul {
-            list-style: none;
-            padding-left: 0px;
-            width: 480px;
-
-            li {
-                display: inline-block;
-                width: 31.3%;
-                padding: 0 10px;
-                padding-top: 100px;
-                font-size: 18px;
-                font-weight: 500;
-                vertical-align: middle;
-                color: $c-doveGray;
-                padding-right: 10px;
-                background-position: top center;
-                background-repeat: no-repeat;
-                background-size: 60%;
-                text-align: center;
-                margin: 30px 0;
-
-                &:first-child {
-                    background-size: 70%;
-                    background-position: top -7px center;
-                }
-            }
-
-            li.second {
-                margin: 0 3%;
-            }
-
-            li.deadline {
-                background-image: url(../img/terminy.svg);
-            }
-
-            li.team {
-                background-image: url(../img/team.svg);
-            }
-
-            li.passion {
-                background-image: url(../img/pasja.svg);
-            }
-        }
-    }
-
-    .bottom-wave {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width: 45vw;
-        z-index: -1;
-    }
+  .bottom-wave {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 45vw;
+    z-index: -1;
+  }
 }
 
 @media only screen and (max-width: $break-desktop) {
-    .page-oferta {
-        .wave-top {
-            width: 60vw;
-            left: -10vw;
-        }
+  .page-oferta {
+    .wave-top {
+      width: 60vw;
+      left: -10vw;
     }
+  }
 }
 
 @media only screen and (max-width: $break-laptop) {
-    .page-oferta {
-        .wave-top {
-            width: 80vw;
-            left: -19vw;
-            top: -10px;
-        }
-
-        .bottom-wave {
-            width: 52vw;
-        }
-
-        .wp-img {
-            width: 400px;
-        }
-
-        .laptop-img {
-            width: 100%;
-            margin-top: 50px;
-        }
-
-        .offer ul li {
-            font-size: 16px;
-            margin: 15px 0;
-        }
-
-        .type {
-            padding: 15px;
-
-            ul {
-                li {
-                    min-height: 60px;
-                    font-size: 14px;
-
-                    &:last-child {
-                        margin: 0;
-                        min-height: 30px;
-                    }
-                }
-            }
-        }
-
-        #section3 {
-            img {
-                width: 100%;
-                margin-top: 60px;
-            }
-
-            p {
-                font-size: 16px;
-            }
-
-            ul {
-                width: calc(100% - 15px);
-                margin-left: 15px;
-
-                li {
-                    font-size: 14px;
-                    padding-top: 90px;
-                }
-            }
-        }
+  .page-oferta {
+    .wave-top {
+      width: 80vw;
+      left: -19vw;
+      top: -10px;
     }
+
+    .bottom-wave {
+      width: 52vw;
+    }
+
+    .wp-img {
+      width: 400px;
+    }
+
+    .laptop-img {
+      width: 100%;
+      margin-top: 50px;
+    }
+
+    .offer ul li {
+      font-size: 16px;
+      margin: 15px 0;
+    }
+
+    .type {
+      padding: 15px;
+
+      ul {
+        li {
+          min-height: 60px;
+          font-size: 14px;
+
+          &:last-child {
+            margin: 0;
+            min-height: 30px;
+          }
+        }
+      }
+    }
+
+    #section3 {
+      img {
+        width: 100%;
+        margin-top: 60px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      ul {
+        width: calc(100% - 15px);
+        margin-left: 15px;
+
+        li {
+          font-size: 14px;
+          padding-top: 90px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: $break-mid) {
-    .page-oferta {
-        h1 {
-            font-size: 40px;
-        }
-
-        .wave-top {
-            width: 100vw;
-            left: -31vw;
-        }
-
-        .bottom-wave {
-            width: 60vw;
-        }
-
-        .offer {
-            p {
-                font-size: 14px;
-                line-height: 24px;
-            }
-
-            ul li {
-                font-size: 14px;
-                background-size: 40px auto;
-                padding-left: 60px;
-                margin: 10px 0;
-            }
-        }
-
-        .wp-img {
-            top: 0;
-            left: 0;
-            width: 100%;
-        }
-
-        .laptop-img {
-            margin-top: 100px;
-            margin-left: 0;
-        }
-
-        .type {
-            ul li {
-                margin: 25px 0;
-                padding-left: 50px;
-                min-height: 70px;
-            }
-        }
-
-        #section3 {
-            padding-top: 30px;
-
-            ul {
-                width: 400px;
-            }
-        }
+  .page-oferta {
+    h1 {
+      font-size: 40px;
     }
+
+    .wave-top {
+      width: 100vw;
+      left: -31vw;
+    }
+
+    .bottom-wave {
+      width: 60vw;
+    }
+
+    .offer {
+      p {
+        font-size: 14px;
+        line-height: 24px;
+      }
+
+      ul li {
+        font-size: 14px;
+        background-size: 40px auto;
+        padding-left: 60px;
+        margin: 10px 0;
+      }
+    }
+
+    .wp-img {
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    .laptop-img {
+      margin-top: 100px;
+      margin-left: 0;
+    }
+
+    .type {
+      ul li {
+        margin: 25px 0;
+        padding-left: 50px;
+        min-height: 70px;
+      }
+    }
+
+    #section3 {
+      padding-top: 30px;
+
+      ul {
+        width: 400px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: $break-mobile) {
-    .page-oferta {
-        padding-top: 0;
+  .page-oferta {
+    padding-top: 0;
 
-        nav {
-            .logo {
-                margin-left: 0;
-                margin-top: -1px;
-            }
-
-            .hamburger span {
-                background: $c-blueViolet;
-            }
-
-            .menu-nawigacja-gorna-container {
-                position: static;
-            }
-
-            ul li a,
-            ul li a:hover,
-            ul li a:focus {
-                color: $c-white;
-            }
-        }
-
-        .wave-top {
-            display: none;
-        }
-
-        main {
-            padding-top: 0;
-        }
-
-        .offer ul li {
-            width: 50%;
-            display: inline-block;
-            margin: auto;
-        }
-
-        #section1 {
-            background-image: url('../img/contact-mobile-top-wave.png');
-            background-repeat: no-repeat;
-            background-position: left top;
-            background-size: 370px;
-            padding-top: 100px;
-
-            .row {
-                display: flex;
-                flex-direction: column;
-            }
-
-            .offer {
-                order: 2;
-
-                p {
-                    max-width: 100%;
-                    padding-right: 30px;
-                }
-            }
-
-            .laptop-img {
-                width: 70%;
-                float: right;
-                margin-top: 0;
-            }
-
-            .wp-img {
-                width: 60%;
-                margin-top: 50px;
-                left: 15px;
-            }
-        }
-
-        .type {
-            width: 100%;
-            max-width: 350px;
-
-            &.second {
-                width: 100%;
-                max-width: 350px;
-                margin: 0 auto;
-                margin-bottom: 50px;
-            }
-
-            margin:0 auto;
-            float:none;
-            margin-bottom:50px;
-            height:auto;
-
-            ul {
-                float: none;
-
-                li {
-                    padding-left: 70px;
-                    padding-right: 30px;
-                    min-height: 50px;
-
-                    &:before {
-                        width: 25px;
-                        height: 25px;
-                        margin-left: 30px;
-                        margin-top: -7px;
-                    }
-                }
-            }
-        }
-
-        #section2 {
-            position: relative;
-            padding-bottom: 30px;
-
-            h2 {
-                margin-top: 30px;
-            }
-
-            .bg {
-                height: 100%;
-            }
-
-            .btn-box {
-                margin-top: 30px;
-            }
-        }
-
-        #section3 {
-            position: relative;
-
-            .btn-box {
-                position: absolute;
-                bottom: 0;
-                padding: 0 15px;
-                margin-bottom: 40px;
-            }
-
-            .row {
-                display: flex;
-                flex-direction: column;
-            }
-
-            .about-us {
-                order: 2;
-                padding-top: 50px;
-                padding-bottom: 0;
-            }
-
-            p {
-                max-width: 100%;
-                padding-right: 30px;
-            }
-
-            ul {
-                margin: auto;
-            }
-
-            img {
-                display: block;
-                max-width: 80%;
-                margin: auto;
-            }
-        }
-
-        main {
-            padding-bottom: 25px;
-        }
+    .wave-top {
+      display: none;
     }
+
+    main {
+      padding-top: 0;
+    }
+
+    .offer ul li {
+      width: 50%;
+      display: inline-block;
+      margin: auto;
+    }
+
+    #section1 {
+      background-image: url("../img/contact-mobile-top-wave.png");
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-size: 370px;
+      padding-top: 100px;
+
+      .row {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .offer {
+        order: 2;
+
+        p {
+          max-width: 100%;
+          padding-right: 30px;
+        }
+      }
+
+      .laptop-img {
+        width: 70%;
+        float: right;
+        margin-top: 0;
+      }
+
+      .wp-img {
+        width: 60%;
+        margin-top: 50px;
+        left: 15px;
+      }
+    }
+
+    .type {
+      width: 100%;
+      max-width: 350px;
+
+      &.second {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 50px;
+      height: auto;
+
+      ul {
+        float: none;
+
+        li {
+          padding-left: 70px;
+          padding-right: 30px;
+          min-height: 50px;
+
+          &:before {
+            width: 25px;
+            height: 25px;
+            margin-left: 30px;
+            margin-top: -7px;
+          }
+        }
+      }
+    }
+
+    #section2 {
+      position: relative;
+      padding-bottom: 30px;
+
+      h2 {
+        margin-top: 30px;
+      }
+
+      .bg {
+        height: 100%;
+      }
+
+      .btn-box {
+        margin-top: 30px;
+      }
+    }
+
+    #section3 {
+      position: relative;
+
+      .btn-box {
+        position: absolute;
+        bottom: 0;
+        padding: 0 15px;
+        margin-bottom: 40px;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .about-us {
+        order: 2;
+        padding-top: 50px;
+        padding-bottom: 0;
+      }
+
+      p {
+        max-width: 100%;
+        padding-right: 30px;
+      }
+
+      ul {
+        margin: auto;
+      }
+
+      img {
+        display: block;
+        max-width: 80%;
+        margin: auto;
+      }
+    }
+
+    main {
+      padding-bottom: 25px;
+    }
+  }
 }
 
 @media only screen and (max-width: $break-s) {
-    .page-oferta {
-        .offer ul li {
-            width: 100%;
-        }
+  .page-oferta {
+    .offer ul li {
+      width: 100%;
     }
+  }
 }
 
 @media only screen and (max-width: $break-xs) {
-    .page-oferta {
-        .btn {
-            height: 40px;
-            line-height: 40px;
-            width: auto;
-            max-width: 260px;
-        }
-
-        nav .logo {
-            margin-left: -15px;
-        }
-
-        #section1 {
-            background-size: 300px;
-            padding-bottom: 25px;
-
-            .offer p {
-                padding-left: 15px;
-                padding-right: 15px;
-                width: 100%;
-                margin-top: 25px;
-            }
-        }
-
-        h1 {
-            font-size: 25px;
-        }
-
-        .btn {
-            font-size: 11px;
-        }
-
-        .offer {
-            ul {
-                overflow: hidden;
-                padding-left: 20px;
-
-                li {
-                    min-width: 265px;
-                    padding-right: 0;
-                }
-            }
-        }
-        
-        h2 {
-            font-size: 20px;
-
-            span span {
-                display: block;
-                font-size: 25px;
-                margin-top: 0
-            }
-        }
-
-        .type {
-            margin-bottom: 50px;
-
-            &.second {
-                margin-bottom: 50px;
-            }
-
-            h3 {
-                font-size: 18px;
-            }
-
-            ul li {
-                padding-left: 50px;
-                padding-right: 20px;
-
-                &:before {
-                    margin-left: 10px;
-                    top: 10px;
-                }
-            }
-        }
-
-        #section3 {
-            h2>span {
-                display: inline-block;
-
-                span {
-                    font-size: 20px;
-                }
-            }
-
-            overflow: hidden;
-
-            p {
-                font-size: 14px;
-                line-height: 18px;
-                padding: 0 15px;
-                margin: 20px 0;
-            }
-
-            ul {
-                text-align: center;
-                width: 290px;
-
-                li {
-                    width: 44%;
-                    margin-top: 20px;
-                    margin-bottom: 0;
-                    padding-top: 80px;
-                    font-size: 14px;
-
-                    &.second {
-                        margin: 0;
-                        margin-top: 20px;
-                    }
-                }
-            }
-        }
+  .page-oferta {
+    .btn {
+      height: 40px;
+      line-height: 40px;
+      width: auto;
+      max-width: 260px;
     }
+
+    #section1 {
+      background-size: 300px;
+      padding-bottom: 25px;
+
+      .offer p {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        margin-top: 25px;
+      }
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+
+    .btn {
+      font-size: 11px;
+    }
+
+    .offer {
+      ul {
+        overflow: hidden;
+        padding-left: 20px;
+
+        li {
+          min-width: 265px;
+          padding-right: 0;
+        }
+      }
+    }
+
+    h2 {
+      font-size: 20px;
+
+      span span {
+        display: block;
+        font-size: 25px;
+        margin-top: 0;
+      }
+    }
+
+    .type {
+      margin-bottom: 50px;
+
+      &.second {
+        margin-bottom: 50px;
+      }
+
+      h3 {
+        font-size: 18px;
+      }
+
+      ul li {
+        padding-left: 50px;
+        padding-right: 20px;
+
+        &:before {
+          margin-left: 10px;
+          top: 10px;
+        }
+      }
+    }
+
+    #section3 {
+      h2 > span {
+        display: inline-block;
+
+        span {
+          font-size: 20px;
+        }
+      }
+
+      overflow: hidden;
+
+      p {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 15px;
+        margin: 20px 0;
+      }
+
+      ul {
+        text-align: center;
+        width: 290px;
+
+        li {
+          width: 44%;
+          margin-top: 20px;
+          margin-bottom: 0;
+          padding-top: 80px;
+          font-size: 14px;
+
+          &.second {
+            margin: 0;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: $break-wide) {
-    .page-oferta {
-        .copyright {
-            width: 100%;
-            text-align: center;
-        }
+  .page-oferta {
+    .copyright {
+      width: 100%;
+      text-align: center;
     }
+  }
 }

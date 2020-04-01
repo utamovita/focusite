@@ -7,36 +7,6 @@
         z-index: -1;
     }
 
-    nav:not(.sticky) .logo svg path {
-        fill: $c-white;
-    }
-
-    nav ul li {
-        &:last-child a {
-            color: $c-white;
-            background-size: 200% auto;
-            background-image: linear-gradient(135deg, $c-bayOfMany 0%, $c-moodyBlue 51%, $c-bayOfMany 100%);
-            transition: 0.5s;
-
-            &:hover {
-                color: $c-white;
-                background-position: right center;
-            }
-
-            &:before {
-                display: none;
-            }
-        }
-
-        a {
-            color: $c-bayOfMany;
-
-            &::before {
-                background: lighten($c-bayOfMany, 0%);
-            }
-        }
-    }
-
     #section1 {
         width: 100%;
         min-height: 780px;
@@ -721,27 +691,6 @@
 
 @media only screen and (max-width: $break-mobile) {
     .page-wycena {
-        nav {
-            .logo {
-                margin-left: 0;
-                margin-top: -1px;
-            }
-
-            .hamburger span {
-                background: $c-blueViolet;
-            }
-
-            .menu-nawigacja-gorna-container {
-                position: static;
-            }
-
-            ul li a,
-            ul li a:hover,
-            ul li a:focus {
-                color: $c-white;
-            }
-        }
-
         .wave-top {
             display: none;
         }
@@ -904,10 +853,6 @@
 
 @media only screen and (max-width: $break-xs) {
     .page-wycena {
-        nav .logo {
-            margin-left: -15px;
-        }
-
         #section1 {
             background-size: 300px;
             padding-bottom: 0;
