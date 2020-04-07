@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <main>
     <img src="<?php bloginfo('template_url'); ?>/img/contact-top-wave.png" class="wave-top" alt="purple top wave">
-    <div class="darkness"></div>
     <section id="section1">
         <div class="container">
             <div class="centered choosePricing">

@@ -20,6 +20,18 @@
       }
     }
 
+    .sub-menu {
+      li.menu-item {
+        a:before {
+          background: $c-emperor;
+        }
+
+        &:last-child a:before {
+          display: inline-block;
+        }
+      }
+    }
+
     &.sticky .menu-item {
       &:last-child a {
         color: $c-white;
@@ -44,6 +56,10 @@
 
       a {
         color: $c-minsk;
+
+        &:before {
+          background-color: $c-bayOfMany;
+        }
 
         &:hover,
         &:focus {

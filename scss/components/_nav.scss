@@ -111,27 +111,8 @@ nav {
         }
       }
 
-      &-has-children {
-        & > a::after {
-          content: "";
-          position: absolute;
-          left: 50%;
-          bottom: 0;
-          width: 0;
-          height: 0;
-          border-style: solid;
-          border-width: 0 14px 14px 14px;
-          border-color: transparent transparent red transparent;
-          z-index: 20;
-          margin: 0 0 0 -14px;
-          -webkit-transition: bottom 300ms;
-          -moz-transition: bottom 300ms;
-          transition: bottom 300ms;
-        }
-
-        &:hover .sub-menu {
-          visibility: visible;
-        }
+      &-has-children:hover .sub-menu {
+        visibility: visible;
       }
     }
   }
@@ -141,9 +122,10 @@ nav {
     position: absolute;
     padding: 20px;
     background-color: $c-white;
-    width: 400px;
-    left: -100px;
-    box-shadow: 0px 3px 10px -6px rgba($c-black, 0.75);
+    width: 350px;
+    left: -125px;
+    transform: translateY(24px);
+    box-shadow: 0px 6px 8px -6px rgba($c-black, 0.75);
     border-radius: 5px;
 
     li.menu-item {
@@ -158,21 +140,61 @@ nav {
           background: none;
           line-height: normal;
           transition: none;
+          border-radius: 0;
+          line-height: 1.5;
 
-          &:hover {
-            color: $c-emperor;
+          &::before {
+            display: inline-block;
           }
         }
       }
 
       a {
+        display: inline-block;
         color: $c-emperor;
         text-align: left;
 
+        &:before { 
+          background: $c-emperor;
+        }
+        
+        &:hover,
         &:before {
-          display: none;
+          color: $c-emperor;
         }
       }
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 34px;
+      background-image: url(../img/triangle.svg);
+      background-position: center 11px;
+      background-repeat: no-repeat;
+      background-size: 35px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -32px;
+      margin: auto;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 65px;
+      height: 100%;
+      background-image: url(../img/mouse.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      position: absolute;
+      margin: auto;
+      right: 25px;
+      top: 0;
+      bottom: 0;
     }
   }
 
@@ -190,12 +212,22 @@ nav {
       &:last-child a {
         color: $c-white;
       }
-      .sub-menu li:last-child a {
-        background: none;
+      
+      .sub-menu li a {
         color: $c-emperor;
-        border: none;
-        width: auto;
-        display: inline-block;
+
+        &:last-child {
+          color: $c-emperor;
+          background: none;
+          border: none;
+          width: auto;
+          display: inline-block;
+          transition: none;
+          
+          &:hover {
+            color: $c-emperor;
+          }
+        }
       }
 
       .logo {

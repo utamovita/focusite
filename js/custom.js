@@ -25,8 +25,17 @@ jQuery( document ).ready(function() {
         jQuery('#section2').addClass('loaded');
     });
     
-    jQuery('.darkness, .close-btn').click(function() {
+    jQuery('.close-btn').click(function() {
         jQuery('.darkness, .light-box').removeClass('on');
+    });
+   
+    
+    jQuery('.menu-item-has-children').mouseover(function(){
+        jQuery('.darkness').addClass('on');
+    });
+
+    jQuery('.menu-item-has-children').mouseout(function(){
+        jQuery('.darkness').removeClass('on');
     });
 });
 

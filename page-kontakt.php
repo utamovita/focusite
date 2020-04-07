@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <main>
-    <div class="darkness"></div>
     <section id="section1">
         <img src="<?php bloginfo('template_url'); ?>/img/contact-top-wave.png" class="wave-top" alt="top wave background">
         
