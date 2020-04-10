@@ -37,5 +37,15 @@ jQuery( document ).ready(function() {
     jQuery('.menu-item-has-children').mouseout(function(){
         jQuery('.darkness').removeClass('on');
     });
-});
 
+    jQuery('.menu-item-has-children').mouseout(function(){
+        jQuery('.darkness').removeClass('on');
+    });
+
+    jQuery('.menu-item-has-children').append( "<button class='mobile-submenu-toggler'></button>" );
+
+    jQuery('.mobile-submenu-toggler').click(function() {
+        jQuery(this).toggleClass('on');
+        jQuery(this).siblings('.sub-menu').toggleClass('on');
+    });
+});

@@ -509,8 +509,20 @@
       &:not(.sticky) .hamburger span {
         background-color: $c-white;
       }
-      &.sticky .menu-item a {
-        color: $c-white;
+
+      &.sticky .menu-item {
+        a {
+          color: $c-white;
+
+          &:visited,
+          &:link {
+            color: $c-white;
+          }
+        }
+
+        &:last-child a {
+          background-image: none;
+        }
       }
     }
 

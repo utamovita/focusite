@@ -350,7 +350,7 @@ section h2 {
   background: $c-black;
   opacity: 0;
   z-index: 9;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s;
 
   &.on {
     width: 100vw;
