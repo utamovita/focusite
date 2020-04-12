@@ -1,6 +1,4 @@
-/* =Colors
-************************************************************** */
-
+/* colors */
 $c-white: #fff;
 $c-black: #000;
 $c-emperor: #505050;
@@ -19,8 +17,7 @@ $c-burningOrange: #ff7733;
 $c-crusta: #fe782f;
 $c-westSide: #ff990c;
 
-/* =breaks
-************************************************************** */
+/* breaks */
 $break-xs: 450px;
 $break-s: 600px;
 $break-mobile: 768px;
@@ -28,3 +25,6 @@ $break-mid: 992px;
 $break-laptop: 1250px;
 $break-desktop: 1600px;
 $break-wide: 2250px;
+
+/* fonts */
+$f-montserrat: "Montserrat", sans-serif;
