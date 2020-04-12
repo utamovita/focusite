@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="text-box lg-8 sm-12">
                     <h1>Potrzebujesz <span><span class="purple-gradient">strony internetowej?</span></span></h1>
-                    <h4>Dobrze trafiłeś, zajmujemy się tym od lat!</h4>
+                    <h4>Dobrze trafiłeś, zajmujemy się tym od lat.</h4>
                     <a href="oferta" class="btn" title="oferta">Zobacz ofertę</a>
                 </div>
                 <div class="lg-4 sm-12 img-box">
@@ -96,4 +96,7 @@
     </div>
 </footer>
 
-<?php get_footer(); ?>
+<?php wp_footer(); ?>
+
+</body>
+</html>
