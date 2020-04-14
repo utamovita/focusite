@@ -678,14 +678,6 @@
                 }
             }
         }
-
-        footer {
-            padding-bottom: 0;
-
-            .copyright {
-                line-height: 18px;
-            }
-        }
     }
 }
 
@@ -871,14 +863,6 @@
             p {
                 font-size: 14px;
             }
-        }
-    }
-}
-
-@media only screen and (min-width: $break-wide) {
-    .page-wycena {
-        .copyright {
-            color: $c-black;
         }
     }
 }

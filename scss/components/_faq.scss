@@ -1,0 +1,70 @@
+.page-faq {
+    .wave-top {
+      width: 50vw;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    
+    .section1 {
+        min-height: 70vh;
+    }
+  }
+  
+  @media only screen and (max-width: $break-desktop) {
+    .page-faq {
+      .wave-top {
+        width: 60vw;
+        left: -10vw;
+      }
+  
+  
+      .bottom-wave {
+        width: 50vw;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: $break-laptop) {
+    .page-faq {
+      .wave-top {
+        width: 82vw;
+        left: -21vw;
+      }
+  
+
+      .bottom-wave {
+        width: 52vw;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: $break-mid) {
+    .page-faq {
+      .wave-top {
+        width: 92vw;
+        left: -28vw;
+      }
+  
+      .bottom-wave {
+        width: 60vw;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: $break-mobile) {
+    .page-faq {
+      .wave-top {
+        display: none;
+      }
+    }
+  }
+  
+
+  
+  @media only screen and (min-width: $break-wide) {
+    .page-faq {
+    }
+  }
+  

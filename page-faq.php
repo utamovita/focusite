@@ -2,7 +2,7 @@
 
 <main>
     <img src="<?php bloginfo('template_url'); ?>/img/offer-top-wave.png" class="wave-top" alt="purple background top wave">
-    <section>
+    <section class="section1">
         <h1>FAQ</h1>
     </section>
 </main>
