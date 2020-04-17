@@ -568,7 +568,7 @@ nav {
 }
 
 @media only screen and (min-width: $break-wide) {
-  nav .logo svg path {
+  nav:not(.sticky) .logo svg path {
     fill: url(#SVGID_1_);
   }
 }
