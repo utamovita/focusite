@@ -91,6 +91,10 @@
             right: 0;
             margin: auto;
           }
+
+          &:last-child::after {
+            display: none;
+          }
         }
 
         &__answer {
@@ -99,8 +103,18 @@
           font-weight: 300;
           padding: 15px 0;
 
+          strong {
+            font-weight: 500;
+          }
+
           p {
             margin-bottom: 0;
+          }
+
+          a {
+            text-decoration: underline;
+            color: $c-moodyBlue;
+            font-weight: 500;
           }
         }
       }
