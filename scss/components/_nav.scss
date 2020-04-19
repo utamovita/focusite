@@ -465,6 +465,8 @@ nav {
       z-index: 20;
       background-color: $c-white;
       padding: 7px 0;
+      min-height: 300px;
+      border-radius: 0;
 
       &:before,
       &:after {

@@ -26,6 +26,15 @@ jQuery(document).ready(function () {
     jQuery(".darkness, .light-box").removeClass("on");
   });
 
+  jQuery(".scroll-down").click(function () {
+    jQuery([document.documentElement, document.body]).animate(
+      {
+        scrollTop: jQuery(".section2").offset().top - 100,
+      },
+      1000
+    );
+  });
+
   //for desktop only
   if (jQuery(window).width() > 770) {
     jQuery(".menu-item-has-children").mouseover(function () {
@@ -66,6 +75,13 @@ jQuery(document).ready(function () {
     jQuery(".sub-menu-close-btn").click(function () {
       jQuery(".sub-menu").removeClass("on");
       jQuery("nav").removeClass("opened");
+    });
+
+    jQuery(".collapsible__question").click(function () {
+      jQuery(this)
+        .toggleClass("on")
+        .find(".collapsible__question__answer")
+        .slideToggle("slow");
     });
   }
 });
