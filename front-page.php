@@ -2,12 +2,12 @@
 
 <main>
     <section class="home-banner">
-        <img src="<?php bloginfo('template_url'); ?>/img/top-wave-home.png" class="wave-top" alt="background waves top">
+        <img src="<?php bloginfo('template_url'); ?>/img/home-wave-top.png" class="wave-top" alt="background waves top">
         <div class="container">
             <div class="row">
                 <div class="text-box lg-8 sm-12">
                     <h1>Potrzebujesz <span><span class="purple-gradient">strony internetowej?</span></span></h1>
-                    <h4>Dobrze trafiłeś, zajmujemy się tym od lat.</h4>
+                    <h4>Tworzenie stron internetowych, e-commerce i marketing w sieci to dla nas pestka. Pamiętaj, że potencjalny klient ma pierwszą styczność z Twoją firmą właśnie tutaj - w sieci. Daj się poznać od dobrej strony i zrób dobre pierwsze wrażenie.</h4>
                     <a href="oferta" class="btn" title="oferta">Zobacz ofertę</a>
                 </div>
                 <div class="lg-4 sm-12 img-box">
@@ -27,7 +27,7 @@
                     <ul>
                         <li>Twoja idea - opowiedz nam, jaki masz pomysł na witrynę, a my ją dla Ciebie zrealizujemy.</li>
                         <li>Wdrożenie to dopiero początek - dołożymy wszelkich starań by Twój biznes pracował na codzienny sukces. </li>
-                        <li>Zapewniamy całodobowe wsparcie z zakresu obsługi oraz pomocy technicznej.</li>
+                        <li>Stały kontakt - zapewniamy całodobowe wsparcie z zakresu obsługi oraz pomocy technicznej.</li>
                     </ul>
                 </div>
             </div>
@@ -41,22 +41,22 @@
         <div class="container">
             <h2>Wykonamy <span><span class="purple-gradient">dla Ciebie</span></span></h2>
             <div class="lg-4 sm-12">
-                <a href="oferta" class="ball"  title="oferta">
-                    <img src="<?php bloginfo('template_url'); ?>/img/strony.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
+                <a href="oferta/strony-internetowe" class="ball"  title="oferta - strony internetowe">
+                    <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
                 </a>
-                <h3><a href="oferta" title="strony www">Strony www</a></h3>
+                <h3><a href="oferta/strony-internetowe" title="strony www">Strony www</a></h3>
             </div> 
             <div class="lg-4 sm-12">
-                <a href="oferta" class="ball"  title="oferta">
-                    <img src="<?php bloginfo('template_url'); ?>/img/landingi.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
+                <a href="sklepy-internetowe" class="ball"  title="oferta - sklepy internetowe">
+                    <img src="<?php bloginfo('template_url'); ?>/img/sklepy-internetowe.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
                 </a>
-                <h3><a href="oferta" title="sklepy internetowe">Sklepy <br>internetowe</a></h3>
+                <h3><a href="oferta/sklepy-internetowe" title="sklepy internetowe">Sklepy <br>internetowe</a></h3>
             </div>
             <div class="lg-4 sm-12">
-                <a href="oferta" class="ball"  title="oferta">
-                    <img src="<?php bloginfo('template_url'); ?>/img/blogi.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
+                <a href="oferta/pozycjonowanie" class="ball"  title="oferta - pozycjonowanie">
+                    <img src="<?php bloginfo('template_url'); ?>/img/pozycjonowanie.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
                 </a>
-                <h3><a href="oferta"  title="pozycjonowanie">Pozycjonowanie</a></h3>
+                <h3><a href="oferta/pozycjonowanie"  title="pozycjonowanie">Pozycjonowanie</a></h3>
             </div>
             <div class="btn-box">
                 <a href="oferta" class="btn" title="oferta">Pokaż szczegóły</a>
@@ -79,7 +79,7 @@
     </section>
 </main>
 <footer>
-    <img src="<?php bloginfo('template_url'); ?>/img/home-bottom-wave.png" class="bottom-wave" alt="background waves bottom">
+    <img src="<?php bloginfo('template_url'); ?>/img/home-wave-bottom.png" class="bottom-wave" alt="background waves bottom">
     <div class="container">
         <img src="<?php bloginfo('template_url'); ?>/img/copywriter.png" alt="copywriter holding a big pencil">
         <div class="lg-6 sm-6 xs-12 copyright">

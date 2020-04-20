@@ -77,6 +77,8 @@
     position: absolute;
     right: 0;
     width: 66vw;
+    z-index: 0;
+    left: auto;
   }
 
   .home-banner {
@@ -155,7 +157,7 @@
         &:before {
           content: "";
           display: block;
-          background-image: url("../img/check-mark-button.svg");
+          background-image: url("../img/svg/check-mark-button.svg");
           width: 30px;
           height: 30px;
           background-size: cover;
@@ -527,7 +529,7 @@
     }
 
     .home-banner {
-      background-image: url("../img/home-mobile-top-wave.png");
+      background-image: url("../img/home-wave-top-mobile.png");
       background-repeat: no-repeat;
       background-position: top right;
       background-size: 55% auto;
@@ -641,7 +643,7 @@
     }
 
     footer {
-      background-image: url("../img/home-mobile-bottom-wave.png");
+      background-image: url("../img/home-wave-bottom-mobile.png");
       background-position: left bottom;
       background-size: 50vw;
       height: 250px;

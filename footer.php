@@ -10,7 +10,7 @@
         </div>
         <div class="lg-6 copyright">© focusite <br>All rights reserved</div>
     </div>
-    <img src="<?php bloginfo('template_url'); ?>/img/offer-bottom-wave.png" class="bottom-wave" alt="purple background bottom wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-bottom.png" class="bottom-wave" alt="purple background bottom wave">
 </footer>
 
 <?php wp_footer(); ?>

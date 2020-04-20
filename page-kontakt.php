@@ -2,7 +2,7 @@
 
 <main>
     <section id="section1">
-        <img src="<?php bloginfo('template_url'); ?>/img/contact-top-wave.png" class="wave-top" alt="top wave background">
+        <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="top wave background">
         
         <div class="container">
             <div class="row">

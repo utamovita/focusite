@@ -1,12 +1,4 @@
 .offer-subpage {
-  .wave-top {
-    width: 50vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-
   .section1 {
     width: 100%;
     position: relative;
@@ -45,28 +37,14 @@
 
 @media only screen and (max-width: $break-desktop) {
   .offer-subpage {
-    .wave-top {
-      width: 60vw;
-      left: -10vw;
-    }
-
     .section1 h1 {
       margin-bottom: 25px;
-    }
-
-    .bottom-wave {
-      width: 50vw;
     }
   }
 }
 
 @media only screen and (max-width: $break-laptop) {
   .offer-subpage {
-    .wave-top {
-      width: 82vw;
-      left: -21vw;
-    }
-
     .section1 {
       h1 {
         font-size: 42px;
@@ -77,20 +55,11 @@
         font-size: 20px;
       }
     }
-
-    .bottom-wave {
-      width: 52vw;
-    }
   }
 }
 
 @media only screen and (max-width: $break-mid) {
   .offer-subpage {
-    .wave-top {
-      width: 92vw;
-      left: -28vw;
-    }
-
     .section1 {
       min-height: 400px;
 
@@ -98,26 +67,14 @@
         padding-top: 150px;
       }
     }
-
-    .bottom-wave {
-      width: 60vw;
-    }
   }
 }
 
 @media only screen and (max-width: $break-mobile) {
   .offer-subpage {
-    .wave-top {
-      display: none;
-    }
-
     .section1 {
       min-height: calc(100vh - 100px);
       height: auto;
-      background-image: url("../img/contact-mobile-top-wave.png");
-      background-repeat: no-repeat;
-      background-position: left top;
-      background-size: 370px;
     }
   }
 }
@@ -126,7 +83,6 @@
   .offer-subpage {
     .section1 {
       min-height: calc(100vh - 100px);
-      background-size: 300px;
       padding-bottom: 0;
 
       h1 {

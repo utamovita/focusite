@@ -9,14 +9,6 @@
     padding-bottom: 50px;
   }
 
-  .wave-top {
-    width: 50vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-
   h1 {
     font-size: 50px;
     color: $c-emperor;
@@ -78,19 +70,19 @@
     }
 
     li.simple {
-      background-image: url(../img/prostota.svg);
+      background-image: url(../img/svg/simple.svg);
     }
 
     li.optimized {
-      background-image: url(../img/optymalizacja.svg);
+      background-image: url(../img/svg/optymalizacja.svg);
     }
 
     li.speed {
-      background-image: url(../img/szybkosc.svg);
+      background-image: url(../img/svg/szybkosc.svg);
     }
 
     li.responsive {
-      background-image: url(../img/responsive.svg);
+      background-image: url(../img/svg/responsive.svg);
     }
   }
 
@@ -169,7 +161,7 @@
         &::before {
           content: "";
           display: block;
-          background-image: url("../img/purple-check-mark.svg");
+          background-image: url(../img/svg/purple-check-mark.svg);
           width: 30px;
           height: 30px;
           background-size: cover;
@@ -250,49 +242,22 @@
       }
 
       li.deadline {
-        background-image: url(../img/terminy.svg);
+        background-image: url(../img/svg/terminy.svg);
       }
 
       li.team {
-        background-image: url(../img/team.svg);
+        background-image: url(../img/svg/team.svg);
       }
 
       li.passion {
-        background-image: url(../img/pasja.svg);
+        background-image: url(../img/svg/pasja.svg);
       }
-    }
-  }
-
-  .bottom-wave {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 45vw;
-    z-index: -1;
-  }
-}
-
-@media only screen and (max-width: $break-desktop) {
-  .page-oferta {
-    .wave-top {
-      width: 60vw;
-      left: -10vw;
     }
   }
 }
 
 @media only screen and (max-width: $break-laptop) {
   .page-oferta {
-    .wave-top {
-      width: 80vw;
-      left: -19vw;
-      top: -10px;
-    }
-
-    .bottom-wave {
-      width: 52vw;
-    }
-
     .wp-img {
       width: 400px;
     }
@@ -352,15 +317,6 @@
       font-size: 40px;
     }
 
-    .wave-top {
-      width: 100vw;
-      left: -31vw;
-    }
-
-    .bottom-wave {
-      width: 60vw;
-    }
-
     .offer {
       p {
         font-size: 14px;
@@ -408,10 +364,6 @@
   .page-oferta {
     padding-top: 0;
 
-    .wave-top {
-      display: none;
-    }
-
     main {
       padding-top: 0;
     }
@@ -423,10 +375,6 @@
     }
 
     #section1 {
-      background-image: url("../img/contact-mobile-top-wave.png");
-      background-repeat: no-repeat;
-      background-position: left top;
-      background-size: 370px;
       padding-top: 100px;
 
       .row {
@@ -568,7 +516,6 @@
     }
 
     #section1 {
-      background-size: 300px;
       padding-bottom: 25px;
 
       .offer p {

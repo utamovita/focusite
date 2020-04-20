@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main>
-    <img src="<?php bloginfo('template_url'); ?>/img/contact-top-wave.png" class="wave-top" alt="">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="Focusite - strony www, sklepy internetowe, pozycjonowanie">
     <section id="section1">
         <div class="container">
             <div class="lg-6 sm-12">

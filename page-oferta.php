@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main>
-    <img src="<?php bloginfo('template_url'); ?>/img/offer-top-wave.png" class="wave-top" alt="purple background top wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
     <section id="section1">
         <div class="container">
             <div class="row">

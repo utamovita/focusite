@@ -1,14 +1,6 @@
 .page-polityka-prywatnosci {
   padding-top: 200px;
 
-  .wave-top {
-    width: 50vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-
   #section1 {
     padding-bottom: 150px;
 
@@ -69,63 +61,20 @@
       text-decoration: underline;
     }
   }
-
-  .bottom-wave {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 45vw;
-    z-index: -1;
-  }
-}
-
-@media only screen and (max-width: $break-desktop) {
-  .page-polityka-prywatnosci {
-    .wave-top {
-      width: 60vw;
-      left: -10vw;
-    }
-
-    .bottom-wave {
-      width: 50vw;
-    }
-  }
 }
 
 @media only screen and (max-width: $break-laptop) {
-  .page-polityka-prywatnosci {
-    .wave-top {
-      width: 82vw;
-      left: -21vw;
-    }
-
-    #section1 h1 {
-      font-size: 36px;
-    }
-
-    .bottom-wave {
-      width: 52vw;
-    }
+  .page-polityka-prywatnosci #section1 h1 {
+    font-size: 36px;
   }
 }
 
 @media only screen and (max-width: $break-mid) {
-  .page-polityka-prywatnosci {
-    .wave-top {
-      width: 92vw;
-      left: -28vw;
-    }
+  .page-polityka-prywatnosci #section1 {
+    padding-bottom: 100px;
 
-    .bottom-wave {
-      width: 60vw;
-    }
-
-    #section1 {
-      padding-bottom: 100px;
-
-      h1 {
-        font-size: 30px;
-      }
+    h1 {
+      font-size: 30px;
     }
   }
 }
@@ -134,19 +83,11 @@
   .page-polityka-prywatnosci {
     padding-top: 0;
 
-    .wave-top {
-      display: none;
-    }
-
     main {
       padding-top: 0;
     }
 
     #section1 {
-      background-image: url("../img/contact-mobile-top-wave.png");
-      background-repeat: no-repeat;
-      background-position: left top;
-      background-size: 370px;
       padding-top: 120px;
       padding-bottom: 25px;
 
@@ -159,7 +100,6 @@
 
 @media only screen and (max-width: $break-xs) {
   .page-polityka-prywatnosci #section1 {
-    background-size: 300px;
     padding-bottom: 50px;
 
     h1 {

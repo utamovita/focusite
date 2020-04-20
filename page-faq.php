@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main>
-    <img src="<?php bloginfo('template_url'); ?>/img/offer-top-wave.png" class="wave-top" alt="purple background top wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
     <section class="section1 container">
         <div>
             <h1><span class="orange-gradient">Pytania</span> <span class="purple-gradient">i odpowiedzi</span></h1>

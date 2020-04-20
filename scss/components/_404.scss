@@ -1,176 +1,129 @@
 .error404 {
-    padding-top: 100px;
+  padding-top: 100px;
 
-    main {
-        min-height: calc(100vh - 281px);
+  main {
+    min-height: calc(100vh - 281px);
+  }
+
+  #section1 {
+    margin: 100px 0;
+
+    h1 {
+      font-size: 250px;
+      color: $c-emperor;
+      font-weight: 300;
+
+      span {
+        display: block;
+        font-weight: 700;
+
+        span {
+          display: inline-block;
+        }
+      }
     }
 
-    .wave-top {
-        width: 50vw;
-        position: absolute;
-        top: 0;
-        left: 0;
+    h3 {
+      color: $c-emperor;
+      font-weight: 700;
+      margin-top: 55px;
+      font-size: 32px;
     }
 
-    #section1 {
-        margin: 100px 0;
-
-        h1 {
-            font-size: 250px;
-            color: $c-emperor;
-            font-weight: 300;
-
-            span {
-                display: block;
-                font-weight: 700;
-
-                span {
-                    display: inline-block;
-                }
-            }
-        }
-
-        h3 {
-            color: $c-emperor;
-            font-weight: 700;
-            margin-top: 55px;
-            font-size: 32px;
-
-        }
-
-        h4 {
-            color: $c-doveGray;
-            font-size: 26px;
-            max-width: 440px;
-            line-height: 24px;
-            margin: 35px 0;
-            font-weight: 300;
-            margin-top: 33px;
-            margin-bottom: 40px;
-        }
-
-        .btn {
-            max-width: 230px;
-        }
+    h4 {
+      color: $c-doveGray;
+      font-size: 26px;
+      max-width: 440px;
+      line-height: 24px;
+      margin: 35px 0;
+      font-weight: 300;
+      margin-top: 33px;
+      margin-bottom: 40px;
     }
 
-    .bottom-wave {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width: 45vw;
-        z-index: -1;
+    .btn {
+      max-width: 230px;
     }
-
+  }
 }
 
 @media only screen and (max-width: $break-laptop) {
-    .error404 {
-        .wave-top {
-            width: 82vw;
-            left: -21vw;
-        }
+  .error404 #section1 {
+    margin: 150px 0;
 
-        .bottom-wave {
-            width: 50vw;
-        }
-
-        #section1 {
-            margin: 150px 0;
-
-            h1 {
-                font-size: 190px;
-            }
-
-            h3 {
-                margin-top: 40px;
-                font-size: 28px;
-            }
-
-            h4 {
-                font-size: 22px;
-                margin-top: 18px;
-                margin-bottom: 22px;
-            }
-        }
-
+    h1 {
+      font-size: 190px;
     }
+
+    h3 {
+      margin-top: 40px;
+      font-size: 28px;
+    }
+
+    h4 {
+      font-size: 22px;
+      margin-top: 18px;
+      margin-bottom: 22px;
+    }
+  }
 }
 
 @media only screen and (max-width: $break-mid) {
-    .error404 {
-        .wave-top {
-            width: 92vw;
-            left: -28vw;
-        }
-
-        #section1 {
-            margin: 100px 0;
-        }
-    }
+  .error404 #section1 {
+    margin: 100px 0;
+  }
 }
 
 @media only screen and (max-width: $break-mobile) {
-    .error404 {
-        padding-top: 0;
+  .error404 {
+    padding-top: 0;
 
-        .wave-top {
-            display: none;
-        }
-
-        main {
-            padding-top: 0;
-        }
-
-        #section1 {
-            background-image: url('../img/contact-mobile-top-wave.png');
-            background-repeat: no-repeat;
-            background-position: left top;
-            background-size: 370px;
-            padding-top: 120px;
-            margin-top: 0;
-            text-align: center;
-            margin-bottom: 50px;
-
-            h3 {
-                margin-top: 0;
-            }
-
-            h4 {
-                text-align: center;
-                margin: auto;
-                margin-top: 20px;
-                margin-bottom: 24px;
-            }
-
-            .btn {
-                margin: auto;
-            }
-        }
+    main {
+      padding-top: 0;
     }
+
+    #section1 {
+      padding-top: 120px;
+      margin-top: 0;
+      text-align: center;
+      margin-bottom: 50px;
+
+      h3 {
+        margin-top: 0;
+      }
+
+      h4 {
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 24px;
+      }
+
+      .btn {
+        margin: auto;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: $break-xs) {
-    .error404 {
-        #section1 {
-            background-size: 300px;
-            padding-bottom: 0;
+  .error404 #section1 {
+    padding-bottom: 0;
 
-            h1 {
-                font-size: 120px;
-            }
-
-            h3 {
-                font-size: 22px;
-            }
-
-            h4 {
-                font-size: 22px;
-            }
-
-            .btn {
-                font-size: 11px;
-            }
-        }
+    h1 {
+      font-size: 120px;
     }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    h4 {
+      font-size: 22px;
+    }
+
+    .btn {
+      font-size: 11px;
+    }
+  }
 }

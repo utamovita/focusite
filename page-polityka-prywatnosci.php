@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <main>
     <section id="section1">
-        <img src="<?php bloginfo('template_url'); ?>/img/contact-top-wave.png" class="wave-top" alt="">
+        <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="">
         <div class="container">
             <h1><span><span class="purple-gradient">Polityka prywatności</span></span></h1>
             <h3 class="first">Szanowny Użytkowniku!</h3>

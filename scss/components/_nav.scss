@@ -176,7 +176,7 @@ nav {
       display: block;
       width: 100px;
       height: 34px;
-      background-image: url(../img/triangle.svg);
+      background-image: url(../img/svg/triangle.svg);
       background-position: center 11px;
       background-repeat: no-repeat;
       background-size: 35px;
@@ -192,7 +192,7 @@ nav {
       display: block;
       width: 65px;
       height: 100%;
-      background-image: url(../img/mouse.svg);
+      background-image: url(../img/svg/mouse.svg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
@@ -491,7 +491,7 @@ nav {
       }
 
       &-back-btn {
-        background-image: url("../img/back-btn.svg");
+        background-image: url(../img/svg/back-btn.svg);
         background-position: center;
         background-size: 25px;
         background-repeat: no-repeat;
@@ -538,7 +538,7 @@ nav {
 
     .mobile-submenu-toggler {
       display: block;
-      background-image: url("../img/angle-arrow-down.svg");
+      background-image: url(../img/svg/angle-arrow-down.svg);
       background-position: center;
       background-size: 15px;
       background-repeat: no-repeat;

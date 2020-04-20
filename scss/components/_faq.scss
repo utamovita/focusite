@@ -1,12 +1,4 @@
 .page-faq {
-  .wave-top {
-    width: 50vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-
   .section1 {
     position: relative;
     padding: 200px 15px;
@@ -176,28 +168,14 @@
 
 @media only screen and (max-width: $break-desktop) {
   .page-faq {
-    .wave-top {
-      width: 60vw;
-      left: -10vw;
-    }
-
     .section1 h1 {
       margin-bottom: 25px;
-    }
-
-    .bottom-wave {
-      width: 50vw;
     }
   }
 }
 
 @media only screen and (max-width: $break-laptop) {
   .page-faq {
-    .wave-top {
-      width: 82vw;
-      left: -21vw;
-    }
-
     .section1 {
       padding: 175px 15px 100px;
 
@@ -210,20 +188,11 @@
         font-size: 16px;
       }
     }
-
-    .bottom-wave {
-      width: 52vw;
-    }
   }
 }
 
 @media only screen and (max-width: $break-mid) {
   .page-faq {
-    .wave-top {
-      width: 92vw;
-      left: -28vw;
-    }
-
     .section2 .collapsible__question {
       h4 {
         font-size: 1.2rem;
@@ -233,24 +202,13 @@
         font-size: 1rem;
       }
     }
-    .bottom-wave {
-      width: 60vw;
-    }
   }
 }
 
 @media only screen and (max-width: $break-mobile) {
   .page-faq {
-    .wave-top {
-      display: none;
-    }
-
     .section1 {
       height: auto;
-      background-image: url("../img/contact-mobile-top-wave.png");
-      background-repeat: no-repeat;
-      background-position: left top;
-      background-size: 370px;
       flex-direction: column;
       padding: 100px 15px;
 
@@ -344,7 +302,6 @@
 @media only screen and (max-width: $break-xs) {
   .page-faq {
     .section1 {
-      background-size: 300px;
       padding-bottom: 0;
 
       h1 {

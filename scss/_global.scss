@@ -229,6 +229,14 @@ section h2 {
   }
 }
 
+.wave-top {
+  width: 50vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .bottom-wave {
   position: absolute;
   right: 0;
@@ -313,7 +321,7 @@ section h2 {
       position: absolute;
       left: 80%;
       opacity: 0;
-      background: url("../img/right-arrow.svg") no-repeat center;
+      background: url("../img/svg/right-arrow.svg") no-repeat center;
       background-size: 100% auto;
       width: 11px;
       height: 100%;
@@ -359,7 +367,27 @@ section h2 {
   }
 }
 
+@media only screen and (max-width: $break-desktop) {
+  .wave-top {
+    width: 60vw;
+    left: -10vw;
+  }
+
+  .bottom-wave {
+    width: 50vw;
+  }
+}
+
 @media only screen and (max-width: $break-laptop) {
+  .wave-top {
+    width: 82vw;
+    left: -21vw;
+  }
+
+  .bottom-wave {
+    width: 52vw;
+  }
+
   .container {
     max-width: 880px;
   }
@@ -437,6 +465,15 @@ section h2 {
 }
 
 @media only screen and (max-width: $break-mid) {
+  .wave-top {
+    width: 92vw;
+    left: -28vw;
+  }
+
+  .bottom-wave {
+    width: 60vw;
+  }
+
   section h2 {
     font-size: 34px;
 
@@ -447,6 +484,17 @@ section h2 {
 }
 
 @media only screen and (max-width: $break-mobile) {
+  .wave-top {
+    display: none;
+  }
+
+  .section1,
+  #section1 {
+    background-image: url("../img/wave-top-mobile.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 370px;
+  }
   .container {
     width: 100%;
   }
@@ -524,6 +572,11 @@ section h2 {
 }
 
 @media only screen and (max-width: $break-xs) {
+  .section1,
+  #section1 {
+    background-size: 300px;
+  }
+  
   .hidden-xs {
     display: none;
   }

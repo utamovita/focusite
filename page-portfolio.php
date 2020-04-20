@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main>
-    <img src="<?php bloginfo('template_url'); ?>/img/contact-top-wave.png" class="wave-top" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
     <section id="section1">
         <div class="container">
             <h1><span><span class="purple-gradient">Nasze realizacje</span></span></h1>
@@ -20,14 +20,14 @@
                     <a class="btn orange empty" href="https://github.com/utamovita/Image-generator-React">GitHub repo</a><a class="btn" href="https://focusite.pl/demo/image-generator/">Zobacz online</a>
                 </div>
                 <div class="lg-6 sm-12 gif">
-                    <img src="<?php bloginfo('template_url'); ?>/img/react-image.gif" alt="react app in gif">
+                    <img src="<?php bloginfo('template_url'); ?>/img/gif/react-image.gif" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie"">
                 </div>
                 
             </div>
             <div class="project-box row align-left">
                 <div class="line"></div>
                 <div class="lg-6 sm-12 gif">
-                    <img src="<?php bloginfo('template_url'); ?>/img/dummy-text.gif" alt="react app in gif">
+                    <img src="<?php bloginfo('template_url'); ?>/img/gif/dummy-text.gif" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie"">
                 </div>
                 <div class="lg-6 sm-12 description">
                     <div class="tech-stack">
