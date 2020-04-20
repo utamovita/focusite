@@ -1,176 +1,176 @@
 footer {
+  position: relative;
+  padding-bottom: 40px;
+
+  .container {
     position: relative;
-    padding-bottom: 40px;
 
-    .container {
-        position: relative;
-
-        img {
-            display: none;
-        }
+    img {
+      display: none;
     }
+  }
 
-    .copyright {
-        color: $c-white;
-        font-weight: 700;
-        font-size: 14px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-align: right;
-        padding-top: 15px;
+  .copyright {
+    color: $c-white;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-top: 15px;
 
-        br {
-            display: none;
-        }
+    br {
+      display: none;
     }
+  }
 
-    .info {
-        display: flex;
-        align-items: center;
+  .info {
+    display: flex;
+    align-items: center;
+  }
+
+  .spacer-top {
+    width: 100%;
+    border-top: 1px solid $c-mercury;
+    position: relative;
+    top: -20px;
+  }
+
+  .right {
+    margin-top: 5px;
+  }
+
+  .info ul {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+    li {
+      text-align: center;
+
+      a,
+      &.address {
+        height: 100%;
+        display: inline-block;
+        padding-left: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 30px;
+        vertical-align: middle;
+        color: $c-doveGray;
+        padding-right: 10px;
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: 20px auto;
+      }
+
+      &.email a {
+        background-image: url(../img/svg/email.svg);
+      }
+
+      &.phone a {
+        background-image: url(../img/svg/phone.svg);
+      }
+
+      &.address {
+        background-image: url(../img/svg/location.svg);
+        padding-left: 25px;
+        padding-right: 0;
+      }
     }
-
-    .spacer-top {
-        width: 100%;
-        border-top: 1px solid $c-mercury;
-        position: relative;
-        top: -20px;
-    }
-
-    .right {
-        margin-top: 5px;
-    }
-
-    .info ul {
-        list-style: none;
-        padding-left: 0;
-        width: 100%;
-        margin: 0;
-        display: flex;
-        justify-content: space-between;
-        padding-top:10px;
-
-        li {
-            text-align: center;
-
-            a,
-            &.address {
-                height: 100%;
-                display: inline-block;
-                padding-left: 30px;
-                font-size: 13px;
-                font-weight: 500;
-                line-height: 30px;
-                vertical-align: middle;
-                color: $c-doveGray;
-                padding-right: 10px;
-                background-position: left center;
-                background-repeat: no-repeat;
-                background-size: 20px auto;
-            }
-        }
-
-        li.email a {
-            background-image: url(../img/svg/email.svg);
-        }
-
-        li.phone a {
-            background-image: url(../img/svg/phone.svg);
-        }
-
-        li.address {
-            background-image: url(../img/svg/location.svg);
-            padding-left: 25px;
-            padding-right: 0;
-        }
-    }
+  }
 }
 
 @media only screen and (max-width: $break-laptop) {
-    footer {
-        padding-bottom: 20px;
+  footer {
+    padding-bottom: 20px;
 
-        .copyright {
-            padding-top: 28px;
-        }
-
-        .info ul {
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
+    .copyright {
+      padding-top: 28px;
     }
+
+    .info ul {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
 }
 
 @media only screen and (max-width: $break-mobile) {
-    footer {
-        background-image: url(../img/wave-bottom-mobile.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 305px;
-        padding-bottom: 0;
+  footer {
+    background-image: url(../img/wave-bottom-mobile.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 305px;
+    padding-bottom: 0;
 
-        .bottom-wave {
-            display: none;
-        }
-
-        br {
-            display: block;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .lg-6 {
-            width: 100%;
-        }
-        
-        .info {
-            margin-bottom: 30px;
-
-            ul {
-                justify-content: space-between;
-            }
-        }
-
-        .copyright {
-            color: $c-emperor;
-            text-align: left;
-            padding-left: 15px;
-            line-height: 16px;
-            margin-bottom: 25px;
-            border: none;
-            width: auto;
-            padding-top: 0;
-
-            br {
-                display: block;
-            }
-        }
+    .bottom-wave {
+      display: none;
     }
+
+    br {
+      display: block;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .lg-6 {
+      width: 100%;
+    }
+
+    .info {
+      margin-bottom: 30px;
+
+      ul {
+        justify-content: space-between;
+      }
+    }
+
+    .copyright {
+      color: $c-emperor;
+      text-align: left;
+      padding-left: 15px;
+      line-height: 16px;
+      margin-bottom: 25px;
+      border: none;
+      width: auto;
+      padding-top: 0;
+
+      br {
+        display: block;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: $break-xs) {
-    footer {
-        background-size: 280px;
+  footer {
+    background-size: 280px;
 
-        .info  {
-            margin-bottom: 15px;
+    .info {
+      margin-bottom: 15px;
 
-            ul {
-                justify-content: center;
-                padding-top: 0;
-            }
-        }
-
-        .copyright { 
-            width: calc(100% - 30px);
-            margin-left: 15px;
-            padding-left: 0;
-            padding-top: 10px;
-            font-size: 10px;
-            text-align: center;
-            margin-bottom: 30px;
-        }
+      ul {
+        justify-content: center;
+        padding-top: 0;
+      }
     }
+
+    .copyright {
+      width: calc(100% - 30px);
+      margin-left: 15px;
+      padding-left: 0;
+      padding-top: 10px;
+      font-size: 10px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
 }

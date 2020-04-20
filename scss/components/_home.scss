@@ -20,15 +20,13 @@
       }
     }
 
-    .sub-menu {
-      li.menu-item {
-        a:before {
-          background: $c-emperor;
-        }
+    .sub-menu li.menu-item {
+      a:before {
+        background: $c-emperor;
+      }
 
-        &:last-child a:before {
-          display: inline-block;
-        }
+      &:last-child a:before {
+        display: inline-block;
       }
     }
 
@@ -157,7 +155,7 @@
         &:before {
           content: "";
           display: block;
-          background-image: url("../img/svg/check-mark-button.svg");
+          background-image: url(../img/svg/check-mark-button.svg);
           width: 30px;
           height: 30px;
           background-size: cover;
@@ -321,25 +319,19 @@
       width: 70vw;
     }
 
-    .home-banner {
-      .img-box img {
-        width: 450px;
-      }
+    .home-banner .img-box img {
+      width: 450px;
     }
 
-    #section1 {
-      .img-box img {
-        width: 650px;
-        margin-left: -40px;
-      }
+    #section1 .img-box img {
+      width: 650px;
+      margin-left: -40px;
     }
 
-    #section3 {
-      img {
-        width: 600px;
-        margin-left: -60px;
-        margin-top: 10px;
-      }
+    #section3 img {
+      width: 600px;
+      margin-left: -60px;
+      margin-top: 10px;
     }
   }
 }
@@ -458,17 +450,13 @@
       width: 280px;
     }
 
-    #section1 {
-      .img-box img {
-        width: 450px;
-      }
+    #section1 .img-box img {
+      width: 450px;
     }
 
-    #section2 {
-      .ball {
-        width: 175px;
-        height: 175px;
-      }
+    #section2 .ball {
+      width: 175px;
+      height: 175px;
     }
 
     #section3 {
@@ -781,13 +769,11 @@
       height: 450px;
       background-size: 95vw;
 
-      .container {
-        img {
-          display: block;
-          width: 250px;
-          margin: auto;
-          margin-bottom: 40px;
-        }
+      .container img {
+        display: block;
+        width: 250px;
+        margin: auto;
+        margin-bottom: 40px;
       }
 
       .copyright {

@@ -192,15 +192,13 @@
 }
 
 @media only screen and (max-width: $break-mid) {
-  .page-faq {
-    .section2 .collapsible__question {
-      h4 {
-        font-size: 1.2rem;
-      }
+  .page-faq .section2 .collapsible__question {
+    h4 {
+      font-size: 1.2rem;
+    }
 
-      &__answer {
-        font-size: 1rem;
-      }
+    &__answer {
+      font-size: 1rem;
     }
   }
 }
@@ -231,42 +229,40 @@
     .section2 {
       padding: 0 50px;
 
-      .collapsible {
-        &__question {
-          &::before {
+      .collapsible__question {
+        &::before {
+          position: absolute;
+          left: -25px;
+          transform: translateY(-3px);
+          margin-right: 0;
+        }
+
+        h4 {
+          position: relative;
+          font-size: 1rem;
+          width: 100%;
+
+          &::after {
+            content: "+";
+            font: normal normal normal 2.5rem/28px $f-montserrat;
+            color: $c-moodyBlue;
             position: absolute;
-            left: -25px;
-            transform: translateY(-3px);
-            margin-right: 0;
+            right: -30px;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
           }
+        }
 
-          h4 {
-            position: relative;
-            font-size: 1rem;
-            width: 100%;
+        &.on h4::after {
+          content: "-";
+          font-size: 3rem;
+        }
 
-            &::after {
-              content: "+";
-              font: normal normal normal 2.5rem/28px $f-montserrat;
-              color: $c-moodyBlue;
-              position: absolute;
-              right: -30px;
-              top: 0;
-              bottom: 0;
-              display: flex;
-              align-items: center;
-            }
-          }
-
-          &.on h4::after {
-            content: "-";
-            font-size: 3rem;
-          }
-
-          &__answer {
-            display: none;
-            font-size: 0.9rem;
-          }
+        &__answer {
+          display: none;
+          font-size: 0.9rem;
         }
       }
     }
@@ -324,6 +320,7 @@
     .section3 {
       h2 {
         font-size: 20px;
+
         span {
           font-size: 28px;
         }

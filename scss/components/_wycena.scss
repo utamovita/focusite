@@ -32,6 +32,14 @@
           width: 50%;
           display: inline-block;
 
+          &.email a {
+            background-image: url(../img/svg/email.svg);
+          }
+
+          &.phone a {
+            background-image: url(../img/svg/phone.svg);
+          }
+
           a {
             height: 100%;
             display: inline-block;
@@ -46,14 +54,6 @@
             background-size: 25px auto;
             color: $c-emperor;
           }
-        }
-
-        li.email a {
-          background-image: url(../img/svg/email.svg);
-        }
-
-        li.phone a {
-          background-image: url(../img/svg/phone.svg);
         }
       }
     }
@@ -100,9 +100,9 @@
         &.active {
           background-image: linear-gradient(
             to right,
-            #ff7733 0%,
-            #ffa202 51%,
-            #ff7733 100%
+            $c-burningOrange 0%,
+            $c-orangePeel 51%,
+            $c-burningOrange 100%
           );
           background-size: 200% auto;
           color: $c-white;
@@ -398,7 +398,6 @@
       max-width: 500px;
     }
 
-    /* hide up/down arrows ("spinners") on input fields marked type="number" */
     input[type="number"] {
       -moz-appearance: textfield;
     }
@@ -431,10 +430,6 @@
     .checkbox-container {
       width: 100%;
       text-align: left;
-    }
-
-    /* Customize the label (the container) */
-    .checkbox-container {
       max-width: 520px;
       display: block;
       position: relative;
@@ -447,54 +442,49 @@
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
-    }
 
-    /* Hide the browser's default checkbox */
-    .checkbox-container input {
-      position: absolute;
-      opacity: 0;
-      cursor: pointer;
-      height: 0;
-      width: 0;
-    }
+      input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
 
-    /* Create a custom checkbox */
-    .checkmark {
-      position: absolute;
-      top: 0px;
-      left: 25px;
-      height: 22px;
-      width: 22px;
-      border: 1px solid $c-alto;
-    }
+        &:checked ~ .checkmark {
+          border: 1px solid $c-bayOfMany;
 
-    /* Create the checkmark/indicator (hidden when not checked) */
-    .checkmark:after {
+          &:after {
+            display: block;
+          }
+        }
+      }
+
+      .checkmark:after {
+        left: 8px;
+        top: 3px;
+        width: 5px;
+        height: 12px;
+        border: solid $c-bayOfMany;
+        border-width: 0 2px 2px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    height: 22px;
+    width: 22px;
+    border: 1px solid $c-alto;
+
+    &:after {
       content: "";
       position: absolute;
       display: none;
-    }
-
-    /* Show the checkmark when checked */
-    .checkbox-container input:checked ~ .checkmark:after {
-      display: block;
-    }
-
-    .checkbox-container input:checked ~ .checkmark {
-      border: 1px solid $c-bayOfMany;
-    }
-
-    /* Style the checkmark/indicator */
-    .checkbox-container .checkmark:after {
-      left: 8px;
-      top: 3px;
-      width: 5px;
-      height: 12px;
-      border: solid $c-bayOfMany;
-      border-width: 0 2px 2px 0;
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
     }
   }
 
@@ -745,16 +735,14 @@
 
 @media only screen and (max-width: $break-s) {
   .page-wycena {
-    #section1 {
-      .info ul {
-        width: 185px;
-        margin: auto;
+    #section1 .info ul {
+      width: 185px;
+      margin: auto;
 
-        li {
-          width: 100%;
-          text-align: left;
-          margin: 5px 0;
-        }
+      li {
+        width: 100%;
+        text-align: left;
+        margin: 5px 0;
       }
     }
 
