@@ -55,6 +55,39 @@
                     </div>
                 </div>
             </li>
+            <li class="collapsible__question__wrapper">
+                <div class="collapsible__question">
+                    <h4>Ile trwa realizacja strony internetowej?</h4>
+                    <div class="collapsible__question__answer">
+                        <p>Najprostsze strony typu "Wizytówka/One Page", z wybranym przez klienta szablonem, przy sprawnej komunikacji potrafią być gotowe do użytku w zaledwie <strong>tydzień</strong>. Bardziej wymagające projekty dla klientów, którzy postawili np. na serwis z indywidualną szatą graficzną, kilkoma podstronami i systemem CMS zajmują przeważnie <strong>4-6 tygodni</strong> od momentu podpisania umowy. </p>
+                    </div>
+                </div>
+            </li>
+            <li class="collapsible__question__wrapper">
+                <div class="collapsible__question">
+                    <h4>Jak wygląda współpraca i przebieg prac nad serwisem od początku do końca?</h4>
+                    <div class="collapsible__question__answer">
+                        <p><strong>Strony internetowe</strong> wykonane przez nas przechodzą przez następujące etapy:</p>
+                        <br>
+                        <ol>
+                            <li>Darmowa wycena online, wypełnienie krótkiego <a href="wycena">formularza</a>.</li>
+                            <li>Zebranie szczegółowych informacji i umówienie spotkania.</li>
+                            <li>Podpisanie umowy, wpłata zaliczki.</li>
+                            <li>Opracowanie briefu i planu działania.</li>
+                            <li>Poprawki i akcpetacja briefu.</li>
+                            <li>Projektowanie indywidualnej szaty graficznej lub przygotowanie wybranego szablonu.</li>
+                            <li>Poprawki, uzupełnianie materiałów i akceptacja.</li>
+                            <li>Przygotowanie wersji testowej.</li>
+                            <li>Poprawki i akceptacja.</li>
+                            <li>Publikacja strony w internecie na wskazanej domenie.</li>
+                            <li>Szkolenie z obsługi systemu.</li>
+                            <li>Podpis protokołu zdawczo-odbiorczego, wpłata pozostałej części należności.</li>
+                        </ol>
+                        <br>
+                        <p>Po skończonym projekcie będziemy w <strong>stałym w kontakcie</strong>, zapewniając całodobowe wsparcie z zakresu obsługi i pomocy technicznej.</p>
+                    </div>
+                </div>
+            </li>
         </ol>
     </section>
     <section class="section3">
