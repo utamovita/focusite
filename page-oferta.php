@@ -7,9 +7,9 @@
             <div class="row">
                 <div class="lg-6 sm-12 offer">
                     <h1>Co wyróżnia <span><span class="purple-gradient">nasze strony</span></span></h1>
-                    <p>Tworzymy w pełni działające i dobrze wyświetlające się na każdym urządzeniu strony www. Używamy systemu CMS Wordpress - rozwiązanie idealne dla tych, którzy cenią sobie prostotę obsługi, niezależność i możliwość samodzielnej edycji treści strony.</p>
+                    <p>Firma Focusite zajmuje się tworzeniem stron internetowych przystosowanych do urządzeń mobilnych. Używamy systemu CMS Wordpress - rozwiązanie idealne dla tych, którzy cenią sobie prostotę obsługi i możliwość samodzielnej edycji treści strony.</p>
                     <ul>
-                        <li class="simple">prostota obsługi</li><li class="optimized">optymalizacja elementów</li><li class="speed">szybkość działania</li><li class="responsive">pełna responsywność</li>
+                        <li class="simple">prostota obsługi</li><li class="optimized">przyjazna dla wyszukiwarek</li><li class="speed">szybkość działania</li><li class="responsive">pełna responsywność</li>
                     </ul>
                 </div>
                 <div class="lg-6 sm-12">
@@ -24,7 +24,7 @@
         <div class="container">
             <h2>Nasza <span><span class="purple-gradient">oferta</span></span></h2>
             <div class="type">
-                <h3><span>Strony www</span></h3>
+                <h3><span>Strony internetowe</span></h3>
                 <ul>
                     <li>Hosting, domena oraz firmowa poczta</li>
                     <li>Samodzielna edycja strony przez panel administracyjny</li>

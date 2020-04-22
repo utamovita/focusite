@@ -91,7 +91,7 @@
     .img-box img {
       float: right;
       margin-top: 150px;
-      width: 500px;
+      width: 480px;
       height: auto;
     }
 
@@ -118,7 +118,7 @@
       h4 {
         color: $c-doveGray;
         font-size: 18px;
-        max-width: 440px;
+        max-width: 760px;
         line-height: 24px;
         margin: 35px 0;
         font-weight: 500;
@@ -146,7 +146,7 @@
 
       li {
         margin: 30px 0;
-        font-family: "Montserrat";
+        color: $c-doveGray;
         font-weight: 500;
         font-size: 16px;
         position: relative;
@@ -221,7 +221,7 @@
     .btn-box {
       float: left;
       width: 100%;
-      margin: 50px 0;
+      margin: 25px 0 75px;
     }
 
     .btn {
@@ -241,6 +241,37 @@
         font-weight: 700;
         color: $c-emperor;
         margin: auto;
+      }
+    }
+
+    .description {
+      float: left;
+      width: 100%;
+      margin-top: 75px;
+
+      p {
+        font-size: 18px;
+        font-weight: 300;
+        color: $c-doveGray;
+        max-width: 950px;
+        margin: auto;
+        position: relative;
+
+        strong {
+          display: block;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          margin-top: 50px;
+          margin-bottom: 25px;
+
+          span {
+            display: block;
+            font-size: 36px;
+            font-weight: 900;
+            line-height: 42px;
+          }
+        }
       }
     }
   }
@@ -368,11 +399,14 @@
 
         h4 {
           font-size: 16px;
+          max-width: 485px;
         }
       }
     }
 
     #section1 {
+      padding-top: 80px;
+
       h2 {
         margin-bottom: 30px;
       }
@@ -396,6 +430,14 @@
 
       h3 {
         font-size: 22px;
+      }
+
+      .description {
+        margin-top: 50px;
+
+        p {
+          max-width: 700px;
+        }
       }
     }
 
@@ -432,26 +474,37 @@
       width: 75vw;
     }
 
-    .text-box {
-      h1 {
-        font-size: 36px;
+    .home-banner {
+      .text-box {
+        margin-top: 160px;
 
-        span.purple-gradient {
-          font-size: 42px;
+        h1 {
+          font-size: 36px;
+
+          span.purple-gradient {
+            font-size: 42px;
+          }
+        }
+
+        h4 {
+          margin: 30px 0;
+          max-width: 100%;
+          padding-right: 15px;
         }
       }
 
-      h4 {
-        margin: 10px 0;
+      .img-box img {
+        width: 280px;
+        margin-top: 150px;
       }
     }
 
-    .home-banner .img-box img {
-      width: 280px;
-    }
+    #section1 {
+      padding-top: 50px;
 
-    #section1 .img-box img {
-      width: 450px;
+      .img-box img {
+        width: 450px;
+      }
     }
 
     #section2 .ball {
@@ -545,6 +598,7 @@
         margin-top: 70px;
         float: none;
         width: 70%;
+        max-width: 350px;
       }
 
       .text-box {
@@ -553,6 +607,10 @@
 
         h4 {
           margin: 25px auto;
+
+          br {
+            display: none;
+          }
         }
 
         .btn {
@@ -563,6 +621,7 @@
 
     #section1 {
       padding-top: 0;
+      background: none;
 
       .img-box img {
         display: block;
@@ -601,6 +660,14 @@
       .btn-box {
         margin-bottom: 30px;
         margin-top: 0;
+      }
+
+      .description {
+        margin-top: 0;
+
+        p {
+          font-size: 16px;
+        }
       }
     }
 
@@ -742,9 +809,15 @@
       }
     }
 
-    #section2 h2 {
-      margin: 40px 0;
-      margin-top: 25px;
+    #section2 {
+      h2 {
+        margin: 40px 0;
+        margin-top: 25px;
+      }
+
+      .description p {
+        font-size: 14px;
+      }
     }
 
     #section3 {

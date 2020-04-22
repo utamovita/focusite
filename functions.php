@@ -3,6 +3,7 @@
 function awesome_script_enqueue(){
     wp_enqueue_style('style', get_template_directory_uri() . '/style.css', array(), '', 'all');
     wp_enqueue_script('jquery');
+    wp_enqueue_script('cookieBar', get_template_directory_uri() . '/js/cookie-bar.min.js', array(), '', true);
     wp_enqueue_script('custom', get_template_directory_uri() . '/js/custom.min.js', array(), '', true);
 }
 

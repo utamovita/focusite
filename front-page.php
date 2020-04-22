@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="text-box lg-8 sm-12">
                     <h1>Potrzebujesz <span><span class="purple-gradient">strony internetowej?</span></span></h1>
-                    <h4>Tworzenie stron internetowych, e-commerce i marketing w sieci to dla nas pestka. Pamiętaj, że potencjalny klient ma pierwszą styczność z Twoją firmą właśnie tutaj - w sieci. Daj się poznać od dobrej strony i zrób dobre pierwsze wrażenie.</h4>
+                    <h4>Tworzenie stron internetowych, e-commerce i marketing to dla nas pestka. Potencjalny klient ma pierwszą styczność z Twoją firmą właśnie tutaj - w sieci.<br> Daj się poznać od dobrej strony i zrób dobre pierwsze wrażenie.</h4>
                     <a href="oferta" class="btn" title="oferta">Zobacz ofertę</a>
                 </div>
                 <div class="lg-4 sm-12 img-box">
@@ -31,9 +31,6 @@
                     </ul>
                 </div>
             </div>
-            <div class="btn-box">
-                <a href="portfolio" class="btn" title="portfolio">Zobacz portfolio</a>
-            </div>
         </div> 
     </section>
     <section id="section2">
@@ -44,7 +41,7 @@
                 <a href="oferta/strony-internetowe" class="ball"  title="oferta - strony internetowe">
                     <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
                 </a>
-                <h3><a href="oferta/strony-internetowe" title="strony www">Strony www</a></h3>
+                <h3><a href="oferta/strony-internetowe" title="strony www">Strony internetowe</a></h3>
             </div> 
             <div class="lg-4 sm-12">
                 <a href="sklepy-internetowe" class="ball"  title="oferta - sklepy internetowe">
@@ -58,8 +55,11 @@
                 </a>
                 <h3><a href="oferta/pozycjonowanie"  title="pozycjonowanie">Pozycjonowanie</a></h3>
             </div>
+            <div class="description">
+                <p>To coś więcej niż serwisy www. To nasza pasja, którą stale rozwijamy, dzięki czemu spełniamy wymagania naszych klientów i dostarczamy im najlepsze rozwiązania na rynku. U nas nie ma drogi na skróty, a strony "byle jakie" to nie my. Strona www, sklep internetowy a może aplikacja? - zrobimy to za Ciebie. <strong>Jesteśmy gotowi. <span class="purple-gradient">A Ty?</span></strong></p>
+            </div>
             <div class="btn-box">
-                <a href="oferta" class="btn" title="oferta">Pokaż szczegóły</a>
+                <a href="kontakt" class="btn" title="kontakt">Kontakt</a>
             </div> 
         </div>
     </section>
