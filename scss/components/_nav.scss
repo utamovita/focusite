@@ -215,8 +215,9 @@ nav {
     }
 
     .menu-item {
-      &:last-child a {
-        color: $c-white;
+      &:last-child a,
+      &:last-child a:hover {
+        color: $c-white;    
       }
 
       .sub-menu {
