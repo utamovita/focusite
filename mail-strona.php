@@ -36,7 +36,7 @@
         $recipient = "michalkowit@gmail.com, office@focusite.pl";
 
         // Set the email subject.
-        $subject = "Wycena sklepu internetowego od $name";
+        $subject = "Wycena strony www od $name";
 
         // Build the email content.
         $email_content = '';
