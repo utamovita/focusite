@@ -150,7 +150,7 @@
             // Serialize the form data.
             var formData = jQuery(form).serialize();
             
-            if(!(jQuery('input[type=checkbox]').attr('checked'))){
+            if(!(jQuery('input[type=checkbox]').is(':checked'))){
                 jQuery('.darkness, .light-box').addClass('on');
                 jQuery(formMessages).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>');
                 return;
