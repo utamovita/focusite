@@ -72,7 +72,7 @@
                     <img src="<?php bloginfo('template_url'); ?>/img/team.png"  alt="team sitting around the round table">
                 </div>
                 <div class="btn-box">
-                    <a href="portfolio" class="btn" title="portfolio">Zobacz nasze portfolio</a>
+                    <a href="kontakt" class="btn" title="kontakt">Skontaktuj się</a>
                 </div>
             </div>
         </div>

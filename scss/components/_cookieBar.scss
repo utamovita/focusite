@@ -1,24 +1,70 @@
-.cookie-message {
+.cookieConsentContainer {
+  z-index: 9999;
+  width: 350px;
+  min-height: 20px;
+  box-sizing: border-box;
+  padding: 30px 15px;
+  background: $c-moodyBlue;
+  overflow: hidden;
   position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  border-radius: 5px;
   text-align: center;
-  background: $c-white;
-  border-top: 1px solid #ccc;
-  box-shadow: 0px 0px 3px #ccc;
-  z-index: 99;
-  font-size: 16px;
 
-  p {
-    color: $c-emperor;
-    padding: 0 100px
+  .cookieTitle a {
+    font-family: OpenSans, arial, "sans-serif";
+    color: $c-white;
+    font-size: 22px;
+    line-height: 20px;
+    display: block;
   }
 
-  .cookiebar-close {
-      display: inline-block;
-      position: absolute;
-      right: 30px;
-      top: 0;
+  .cookieDesc {
+    p {
+      margin: 0;
+      padding: 0;
+      font-family: OpenSans, arial, "sans-serif";
+      color: $c-white;
+      font-size: 13px;
+      line-height: 20px;
+      display: block;
+      margin-top: 10px;
+    }
+
+    a {
+      font-family: OpenSans, arial, "sans-serif";
+      color: $c-white;
+      text-decoration: underline;
+    }
+  }
+
+  .cookieButton a {
+    display: inline-block;
+    font-family: OpenSans, arial, "sans-serif";
+    color: $c-moodyBlue;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+    background: $c-white;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    text-align: center;
+    transition: background 0.3s;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: $break-mobile) {
+  .cookieConsentContainer {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    border-radius: 0;
+
+    .cookieDesc p {
+      font-size: 12px;
+    }
   }
 }

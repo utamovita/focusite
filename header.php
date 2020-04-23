@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pl">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136824612-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-136824612-1');
+        </script>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700" rel="stylesheet">
         <title><?php wp_title()?></title>

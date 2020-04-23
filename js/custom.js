@@ -1,6 +1,4 @@
 jQuery(document).ready(function () {
-  jQuery.cookieBar();
-
   function sticky() {
     var scrollPosition = jQuery(window).scrollTop();
     if (scrollPosition > 0) {
