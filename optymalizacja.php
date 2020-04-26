@@ -88,7 +88,7 @@ function optymalizacja($f){
     }
 
     # No index for specific pages(404 page, polityka prywatnosci)
-    if( strstr($f,'<body class="error404">') || $Page_uri == '/polityka-prywatnosci/'){
+    if( strstr($f,'class="error404') || $Page_uri == '/polityka-prywatnosci/'){
         if( strstr($f,'robots') && !strstr($f,'noindex') ){
             $f = preg_replace('#<meta[ \t]+name=(\'|")robots(\'|")[ \t]+content=(\'|")(.*)(\'|")[ \t]*[\/]?>#Usmi','<meta name="robots" content="noindex,follow" />',$f);
         } else {

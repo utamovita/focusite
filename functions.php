@@ -92,4 +92,18 @@ function defer_parsing_of_js( $url ) {
 }
 add_filter( 'script_loader_tag', 'defer_parsing_of_js', 10 );
 
+function itsme_disable_feed() {
+    header("HTTP/1.1 301 Moved Permanently");
+    header("Location: https://focusite.pl/");
+    exit;
+}
+
+add_action('do_feed', 'itsme_disable_feed', 1);
+add_action('do_feed_rdf', 'itsme_disable_feed', 1);
+add_action('do_feed_rss', 'itsme_disable_feed', 1);
+add_action('do_feed_rss2', 'itsme_disable_feed', 1);
+add_action('do_feed_atom', 'itsme_disable_feed', 1);
+add_action('do_feed_rss2_comments', 'itsme_disable_feed', 1);
+add_action('do_feed_atom_comments', 'itsme_disable_feed', 1);
+
 ?>
