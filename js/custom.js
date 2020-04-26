@@ -49,7 +49,7 @@ jQuery(document).ready(function () {
   }
 
   if (window.innerWidth < 770) {
-    jQuery(".hamburger").click(function () {
+    jQuery(".hamburger__box").click(function () {
       jQuery("nav").toggleClass("opened");
     });
 

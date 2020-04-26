@@ -382,7 +382,6 @@ nav {
 
     .hamburger {
       display: block;
-      float: right;
       width: 30px;
       height: 25px;
       position: relative;
@@ -396,7 +395,12 @@ nav {
       transition: 0.5s ease-in-out;
       cursor: pointer;
       z-index: 1;
-      margin-top: 5px;
+
+      &__box {
+        float: right;
+        padding: 5px;
+        margin-right: -5px;
+      }
 
       span {
         display: block;

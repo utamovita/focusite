@@ -53,11 +53,13 @@
                             C387.7,45.5,401.9,33,419.1,33z M436.9,60.1c-0.5-13.4-8.6-20-18.1-20c-10.6,0-19.9,7.1-21.9,20H436.9z"/>
                         </svg>
                     </a>
-                    <div class="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div class="hamburger__box">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                     <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
                 </div>
