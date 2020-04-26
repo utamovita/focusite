@@ -29,9 +29,9 @@ jQuery(document).ready(function () {
   jQuery(".scroll-down").click(function () {
     jQuery([document.documentElement, document.body]).animate(
       {
-        scrollTop: jQuery(".section2").offset().top - 100,
+        scrollTop: jQuery(".scroll-to").offset().top - 100,
       },
-      1000
+      750
     );
   });
 
@@ -48,8 +48,7 @@ jQuery(document).ready(function () {
     });
   }
 
-  //for mobile only
-  if (jQuery(window).width() < 770) {
+  if (window.innerWidth < 960) {
     jQuery(".hamburger").click(function () {
       jQuery("nav").toggleClass("opened");
     });

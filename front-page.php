@@ -8,7 +8,7 @@
                 <div class="text-box lg-8 sm-12">
                     <h1>Potrzebujesz <span><span class="purple-gradient">strony internetowej?</span></span></h1>
                     <h4>Tworzenie stron internetowych, e-commerce i marketing to dla nas pestka. Potencjalny klient ma pierwszą styczność z Twoją firmą właśnie tutaj - w sieci.<br> Daj się poznać od dobrej strony i zrób dobre pierwsze wrażenie.</h4>
-                    <a href="oferta" class="btn" title="oferta">Zobacz ofertę</a>
+                    <button class="btn scroll-down" title="oferta">Dowiedz się więcej</button>
                 </div>
                 <div class="lg-4 sm-12 img-box">
                     <img src="<?php bloginfo('template_url'); ?>/img/computers.png" alt="computer devices and people around it">
@@ -16,7 +16,7 @@
             </div>
         </div>  
     </section>
-    <section id="section1">
+    <section id="section1" class="scroll-to">
         <div class="container">
             <div class="row">
                 <div class="lg-6 sm-12 img-box">
@@ -59,7 +59,7 @@
                 <p>To coś więcej niż serwisy www. To nasza pasja, którą stale rozwijamy, dzięki czemu spełniamy wymagania naszych klientów i dostarczamy im najlepsze rozwiązania na rynku. U nas nie ma drogi na skróty, a strony "byle jakie" to nie my. Strona www, sklep internetowy a może aplikacja? - zrobimy to za Ciebie. <strong>Jesteśmy gotowi. <span class="purple-gradient">A Ty?</span></strong></p>
             </div>
             <div class="btn-box">
-                <a href="kontakt" class="btn" title="kontakt">Kontakt</a>
+                <a href="oferta" class="btn" title="oferta">Zobacz ofertę</a>
             </div> 
         </div>
     </section>

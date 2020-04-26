@@ -59,59 +59,24 @@
     </section>
 </main>
 
-<?php get_footer(); ?>
+<footer>
+    <div class="container">
+        <div class="lg-6">
+            <div class="spacer-top"></div>
+            <div class="info">
+                <ul>
+                    <li class="email"><a href="mailto:office@focusite.pl">office@focusite.pl</a></li><li class="phone"><a href="tel:+48732009546">+48 732 009 546</a></li><li class="address">Dworcowa 1, 64-320 Buk</li>
+                </ul>
+            </div>
+        </div>
+        <div class="lg-6 copyright">© focusite <br>All rights reserved</div>
+    </div>
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-bottom.png" class="bottom-wave" alt="purple background bottom wave">
+</footer>
 
-<script>
-    jQuery(function() {
-        // Get the form.
-        var form = jQuery('.contact-form');
+<?php wp_footer(); ?>
 
-        // Get the messages div.
-        var formMessages = jQuery('#form-messages');
-        form.submit(false);
-        // Set up an event listener for the contact form.
-        jQuery(form).submit(function(event) {
-            // Stop the browser from submitting the form.
-            event.preventDefault();
+<script>jQuery(function(){var e=jQuery(".contact-form"),a=jQuery("#form-messages");e.submit(!1),jQuery(e).submit(function(s){s.preventDefault();var r=jQuery(e).serialize();if(!jQuery("input[type=checkbox]").is(":checked"))return jQuery(".darkness, .light-box").addClass("on"),void jQuery(a).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>');jQuery.ajax({type:"POST",url:jQuery(e).attr("action"),data:r}).done(function(e){jQuery(a).removeClass("error"),jQuery(a).addClass("success"),jQuery(".darkness, .light-box").addClass("on"),jQuery(a).html(e),jQuery("#name").val(""),jQuery("#message").val(""),jQuery("#phone").val(""),jQuery("#email").val("")}).fail(function(e){jQuery(a).removeClass("success"),jQuery(a).addClass("error"),jQuery(".darkness, .light-box").addClass("on"),""!==e.responseText?jQuery(a).html(e.responseText):jQuery(a).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3> <p>Wystąpił błąd i Twoja wiadomość nie mogła zostać wysłana.</p><p>Spróbuj jeszcze raz.</p>')})})});</script>
 
-            // Serialize the form data.
-            var formData = jQuery(form).serialize();
-            
-            if(!(jQuery('input[type=checkbox]').is(':checked'))){
-                jQuery('.darkness, .light-box').addClass('on');
-                jQuery(formMessages).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>');
-                return;
-            };
-               
-            jQuery.ajax({
-                type: 'POST',
-                url: jQuery(form).attr('action'),
-                data: formData
-            }).done(function(response) {
-                // Make sure that the formMessages div has the 'success' class.
-                jQuery(formMessages).removeClass('error');
-                jQuery(formMessages).addClass('success');
-                jQuery('.darkness, .light-box').addClass('on');
-                // Set the message text.
-                jQuery(formMessages).html(response);
-
-                // Clear the form.
-                jQuery('#name').val('');
-                jQuery('#message').val('');
-                jQuery('#phone').val('');
-                jQuery('#email').val('');
-            }).fail(function(data) {
-                // Make sure that the formMessages div has the 'error' class.
-                jQuery(formMessages).removeClass('success');
-                jQuery(formMessages).addClass('error');
-                jQuery('.darkness, .light-box').addClass('on');
-                // Set the message text.
-                if (data.responseText !== '') {
-                    jQuery(formMessages).html(data.responseText);
-                } else {
-                    jQuery(formMessages).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3> <p>Wystąpił błąd i Twoja wiadomość nie mogła zostać wysłana.</p><p>Spróbuj jeszcze raz.</p>');
-                }
-            });
-        });
-    });
-</script>
+</body>
+</html>

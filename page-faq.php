@@ -12,7 +12,7 @@
             <img src="<?php bloginfo('template_url'); ?>/img/copywriter.png" alt="copywriter holding a big pencil">
         </div>
     </section>
-    <section class="section2 container" id="faq">
+    <section class="section2 container scroll-to" id="faq">
         <h2><span><span class="purple-gradient">FAQ</span></span></h2>
         <ol class="collapsible">
             <li class="collapsible__question__wrapper">
