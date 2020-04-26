@@ -300,8 +300,9 @@ section h2 {
   }
 
   &.empty.orange {
-    background: none;
-    border: 1px solid $c-westSide;
+    background-color: rgba($c-black, 0);
+    background-image: none;
+    border: 2px solid $c-westSide;
     color: $c-westSide;
     position: relative;
 

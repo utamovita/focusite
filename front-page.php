@@ -72,7 +72,7 @@
                 <div class="lg-6 sm-12 pricing-box">
                     <h2>Chcesz otrzymać indywidualną <span><span class="purple-gradient">wycenę strony?</span></span></h2>
                     <h5>Wypełnij krótki brief. Odpowiedź otrzymasz w ciągu 24h.<br> Możesz też się z nami spotkać na kawie :)</h5>
-                    <a href="wycena" class="btn orange" title="brief">Wypełnij brief</a><span class="or">lub</span><a href="kontakt" title="kontakt" class="btn orange empty">Skontaktuj się</a>
+                    <a href="wycena" class="btn orange" title="brief">Wypełnij brief</a><span class="or">lub</span><a href="kontakt" title="kontakt" class="btn orange">Skontaktuj się</a>
                 </div>
             </div>
         </div>

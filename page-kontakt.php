@@ -16,19 +16,19 @@
                     <form class="contact-form" method="POST" action="<?php bloginfo('template_url');?>/mail.php">
                         <table>
                             <tr>
-                                <td><label>Imię i nazwisko:</label></td>
+                                <td><label for="name">Imię i nazwisko:</label></td>
                                 <td><input type="text" name="name" id="name"></td>
                             </tr>
                             <tr>
-                                <td><label>Adres e-mail:</label></td>
+                                <td><label for="email">Adres e-mail:</label></td>
                                 <td><input type="email" name="email" id="email"></td>
                             </tr>
                             <tr>
-                                <td><label>Telefon:</label></td>
+                                <td><label for="phone">Telefon:</label></td>
                                 <td><input type="number" name="phone" id="phone"></td>
                             </tr>
                             <tr>
-                                <td class="align-top"><label>Treść wiadomości:</label></td>
+                                <td class="align-top"><label for="message">Treść wiadomości:</label></td>
                                 <td><textarea name="message" id="message"></textarea></td>
                             </tr>
                             <tr>

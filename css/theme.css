@@ -294,8 +294,9 @@ section h2 span span {
   box-shadow: none;
 }
 .btn.empty.orange {
-  background: none;
-  border: 1px solid #ff990c;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  border: 2px solid #ff990c;
   color: #ff990c;
   position: relative;
 }
@@ -4016,7 +4017,7 @@ footer .info ul li.address {
 }
 .page-faq .section2 .collapsible__question__answer a {
   text-decoration: underline;
-  color: #7475d4;
+  color: #4848ac;
   font-weight: 500;
 }
 .page-faq .section3 {

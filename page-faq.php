@@ -94,7 +94,7 @@
         <div class="info-box">
             <h2>Nie znalazłeś odpowiedzi na <span><span class="orange-gradient">swoje pytanie?</span></span></h2>
             <h5>Odezwij się do nas, na pewno pomożemy.</h5>
-            <a href="kontakt" title="kontakt" class="btn orange empty">Skontaktuj się</a><span class="or">lub</span><a href="wycena" class="btn orange" title="brief">Zapytaj o wycenę</a>
+            <a href="kontakt" title="kontakt" class="btn orange">Skontaktuj się</a><span class="or">lub</span><a href="wycena" class="btn orange" title="brief">Zapytaj o wycenę</a>
         </div>
     </section>
 </main>
