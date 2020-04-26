@@ -34,7 +34,7 @@ function optymalizacja($f){
     # Zarządzanie znacznikami meta
     switch( $Page_uri ) {
         case '/': {
-            $Page_title = 'Focusite - Tworzenie stron internetowych';
+            $Page_title = 'Focusite - Strony internetowe, pozycjonowanie oraz serwisy www';
             $Page_description = 'W ofercie firmy Focusite z Buku mogą Państwo znaleźć profesjonalne tworzenie stron internetowych, sklepów oraz pozycjonowanie portali. Całodobowe wsparcie, nieszablonowe działanie i wieloletnie doświadczenie. Wejdź i dokonaj indywidualnej wyceny!';
         } break;
 
@@ -54,8 +54,8 @@ function optymalizacja($f){
         } break;
 
         case '/wycena/': {
-            $Page_title = 'Focusite - darmowa wycena';
-            $Page_description = 'Darmowa wycena. Sprawdź ile kosztuje realizacja twojego pomysłu. Wypełnij krótki brief a my odezwiemy się w ciągu doby z orientacyjnym kosztorysem. Nie kupuj kota w worku!';
+            $Page_title = 'Darmowa wycena - nie kupuj kota w worku!';
+            $Page_description = 'Darmowa wycena. Sprawdź ile kosztuje realizacja twojego pomysłu. Wypełnij krótki brief a my odezwiemy się w ciągu doby z orientacyjnym kosztorysem.';
         } break;
 
         default: {
@@ -87,14 +87,15 @@ function optymalizacja($f){
         $f = str_replace($Section_FAQ_content[0],$FAQ_section,$f); 
     }
 
-    # Blokada szablonu 404
-    if( strstr($f,'<body class="error404">') && strstr($f,'Strona nie została znaleziona') ){
+    # No index for specific pages(404 page, polityka prywatnosci)
+    if( strstr($f,'<body class="error404">') || $Page_uri == '/polityka-prywatnosci/'){
         if( strstr($f,'robots') && !strstr($f,'noindex') ){
             $f = preg_replace('#<meta[ \t]+name=(\'|")robots(\'|")[ \t]+content=(\'|")(.*)(\'|")[ \t]*[\/]?>#Usmi','<meta name="robots" content="noindex,follow" />',$f);
         } else {
             $f = str_replace('<head>','<head>'."\n".'<meta name="robots" content="noindex,follow" />',$f);
         }
     }
+
 
     /* === FUNKCJE === */
 
