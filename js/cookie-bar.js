@@ -52,6 +52,4 @@ function purecookieDismiss() {
   jQuery(".cookieConsentContainer").css("display", "none");
 }
 
-window.onload = function () {
-  cookieConsent();
-};
+cookieConsent();

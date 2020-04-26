@@ -74,7 +74,7 @@ function optymalizacja($f){
 
         } break;
 
-        case 'oferta': {
+        case '/oferta/': {
 
             $Page_title = 'Oferta - Poznaj naszą ofertę';
 
@@ -82,7 +82,7 @@ function optymalizacja($f){
 
         } break;
         
-        case '/faq': {
+        case '/faq/': {
 
             $Page_title = 'FAQ - Sekcja pytań i odpowiedzi';
 
@@ -90,7 +90,7 @@ function optymalizacja($f){
 
         } break;
 
-        case '/kontakt': {
+        case '/kontakt/': {
 
             $Page_title = 'Kontakt - Skontaktuj się z nami';
 
@@ -98,7 +98,7 @@ function optymalizacja($f){
 
         } break;
 
-        case '/wycena': {
+        case '/wycena/': {
 
             $Page_title = 'Focusite - darmowa wycena';
 

@@ -48,7 +48,7 @@ jQuery(document).ready(function () {
     });
   }
 
-  if (window.innerWidth < 960) {
+  if (window.innerWidth < 770) {
     jQuery(".hamburger").click(function () {
       jQuery("nav").toggleClass("opened");
     });
