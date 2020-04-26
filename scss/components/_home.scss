@@ -676,6 +676,7 @@
       height: auto;
       text-align: center;
       position: relative;
+      margin-bottom: 100px;
 
       img {
         width: 65%;
@@ -711,6 +712,11 @@
 
         li {
           text-align: left;
+          font-size: 12px;
+          
+          &.address {
+            font-size: 12px;
+          }
 
           a {
             width: 100%;
@@ -733,9 +739,10 @@
       }
 
       .copyright {
-        padding-top: 35px;
+        padding-top: 65px;
         color: $c-white;
         margin-bottom: 0;
+        padding-right: 0;
       }
     }
   }
@@ -865,7 +872,7 @@
 
       .right {
         position: absolute;
-        top: -100px;
+        top: -160px;
         left: 0;
         width: 100%;
       }
