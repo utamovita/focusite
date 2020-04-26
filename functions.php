@@ -2,7 +2,8 @@
 
 function awesome_script_enqueue(){
     wp_enqueue_style('style', get_template_directory_uri() . '/style.css', array(), '', 'all');
-    wp_enqueue_script('jquery');
+    wp_enqueue_script('jquery-min', get_template_directory_uri() . '/js/jQuery.min.js', array(), '', false);
+    //wp_enqueue_script('jquery');
     wp_enqueue_script('cookieBar', get_template_directory_uri() . '/js/cookie-bar.min.js', array(), '', true);
     wp_enqueue_script('custom', get_template_directory_uri() . '/js/custom.min.js', array(), '', true);
 }
@@ -86,6 +87,7 @@ function defer_parsing_of_js( $url ) {
     if ( is_user_logged_in() ) return $url; //don't break WP Admin
     if ( FALSE === strpos( $url, '.js' ) ) return $url;
     if ( strpos( $url, 'jquery.js' ) ) return $url;
+    if ( strpos( $url, 'jQuery.min.js' ) ) return $url;
     return str_replace( ' src', ' defer src', $url );
 }
 add_filter( 'script_loader_tag', 'defer_parsing_of_js', 10 );
