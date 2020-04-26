@@ -208,11 +208,6 @@ p {
   display: none;
 }
 
-body:not(.home) .current_page_item > a::before {
-  left: 0;
-  transform: translateX(0);
-}
-
 section h2 {
   font-size: 40px;
   color: $c-emperor;

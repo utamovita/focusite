@@ -36,7 +36,7 @@ jQuery(document).ready(function () {
   });
 
   //for desktop only
-  if (jQuery(window).width() > 770) {
+  if (window.innerWidth > 770) {
     jQuery(".menu-item-has-children").mouseover(function () {
       jQuery(".darkness").addClass("on");
       jQuery(this).find(".sub-menu").toggleClass("on");
@@ -55,7 +55,7 @@ jQuery(document).ready(function () {
 
     //sub-menu toggler
     jQuery(".menu-item-has-children").append(
-      "<button class='mobile-submenu-toggler'></button>"
+      "<button class='mobile-submenu-toggler'>toggle menu</button>"
     );
 
     jQuery(".mobile-submenu-toggler").click(function () {
@@ -64,7 +64,7 @@ jQuery(document).ready(function () {
     });
 
     jQuery(".sub-menu").append(
-      "<li class='actions'><button class='sub-menu-back-btn'></button><button class='sub-menu-close-btn'><span></span><span></span></button></li>"
+      "<li class='actions'><button class='sub-menu-back-btn'>back</button><button class='sub-menu-close-btn'>close<span></span><span></span></button></li>"
     );
 
     jQuery(".sub-menu-back-btn").click(function () {

@@ -21,7 +21,8 @@
             <div class="darkness"></div>
             <nav>
                 <div class="container">       
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo">
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo" title="logo link">
+                        Logo
                         <svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                             y="0px" viewBox="0 0 451 109" style="enable-background:new 0 0 451 109;" xml:space="preserve">
                         <style type="text/css">
