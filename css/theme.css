@@ -906,6 +906,9 @@ nav .mobile-submenu-toggler {
   nav.sticky .menu-item .sub-menu.on {
     transform: translateX(0);
   }
+  nav.sticky .menu-item .sub-menu li.menu-item a:last-child {
+    display: block;
+  }
   nav .menu, nav.sticky .menu {
     height: 0;
     overflow: hidden;
@@ -921,12 +924,13 @@ nav .mobile-submenu-toggler {
   nav .menu-item, nav.sticky .menu-item {
     display: block;
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
   }
   nav .menu-item a, nav.sticky .menu-item a {
     color: #fff;
     max-width: 150px;
     margin: auto;
+    padding: 5px 15px;
   }
   nav .menu-item a::before, nav.sticky .menu-item a::before {
     content: none;
@@ -939,6 +943,7 @@ nav .mobile-submenu-toggler {
     max-width: 100%;
     background-image: none;
     border: 1px solid #fff;
+    padding: 0;
   }
   nav .menu .logo, nav.sticky .menu .logo {
     margin-top: 0;
@@ -1031,7 +1036,8 @@ nav .mobile-submenu-toggler {
   nav .sub-menu li.menu-item a {
     text-align: center;
     max-width: 250px;
-    padding: 0 15px;
+    padding: 5px 15px;
+    display: block;
   }
   nav .sub-menu .actions {
     position: absolute;
@@ -1093,7 +1099,7 @@ nav .mobile-submenu-toggler {
     position: absolute;
     right: 20px;
     transform: rotate(-90deg);
-    top: -7px;
+    top: -1px;
   }
 }
 @media only screen and (max-width: 450px) {
