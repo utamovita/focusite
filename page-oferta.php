@@ -6,11 +6,12 @@
         <div class="container">
             <div class="row">
                 <div class="lg-6 sm-12 offer">
-                    <h1>Co wyróżnia <span><span class="purple-gradient">nasze strony</span></span></h1>
-                    <p>Firma Focusite zajmuje się tworzeniem stron internetowych przystosowanych do urządzeń mobilnych. Używamy systemu CMS Wordpress - rozwiązanie idealne dla tych, którzy cenią sobie prostotę obsługi i możliwość samodzielnej edycji treści strony.</p>
+                    <h1>Nasza <span class="purple-gradient">oferta</span></h1>
+                    <p>Zapoznaj się z szerokim wachlarzem naszych usług. Działamy od wielu lat tworząc strony internetowe, sklepy internetowe i aplikacje. Kreatywni graficy, zdolni copywriterzy i najlepsi programiści zadbają o to by Twoja firma zaistniała w internecie.</p>
                     <ul>
-                        <li class="simple">prostota obsługi</li><li class="optimized">przyjazna dla wyszukiwarek</li><li class="speed">szybkość działania</li><li class="responsive">pełna responsywność</li>
+                        <li class="simple">Szerokie doświadczenie</li><li class="optimized">Konkurencyjne ceny</li><li class="speed">Wsparcie 24/7</li>
                     </ul>
+                    <button class="btn scroll-down">Dowiedz się więcej</button>
                 </div>
                 <div class="lg-6 sm-12">
                     <img src="<?php bloginfo('template_url'); ?>/img/offer-laptop.png" class="laptop-img" alt="wireless computer">
@@ -19,10 +20,10 @@
             </div>
         </div>      
     </section>
-    <section id="section2">
+    <section id="section2" class="scroll-to">
         <div class="bg"></div>
         <div class="container">
-            <h2>Nasza <span><span class="purple-gradient">oferta</span></span></h2>
+            <h2>Co potrafimy zrobić <span><span class="purple-gradient">dla Ciebie?</span></span></h2>
             <div class="type">
                 <h3><span>Strony internetowe</span></h3>
                 <ul>

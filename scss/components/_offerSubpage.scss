@@ -1,36 +1,245 @@
 .offer-subpage {
-  .section1 {
-    width: 100%;
-    position: relative;
-    width: 100%;
-    position: relative;
-    padding-bottom: 100px;
+  padding: 150px 0 50px;
+  
+  .banner {
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
 
-    h1 {
-      font-size: 64px;
-      text-transform: uppercase;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-align: center;
-      margin-bottom: 60px;
-      padding: 250px 15px 0;
+    &__box {
+      flex-basis: 50%;
+    }
 
-      span {
+    &__title {
+      font-size: 50px;
+      color: $c-emperor;
+      font-weight: 300;
+      margin-top: 15px;
+
+      &__fragment {
         display: block;
+        padding-left: 25px;
         font-weight: 700;
+      }
+    }
 
-        span {
-          display: inline-block;
+    &__list {
+      list-style: none;
+      padding-left: 30px;
+
+      &__element {
+        display: block;
+        height: 60px;
+        margin: 20px 0;
+        padding-left: 80px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 60px;
+        color: $c-doveGray;
+        padding-right: 10px;
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: 50px auto;
+
+        &.simple {
+          background-image: url(../img/svg/simple.svg);
+        }
+
+        &.optimized {
+          background-image: url(../img/svg/optymalizacja.svg);
+        }
+
+        &.speed {
+          background-image: url(../img/svg/szybkosc.svg);
+        }
+
+        &.responsive {
+          background-image: url(../img/svg/responsive.svg);
         }
       }
     }
 
-    h2 {
-      font-size: 24px;
-      line-height: 32px;
+    &__paragraph {
+      padding-left: 30px;
+      font-size: 16px;
+      font-weight: 500;
+      color: $c-doveGray;
+      line-height: 28px;
+      margin-top: 40px;
+      margin-bottom: 25px;
+    }
+
+    &__image {
+      width: 100%;
+      margin-left: 25px;
+    }
+  }
+
+  #section2 {
+    .container {
+      padding: 0 30px;
       text-align: center;
-      margin-bottom: 50px;
-      padding: 0 15px;
+    }
+
+    h2 {
+      margin: 40px 0;
+      margin-top: 60px;
+    }
+
+    .bg {
+      height: 350px;
+      background-color: $c-alabaster;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+    }
+
+    .btn-box {
+      float: left;
+      margin-top: 70px;
+      width: 100%;
+
+      .btn {
+        margin: auto;
+      }
+    }
+  }
+
+  .type {
+    border-top: 7px solid $c-moodyBlue;
+    width: 30%;
+    float: left;
+    background-color: $c-white;
+    box-shadow: 0px 3px 53px -19px rgba($c-black, 0.75);
+    padding: 25px;
+
+    &.second {
+      margin: 0 5%;
+    }
+
+    h3 {
+      font-size: 24px;
+      font-weight: 700;
+      margin: 15px 0;
+      display: flex;
+      align-content: center;
+      min-height: 56px;
+
+      span {
+        display: block;
+        margin: auto;
+      }
+    }
+
+    ul {
+      margin-top: 0;
+      list-style: none;
+      padding-left: 0;
+      float: left;
+
+      li {
+        min-height: 45px;
+        margin: 30px 0;
+        font-weight: 500;
+        font-size: 16px;
+        position: relative;
+        padding-left: 55px;
+        text-align: left;
+
+        &::before {
+          content: "";
+          display: block;
+          background-image: url(../img/svg/purple-check-mark.svg);
+          width: 30px;
+          height: 30px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          left: 0;
+          top: 6px;
+        }
+
+        &:last-child {
+          text-align: center;
+          margin-top: 50px;
+          padding-left: 0;
+          margin-bottom: 00px;
+
+          &::before {
+            top: -3px;
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  #section3 {
+    padding: 100px 0;
+
+    p {
+      padding-left: 30px;
+      font-size: 16px;
+      font-weight: 500;
+      color: $c-doveGray;
+      line-height: 28px;
+      margin-top: 40px;
+      margin-bottom: 25px;
+      max-width: 480px;
+    }
+
+    .btn-box {
+      float: left;
+      margin-top: 30px;
+      width: 100%;
+
+      .btn {
+        margin: auto;
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0px;
+      width: 480px;
+
+      li {
+        display: inline-block;
+        width: 31.3%;
+        padding: 0 10px;
+        padding-top: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        vertical-align: middle;
+        color: $c-doveGray;
+        padding-right: 10px;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        text-align: center;
+        margin: 30px 0;
+
+        &:first-child {
+          background-size: 70%;
+          background-position: top -7px center;
+        }
+
+        &.second {
+          margin: 0 3%;
+        }
+
+        &.deadline {
+          background-image: url(../img/svg/terminy.svg);
+        }
+
+        &.team {
+          background-image: url(../img/svg/team.svg);
+        }
+
+        &.passion {
+          background-image: url(../img/svg/pasja.svg);
+        }
+      }
     }
   }
 }
