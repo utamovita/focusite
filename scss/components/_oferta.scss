@@ -5,83 +5,94 @@
     padding: 50px 0;
   }
 
-  #section1 {
-    padding-bottom: 50px;
-  }
+  .banner {
+    padding-bottom: 100px;
 
-  h1 {
-    font-size: 50px;
-    color: $c-emperor;
-    font-weight: 300;
-    margin-top: 15px;
+    button {
+      padding: 0 25px;
+      margin: 50px 25px;
+    }
 
-    span {
-      display: inline-block;
-      font-weight: 700;
+    h1 {
+      font-size: 50px;
+      color: $c-emperor;
+      font-weight: 300;
+      margin-top: 15px;
+
+      span {
+        display: inline-block;
+        font-weight: 700;
+      }
+    }
+
+    .laptop-img {
+      width: 500px;
+      margin-left: 25px;
+    }
+
+    .wp-img {
+      position: absolute;
+      width: 470px;
+      left: -170px;
+      top: 70px;
+      z-index: -1;
+    }
+
+    .offer {
+      ul {
+        list-style: none;
+        padding-left: 30px;
+
+        li {
+          display: block;
+          height: 60px;
+          margin: 20px 0;
+          padding-left: 80px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 60px;
+          color: $c-doveGray;
+          padding-right: 10px;
+          background-position: left center;
+          background-repeat: no-repeat;
+          background-size: 50px auto;
+
+          &.simple {
+            background-image: url(../img/svg/simple.svg);
+          }
+
+          &.optimized {
+            background-image: url(../img/svg/optymalizacja.svg);
+          }
+
+          &.speed {
+            background-image: url(../img/svg/szybkosc.svg);
+          }
+
+          &.responsive {
+            background-image: url(../img/svg/responsive.svg);
+          }
+        }
+      }
+
+      p {
+        padding-left: 30px;
+        font-size: 16px;
+        font-weight: 500;
+        color: $c-doveGray;
+        line-height: 28px;
+        margin: 25px 0;
+        max-width: 480px;
+      }
     }
   }
 
-  .offer p {
-    padding-left: 30px;
-    font-size: 16px;
-    font-weight: 500;
-    color: $c-doveGray;
-    line-height: 28px;
-    margin-top: 40px;
-    margin-bottom: 25px;
-    max-width: 480px;
-  }
-
-  .laptop-img {
-    width: 500px;
-    margin-left: 25px;
-  }
-
-  .wp-img {
-    position: absolute;
-    width: 470px;
-    left: -170px;
-    top: 70px;
-    z-index: -1;
-  }
-
-  .offer ul {
-    list-style: none;
-    padding-left: 30px;
-
-    li {
-      display: block;
-      height: 60px;
-      margin: 20px 0;
-      padding-left: 80px;
-      font-size: 18px;
-      font-weight: 500;
-      line-height: 60px;
-      color: $c-doveGray;
-      padding-right: 10px;
-      background-position: left center;
-      background-repeat: no-repeat;
-      background-size: 50px auto;
-
-      &.simple {
-        background-image: url(../img/svg/simple.svg);
-      }
-
-      &.optimized {
-        background-image: url(../img/svg/optymalizacja.svg);
-      }
-
-      &.speed {
-        background-image: url(../img/svg/szybkosc.svg);
-      }
-
-      &.responsive {
-        background-image: url(../img/svg/responsive.svg);
-      }
+  .offer-section {
+    &.additional-offer {
+      margin-top: 50px;
+      padding-top: 50px;
     }
-  }
 
-  #section2 {
     .container {
       padding: 0 30px;
       text-align: center;
@@ -100,81 +111,76 @@
       width: 100%;
     }
 
-    .btn-box {
+    .type {
+      border-top: 7px solid $c-moodyBlue;
+      width: 30%;
       float: left;
-      margin-top: 70px;
-      width: 100%;
+      background-color: $c-white;
+      box-shadow: 0px 3px 53px -19px rgba($c-black, 0.75);
+      padding: 25px;
 
-      .btn {
-        margin: auto;
+      &.second {
+        margin: 0 5%;
       }
-    }
-  }
 
-  .type {
-    border-top: 7px solid $c-moodyBlue;
-    width: 30%;
-    float: left;
-    background-color: $c-white;
-    box-shadow: 0px 3px 53px -19px rgba($c-black, 0.75);
-    padding: 25px;
+      h3 {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 15px 0;
+        display: flex;
+        align-content: center;
+        min-height: 58px;
 
-    &.second {
-      margin: 0 5%;
-    }
-
-    h3 {
-      font-size: 24px;
-      font-weight: 700;
-      margin: 15px 0;
-      display: flex;
-      align-content: center;
-      min-height: 56px;
-
-      span {
-        display: block;
-        margin: auto;
-      }
-    }
-
-    ul {
-      margin-top: 0;
-      list-style: none;
-      padding-left: 0;
-      float: left;
-
-      li {
-        min-height: 45px;
-        margin: 30px 0;
-        font-weight: 500;
-        font-size: 16px;
-        position: relative;
-        padding-left: 55px;
-        text-align: left;
-
-        &::before {
-          content: "";
+        span {
           display: block;
-          background-image: url(../img/svg/purple-check-mark.svg);
-          width: 30px;
-          height: 30px;
-          background-size: cover;
-          background-repeat: no-repeat;
-          position: absolute;
-          left: 0;
-          top: 6px;
+          margin: auto;
         }
+      }
 
-        &:last-child {
-          text-align: center;
-          margin-top: 50px;
-          padding-left: 0;
-          margin-bottom: 00px;
+      h4 {
+        font-size: 16px;
+        font-weight: 300;
+        color: $c-doveGray;
+      }
+      ul {
+        margin-top: 0;
+        list-style: none;
+        padding-left: 0;
+        float: left;
+
+        li {
+          min-height: 45px;
+          margin: 30px 0;
+          font-weight: 500;
+          font-size: 16px;
+          position: relative;
+          padding-left: 55px;
+          text-align: left;
 
           &::before {
-            top: -3px;
-            display: none;
+            content: "";
+            display: block;
+            background-image: url(../img/svg/purple-check-mark.svg);
+            width: 30px;
+            height: 30px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 0;
+            top: 6px;
           }
+        }
+      }
+
+      .button-box {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+
+        a {
+          display: inline-block;
+          padding: 0 50px;
         }
       }
     }
@@ -252,31 +258,38 @@
 
 @media only screen and (max-width: $break-laptop) {
   .page-oferta {
-    .wp-img {
-      width: 400px;
+    .banner {
+      .wp-img {
+        width: 400px;
+      }
+
+      .laptop-img {
+        width: 100%;
+        margin-top: 50px;
+      }
+
+      .offer ul li {
+        font-size: 16px;
+        margin: 15px 0;
+      }
     }
 
-    .laptop-img {
-      width: 100%;
-      margin-top: 50px;
-    }
-
-    .offer ul li {
-      font-size: 16px;
-      margin: 15px 0;
-    }
-
-    .type {
-      padding: 15px;
+    .offer-section .type {
+      padding: 15px 20px;
+      width: 31.33%;
 
       ul li {
-        min-height: 60px;
+        min-height: 62px;
         font-size: 14px;
+        padding-left: 50px;
+      }
 
-        &:last-child {
-          margin: 0;
-          min-height: 30px;
-        }
+      h4 br {
+        display: none;
+      }
+
+      &.second {
+        margin: 0 3%;
       }
     }
 
@@ -305,39 +318,44 @@
 
 @media only screen and (max-width: $break-mid) {
   .page-oferta {
-    h1 {
-      font-size: 40px;
-    }
-
-    .offer {
-      p {
-        font-size: 14px;
-        line-height: 24px;
+    .banner {
+      h1 {
+        font-size: 40px;
       }
 
+      .offer {
+        p {
+          font-size: 14px;
+          line-height: 24px;
+        }
+
+        ul li {
+          font-size: 14px;
+          background-size: 40px auto;
+          padding-left: 60px;
+          margin: 10px 0;
+        }
+      }
+
+      .wp-img {
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+
+      .laptop-img {
+        margin-top: 100px;
+        margin-left: 0;
+      }
+    }
+
+    .offer-section .type {
+      padding: 15px;
       ul li {
-        font-size: 14px;
-        background-size: 40px auto;
-        padding-left: 60px;
-        margin: 10px 0;
+        margin: 25px 0;
+        padding-left: 50px;
+        min-height: 70px;
       }
-    }
-
-    .wp-img {
-      top: 0;
-      left: 0;
-      width: 100%;
-    }
-
-    .laptop-img {
-      margin-top: 100px;
-      margin-left: 0;
-    }
-
-    .type ul li {
-      margin: 25px 0;
-      padding-left: 50px;
-      min-height: 70px;
     }
 
     #section3 {
@@ -356,16 +374,16 @@
 
     main {
       padding-top: 0;
+      padding-bottom: 25px;
     }
 
-    .offer ul li {
-      width: 50%;
-      display: inline-block;
-      margin: auto;
-    }
+    .banner {
+      padding: 80px 0 50px;
 
-    #section1 {
-      padding-top: 100px;
+      .sm-12:not(.offer) {
+        max-width: 450px;
+        margin: auto;
+      }
 
       .row {
         display: flex;
@@ -374,6 +392,12 @@
 
       .offer {
         order: 2;
+
+        ul li {
+          width: 50%;
+          display: inline-block;
+          margin: auto;
+        }
 
         p {
           max-width: 100%;
@@ -392,44 +416,56 @@
         margin-top: 50px;
         left: 15px;
       }
+
+      button {
+        margin: 50px auto 0;
+      }
     }
 
-    .type {
-      width: 100%;
-      max-width: 350px;
-      margin: 0 auto;
-      float: none;
-      margin-bottom: 50px;
-      height: auto;
+    .offer-section {
+      position: relative;
+      padding-bottom: 30px;
 
-      &.second {
+      &.additional-offer {
+        margin-top: 50px;
+      }
+
+      .type {
         width: 100%;
         max-width: 350px;
         margin: 0 auto;
-        margin-bottom: 50px;
-      }
-
-      ul {
         float: none;
+        margin-bottom: 50px;
+        height: auto;
 
-        li {
-          padding-left: 70px;
-          padding-right: 30px;
-          min-height: 50px;
+        &.second {
+          width: 100%;
+          max-width: 350px;
+          margin: 0 auto;
+          margin-bottom: 50px;
+        }
 
-          &:before {
-            width: 25px;
-            height: 25px;
-            margin-left: 30px;
-            margin-top: -7px;
+        ul {
+          float: none;
+
+          li {
+            padding-left: 70px;
+            padding-right: 30px;
+            min-height: 50px;
+
+            &:before {
+              width: 25px;
+              height: 25px;
+              margin-left: 30px;
+              margin-top: -7px;
+            }
           }
         }
-      }
-    }
 
-    #section2 {
-      position: relative;
-      padding-bottom: 30px;
+        .button-box {
+          float: none;
+        }
+      }
 
       h2 {
         margin-top: 30px;
@@ -437,10 +473,6 @@
 
       .bg {
         height: 100%;
-      }
-
-      .btn-box {
-        margin-top: 30px;
       }
     }
 
@@ -480,15 +512,11 @@
         margin: auto;
       }
     }
-
-    main {
-      padding-bottom: 25px;
-    }
   }
 }
 
 @media only screen and (max-width: $break-s) {
-  .page-oferta .offer ul li {
+  .page-oferta .banner .offer ul li {
     width: 100%;
   }
 }
@@ -500,69 +528,73 @@
       line-height: 40px;
       width: auto;
       max-width: 260px;
-    }
-
-    #section1 {
-      padding-bottom: 25px;
-
-      .offer p {
-        padding-left: 15px;
-        padding-right: 15px;
-        width: 100%;
-        margin-top: 25px;
-      }
-    }
-
-    h1 {
-      font-size: 25px;
-    }
-
-    .btn {
       font-size: 11px;
     }
 
-    .offer ul {
-      overflow: hidden;
-      padding-left: 20px;
+    .banner {
+      padding-bottom: 25px;
 
-      li {
-        min-width: 265px;
-        padding-right: 0;
+      .offer {
+        p {
+          padding-left: 15px;
+          padding-right: 15px;
+          width: 100%;
+          margin-top: 25px;
+        }
+
+        ul {
+          overflow: hidden;
+          padding-left: 20px;
+
+          li {
+            min-width: 265px;
+            padding-right: 0;
+          }
+        }
+      }
+
+      h1 {
+        font-size: 25px;
       }
     }
 
-    h2 {
-      font-size: 20px;
-
-      span span {
-        display: block;
-        font-size: 25px;
+    .offer-section {
+      &.additional-offer {
         margin-top: 0;
       }
-    }
 
-    .type {
-      margin-bottom: 50px;
+      h2 {
+        font-size: 20px;
 
-      &.second {
+        span {
+          display: block;
+          font-size: 25px;
+          margin-top: 0;
+        }
+      }
+
+      .type {
         margin-bottom: 50px;
-      }
 
-      h3 {
-        font-size: 18px;
-      }
+        &.second {
+          margin-bottom: 50px;
+        }
 
-      ul li {
-        padding-left: 50px;
-        padding-right: 20px;
+        h3 {
+          font-size: 18px;
+        }
 
-        &:before {
-          margin-left: 10px;
-          top: 10px;
+        ul li {
+          padding-left: 50px;
+          padding-right: 20px;
+
+          &:before {
+            margin-left: 10px;
+            top: 10px;
+          }
         }
       }
     }
-
     #section3 {
       overflow: hidden;
 

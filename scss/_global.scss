@@ -485,7 +485,8 @@ section h2 {
   }
 
   .section1,
-  #section1 {
+  #section1,
+  .banner {
     background-image: url("../img/wave-top-mobile.png");
     background-repeat: no-repeat;
     background-position: left top;
@@ -569,7 +570,8 @@ section h2 {
 
 @media only screen and (max-width: $break-xs) {
   .section1,
-  #section1 {
+  #section1,
+  .banner {
     background-size: 300px;
   }
   

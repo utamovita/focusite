@@ -2,16 +2,16 @@
 
 <main>
     <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
-    <section id="section1">
+    <section class="banner">
         <div class="container">
             <div class="row">
                 <div class="lg-6 sm-12 offer">
                     <h1>Nasza <span class="purple-gradient">oferta</span></h1>
-                    <p>Zapoznaj się z szerokim wachlarzem naszych usług. Działamy od wielu lat tworząc strony internetowe, sklepy internetowe i aplikacje. Kreatywni graficy, zdolni copywriterzy i najlepsi programiści zadbają o to by Twoja firma zaistniała w internecie.</p>
+                    <p>Zapoznaj się z szerokim wachlarzem naszych usług. Działamy w tej branży od wielu lat tworząc strony internetowe, sklepy internetowe i aplikacje. Kreatywni graficy, zdolni copywriterzy i najlepsi programiści zadbają o to by Twoja firma zaistniała w internecie.</p>
                     <ul>
-                        <li class="simple">Szerokie doświadczenie</li><li class="optimized">Konkurencyjne ceny</li><li class="speed">Wsparcie 24/7</li>
+                        <li class="simple">Szerokie doświadczenie</li><li class="optimized">Konkurencyjne ceny</li><li class="speed">Wsparcie 24/7</li><li class="simple">Działamy do skutku</li>
                     </ul>
-                    <button class="btn scroll-down">Dowiedz się więcej</button>
+                    <button class="btn scroll-down">Czym się zajmujemy?</button>
                 </div>
                 <div class="lg-6 sm-12">
                     <img src="<?php bloginfo('template_url'); ?>/img/offer-laptop.png" class="laptop-img" alt="wireless computer">
@@ -20,42 +20,92 @@
             </div>
         </div>      
     </section>
-    <section id="section2" class="scroll-to">
+    <section class="offer-section scroll-to">
         <div class="bg"></div>
         <div class="container">
             <h2>Co potrafimy zrobić <span><span class="purple-gradient">dla Ciebie?</span></span></h2>
             <div class="type">
                 <h3><span>Strony internetowe</span></h3>
+                <h4>Przedstaw informacje o swojej firmie w sieci i zyskaj przewagę na rynku.</h4>
                 <ul>
-                    <li>Hosting, domena oraz firmowa poczta</li>
-                    <li>Samodzielna edycja strony przez panel administracyjny</li>
-                    <li>Pozycjonowanie strony na etapie produkcji</li>
-                    <li>Indywidualny projekt graficzny lub szablon</li>
-                    <li>i wiele więcej!</li>
+                    <li>Indywidualna szata graficzna lub szablon (do wyboru)</li>
+                    <li>Strona dobrze wyświetlająca się na każdym urządzeniu</li>
+                    <li>Panel administracyjny do samodzielnej edycji (CMS)</li>
+                    <li>Podstawowy pakiet pozycjonowania (SEO)</li>
                 </ul>
+                <div class="button-box">
+                    <a href="oferta/strony-internetowe" class="btn">Szczegóły</a>
+                </div>
             </div>
             <div class="type second">
                 <h3><span>Sklepy internetowe</span></h3>
+                <h4>Rozwiązania dla e-commerce. <br>Zacznij sprzedawać online.</h4>
                 <ul>
+                    <li>Prosty w obsłudze system WooCoommerce</li>
+                    <li>Spersonalizowany design graficzny lub szablon</li>  
+                    <li>Samodzielne dodawanie produktów i treści</li>
                     <li>Wtyczki do płatności elektronicznych</li>
-                    <li>Spersonalizowany design graficzny</li>
-                    <li>Prosty w obsłudze panel zarządzania sklepem</li>
-                    <li>System mailingowy wraz z newsletterem</li>
-                    <li>i wiele więcej!</li>
                 </ul>
+                <div class="button-box">
+                    <a href="oferta/sklepy-internetowe" class="btn">Szczegóły</a>
+                </div>
             </div>   
             <div class="type">
-                <h3><span>Pozycjonowanie</span></h3>
+                <h3><span>Aplikacje</span></h3>
+                <h4>Potrzebujesz dedykowanej aplikacji? <br>Stworzymy ją dla ciebie od A do Z.</h4>
                 <ul>
-                    <li>Analiza elementów wymagających poprawy</li>
-                    <li>Optymalizacja kodu źródłowego strony</li>
-                    <li>Copywriting oraz slogany reklamowe</li>
-                    <li>Konfiguracja i zarządzanie usługami Google </li>
-                    <li>i wiele więcej!</li>
+                    <li>Automatyzacja procesów w twojej firmie.</li>
+                    <li>Systemy do zarządzania klientami i pracownikami</li>
+                    <li>Systemy rezerwacji i zamówień.</li>
+                    <li>Opowiedz nam o swoim pomyśle - my zrobimy resztę</li>
                 </ul>
+                <div class="button-box">
+                    <a href="oferta/aplikacje" class="btn">Szczegóły</a>
+                </div>
             </div>
-            <div class="btn-box">
-                <a href="wycena" class="btn" title="wycena">Uzyskaj darmową wycenę</a>
+        </div>
+    </section>
+    <section id="uslugi-dodatkowe" class="offer-section additional-offer">
+        <div class="container">
+            <h2>Dodatkowe <span><span class="purple-gradient">usługi</span></span></h2>
+            <div class="type">
+                <h3><span>Pozycjonowanie</span></h3>
+                <h4>Zdobądź większy ruch na twojej stronie lub sklepie internetowym.</h4>
+                <ul>
+                    <li>Wyższa pozycja w wyszukiwarce Google.</li>
+                    <li>Analiza elementów wymagających poprawy.</li>
+                    <li>Optymalizacja kodu źródłowego strony.</li>
+                    <li>Konfiguracja i zarządzanie usługami Google.</li>
+                </ul>
+                <div class="button-box">
+                    <a href="oferta/pozycjonowanie" class="btn">Szczegóły</a>
+                </div>
+            </div>
+            <div class="type second">
+                <h3><span>Copywriting</span></h3>
+                <h4>Przygotujemy dla ciebie unikalną treść zgodną z zasadami SEO.</h4>
+                <ul>
+                    <li>Przygotowanie tematycznej treści na serwisy www.</li>
+                    <li>Profesjonalny tekst oferty sprzedażowej.</li>       
+                    <li>Tekst do newslettera, bloga lub postów na facebooku.</li>
+                    <li>Dbamy o jakość tekstu i kwestie prawne.</li>  
+                </ul>
+                <div class="button-box">
+                    <a href="oferta/copywriting" class="btn">Szczegóły</a>
+                </div>
+            </div>   
+            <div class="type">
+                <h3><span>Optymalizacja</span></h3>
+                <h4>Jesteś niezadowolony z prędkości ładowania strony? Zostaw to nam.</h4>
+                <ul>
+                    <li>Poprawienie szybkości działania strony lub sklepu.</li>
+                    <li>Prędkość strony ma wpływ na miejsce w wyszukiwarce.</li>
+                    <li>Użytkownicy są bardziej chętni i zostają na dłużej.</li>
+                    <li>Wysoki wynik szybkości bez utraty na jakości.</li>
+                </ul>
+                <div class="button-box">
+                    <a href="oferta/optymalizacja" class="btn">Szczegóły</a>
+                </div>
             </div>
         </div>
     </section>
