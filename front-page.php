@@ -53,7 +53,7 @@
                 <a href="oferta/pozycjonowanie" class="ball"  title="oferta - pozycjonowanie">
                     <img src="<?php bloginfo('template_url'); ?>/img/pozycjonowanie.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
                 </a>
-                <h3><a href="oferta/pozycjonowanie"  title="pozycjonowanie">Pozycjonowanie</a></h3>
+                <h3><a href="oferta/aplikacje-webowe"  title="pozycjonowanie">Aplikacje webowe</a></h3>
             </div>
             <div class="description">
                 <p>To coś więcej niż serwisy www. To nasza pasja, którą stale rozwijamy, dzięki czemu spełniamy wymagania naszych klientów i dostarczamy im najlepsze rozwiązania na rynku. U nas nie ma drogi na skróty, a strony "byle jakie" to nie my. Strona www, sklep internetowy a może aplikacja? - zrobimy to za Ciebie. <strong>Jesteśmy gotowi. <span class="purple-gradient">A Ty?</span></strong></p>
