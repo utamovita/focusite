@@ -119,10 +119,11 @@
         span {
           display: block;
           margin: auto;
+          text-align: center;
         }
       }
-      &__desc {
 
+      &__desc {
       }
     }
 
@@ -143,7 +144,7 @@
   }
 
   .full-service {
-    padding-bottom:200px;
+    padding-bottom: 200px;
     border-bottom: 1px solid red;
   }
 

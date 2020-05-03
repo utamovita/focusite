@@ -24,16 +24,17 @@
             <div class="benefits__box">
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Wizerunek firmy</span></h3>
-                    <p>Potencjalny klient bardziej zauf</p>
+                    <p>W dzisiejszych czasach własna witryna to podstawowe narzędzie do pozyskiwania nowych użytkowników oraz budowania ich zaufania. Strona www zapewnia komfort zarówno Tobię jak i twoim potencjalnym klientom. Pozwala na zapoznanie się z Twoją firmą z dowolnego miejsca na świecie eliminując przy tym problem pracy tylko w określonych godzinach.</p>
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Nowi klienci</span></h3>
-                    <p>Dzięki marketingowi w sieci (np. poprzez SEO lub Google Ads) jesteś w stanie</p>
+                    <p>Internet to pierwsze miejsce gdzie potencjalny klient wyszukuje informacji o twojej działalności oraz jej usługach. Jesteśmy przekonani, że profesjonalna strona internetowa wraz z przyjaznym dla oka designem zrobi dobre pierwsze wrażenie. Użytkownik widząc zadbaną i funkcjonalną stronę ma do niej większe zaufanie co przekłada się na zwiększenie wiarygodności Twojego biznesu.</p>
                 </div>
 
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Oszczędności</span></h3>
-                    <p class="benefits__type__descri">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
+                    <p class="benefits__type__descri">Koszt utrzymania strony internetowej ogranicza się u nas tylko do opłaty za domenę (99zł/rok). Promocja nowych produktów, aktualizacja oferty czy katalogów wymaga zwykle zaangażowania osób trzecich.
+                    Posiadając własną stronę internetową możesz zrobić to samodzelnie, a jeśli zdecydujesz się na współpracę z nami, zajmiemy się tym za Ciebie.</p>
                 </div>
             </div>
             <h3 class="benefits__sub-title">Strona to nie koszt. <span class="purple-gradient">To inwestycja.</span></h3> 
@@ -41,29 +42,29 @@
         </div>
     </section>
     <section class="arguments">
-        <h2>Zalety naszych projektów</h2>
-        <ol>
-            <li>
+        <div class="container">
+        <h2>Zalety naszych stron www</h2>
+            <div>
                 <h4>Twoja strona na każdym ekranie</h4>
-                <p>Wiedziałeś, że prawie 50% ruchu na stronach www pochodzi z samych smartfonów? Ta ogromna liczba tylko potwierdza naszą zasadę, że responsywność to podstawa podstaw. Wszystkie nasze witryny są w całości responsywne - dopasowują swój układ oraz wielkości elementów do rozdzielczości ekranu dzięki czemu wyglądają dobrze na każdym urządzeniu.</p>
-            </li>
-            <li>
+                <p>Wiedziałeś, że prawie 50% ruchu na stronach www pochodzi z samych smartfonów? Ta ogromna liczba tylko potwierdza naszą zasadę, że responsywność to podstawa podstaw. Wszystkie nasze witryny są w całości responsywne - dopasowują swój układ oraz wielkości elementów do rozdzielczości ekranu dzięki czemu wyglądają i działają dobrze na każdym urządzeniu.</p>
+            </div>
+            <div>
                 <h4>Administracja</h4>
                 <p>Samodzielne edytowanie treści stron nigdy nie było prostsze. Wszystko dzięki intuicyjnemu systemowi CMS - Wordpress. Daje ci to możliwość własnoręcznej zmiany treści tekstowej oraz graficznej na Twoim portalu. Jeśli nie chcesz dopłacać za tę funkcjonalność lub po prostu nie masz na czasu na administrowanie swoją stroną, zostaw to nam a wszelkie zmiany wykonamy za Ciebie.</p>
-            </li>
-            <li>
+            </div>
+            <div>
                 <h4>Wyróżnij się designem</h4>
                 <p>Zachęcamy wszystkich naszych klientom, którzy zdecydowali się na wykonanie przez nas strony internetowej na wybór indywidualnej szaty graficznej strony zamiast gotowego szablonu. Nasi kreatywni graficy zaprojektują dla Ciebie piękną stronę która wzbudza zaufanie i zatrzyma użytkowników na dłużej. Opcja droższa ale efekt jest tego wart.</p>
-            </li>
-            <li>
+            </div>
+            <div>
                 <h4>Optymalizacja</h4>
                 <p>W przeciwieństwie do sporej części konkurencji, kładziemy duży nacisk na to, żeby strona była dobrze zoptymalizowana pod względem szybkości, dostępności a przede wszystkim SEO. Co z tego, że strona dobrze wygląda skoro ładuje się długo, nie każdy może ją odwiedzić a użytkownik po wejściu od razu wychodzi? Strona ma być widoczna, praktyczna i funkcjonalna - my o to zadbamy.</p>
-            </li>
-            <li>
-                <h4>Opieka i szkolenie z obsługi</h4>
-                <p>Ukończona strona www nie oznacza końca współpracy - wręcz przeciwnie. Od teraz możesz liczyć na nasze wsparcie z zakresu obsługi, pomocy technicznej i zmian na stronie. Po zakończonym projekcie otrzymasz materiały instruktażowe z obsługi sytemu oraz administracją. Od teraz będziemy dokładali starań aby Twoja firma pracowała na codzienny sukces.
-            </li>
-        </ol>
+            </div>
+            <div>
+                <h4>Opieka oraz szkolenie z obsługi</h4>
+                <p>Ukończona strona www nie oznacza końca współpracy - wręcz przeciwnie. Od teraz możesz liczyć na nasze wsparcie z zakresu obsługi, pomocy technicznej i zmian na stronie. Po zakończonym projekcie otrzymasz materiały instruktażowe z obsługi sytemu oraz administracją. Od teraz będziemy dokładali starań aby Twoja strona pracowała na codzienny sukces.
+            </div>
+        </div>
     </section>
     <section class="ending-section">
         <div class="info-box">
