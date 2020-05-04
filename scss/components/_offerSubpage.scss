@@ -148,6 +148,82 @@
     border-bottom: 1px solid red;
   }
 
+  .faq {
+    margin-top: 100px;
+    
+    h2 {
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .collapsible {
+      list-style: none;
+      counter-reset: my-awesome-counter;
+      padding-left: 0;
+
+      &__question {
+        font-weight: 500;
+        padding: 20px 0;
+        border-radius: 5px;
+        counter-increment: my-awesome-counter;
+
+        &::before {
+          content: counter(my-awesome-counter) ". ";
+          font-size: 1.2rem;
+          font-weight: bold;
+          color: $c-moodyBlue;
+          margin-right: 5px;
+        }
+
+        h4 {
+          font-size: 1.3rem;
+          position: relative;
+          display: inline-block;
+        }
+
+        &__wrapper {
+          margin-bottom: 15px;
+          position: relative;
+
+          &::after {
+            display: block;
+            width: 50px;
+            min-height: 1px;
+            border-bottom: 2px solid $c-burningOrange;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+          }
+
+          &:last-child::after {
+            display: none;
+          }
+        }
+
+        &__answer {
+          font-size: 1.1rem;
+          font-weight: 300;
+          padding: 15px 0;
+
+          strong {
+            font-weight: 500;
+          }
+
+          p {
+            margin-bottom: 0;
+          }
+
+          a {
+            text-decoration: underline;
+            color: $c-blueViolet;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+
   .ending-section {
     margin: 100px 0;
     position: relative;

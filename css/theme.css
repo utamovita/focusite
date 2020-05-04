@@ -4326,6 +4326,69 @@ footer .info ul li.address {
   padding-bottom: 200px;
   border-bottom: 1px solid red;
 }
+.offer-subpage .faq {
+  margin-top: 100px;
+}
+.offer-subpage .faq h2 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.offer-subpage .faq .collapsible {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  padding-left: 0;
+}
+.offer-subpage .faq .collapsible__question {
+  font-weight: 500;
+  padding: 20px 0;
+  border-radius: 5px;
+  counter-increment: my-awesome-counter;
+}
+.offer-subpage .faq .collapsible__question::before {
+  content: counter(my-awesome-counter) ". ";
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #7475d4;
+  margin-right: 5px;
+}
+.offer-subpage .faq .collapsible__question h4 {
+  font-size: 1.3rem;
+  position: relative;
+  display: inline-block;
+}
+.offer-subpage .faq .collapsible__question__wrapper {
+  margin-bottom: 15px;
+  position: relative;
+}
+.offer-subpage .faq .collapsible__question__wrapper::after {
+  display: block;
+  width: 50px;
+  min-height: 1px;
+  border-bottom: 2px solid #ff7733;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.offer-subpage .faq .collapsible__question__wrapper:last-child::after {
+  display: none;
+}
+.offer-subpage .faq .collapsible__question__answer {
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.offer-subpage .faq .collapsible__question__answer strong {
+  font-weight: 500;
+}
+.offer-subpage .faq .collapsible__question__answer p {
+  margin-bottom: 0;
+}
+.offer-subpage .faq .collapsible__question__answer a {
+  text-decoration: underline;
+  color: #4848ac;
+  font-weight: 500;
+}
 .offer-subpage .ending-section {
   margin: 100px 0;
   position: relative;

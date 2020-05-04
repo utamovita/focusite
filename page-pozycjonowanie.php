@@ -28,7 +28,7 @@
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Niskie koszty reklamy</span></h3>
-                    <p>Reklamowanie swojego serwisu poprzez SEO, obniża koszty za każdy inny rodzaj reklamy. Co więcej, pozycjonowanie samo w sobie nie należy do drogich inwestycji. Ostateczna cena jest zależna jest zależna od ilości fraz oraz ich popularności. Koszt pozycjonowania jednej frazy waha się między 100zł a 200zł netto miesięcznie. </p>
+                    <p>Reklamowanie swojego serwisu poprzez SEO, obniża koszty za każdy inny rodzaj reklamy. Co więcej, pozycjonowanie samo w sobie nie należy do drogich inwestycji. Ostateczna cena jest zależna jest zależna od ilości fraz oraz ich popularności. Koszt pozycjonowania jednej frazy waha się między 150zł a 300zł netto miesięcznie. </p>
                 </div>
 
                 <div class="benefits__type">
@@ -40,30 +40,42 @@
             <a href="wycena" class="benefits__button btn">Wycena pozycjonowania</a>
         </div>
     </section>
-    <section class="arguments">
-        <div class="container">
-        <h2>Zalety naszych aplikacji</h2>
-            <div>
-                <h4>Dopasowanie do Twoich potrzeb</h4>
-                <p>Kupując licencję do gotowego programu, często okazuje się, że brakuje mu jakiś funkcjonalności lub część z nich po prostu jest zbędna. Rozwiązanie dedykowane eliminuje ten problem. Przed rozpoczęciem  pracy nad aplikacją, omówimy dokładnie jej działanie aby uniknąć wcześniej wymienionych problemów.</p>
-            </div>
-            <div>
-                <h4>Używaj gdziekolwiek, na czymkolwiek</h4>
-                <p>Ogrmoną zaletą aplikacji webowych jest możliwość użytkowania jej przez każde urządzenie. Zaczynając od smartfonów, poprzez tablety, kończąc na urządzeniach desktopowych. Ponadto, nie wymagana jest żadna instalacja lub pobieranie oprogramowania - wystarczy jedynie dostęp do internetu.</p>
-            </div>
-            <div>
-                <h4>Jednorazowy koszt</h4>
-                <p>Kupując gotowy produkt jesteś zobowiązany na opłacenie go przez dłuższy czas abonamentowo. Aplikacja dedykowana stworzona przez nas to jednorazowa inwestycja, która na dłuższy okres czasu może okazać się bardziej opłacalna. Nie wymagamy żadnych opłat abonamentowych.</p>
-            </div>
-            <div>
-                <h4>Bezpieczeństwo</h4>
-                <p>Kładziemy ogromny nacisk na zagadnienie jakim jest bezpieczeństwo, szczególnie w przypadku aplikacji operującej z tzw. danymi wrażliwymi, takimi jak dane personalne, hasła czy adresy. Regularnie tworzymy kopie zapasowe w której dane są zaszyfrowane a jeśli projekt tego wymaga, do używania aplikacji wymagana jest autoryzacja.</p>
-            </div>
-            <div>
-                <h4>Gwarancja oraz opieka</h4>
-                <p>Skończon aplikacja bynajmniej nie oznacza końca naszej współpracy. Po wykonanej aplikacji otrzymasz materiały instruktażowe z jej obsługi oraz 12 miesięczną gwarancję na to, że Twoja aplikacja będzie w pełni sprawna. Jeśli planujesz w przyszłości rozbudowę funkcjonalności aplikacji, chętnie pomożemy.</p>
-            </div>
-        </div>
+    <section class="container faq">
+        <h2>Najczęściej zadawane <span><span class="purple-gradient">pytania</span></span></h2>
+        <ol class="collapsible">
+            <li class="collapsible__question__wrapper">
+                <div class="collapsible__question">
+                    <h4>Ile kosztuje pozycjonowanie?</h4>
+                    <div class="collapsible__question__answer">
+                        <p>Niestety, jest zbyt wiele czynników aby móc podać konkretną kwotę pozycjonowania. W jednym przypadku może się okazać, że za wprowadzenie zmian SEO oraz monitorowanie ich przez następne kilka miesięcy, cena wyniesie <strong>zaledwie 1000zł</strong> (w przypadku małych stron www, z wcześniejszymi działaniami SEO). W innym przypadku koszt może sięgać kilkunastu tysięcy złotych (w przypadku dużych sklepów internetowych). Jeśli jesteś ciekaw ile kosztowałoby pozycjonowanie twojego serwisu, wypełnij <a href="wycena">krótki formularz</a>, a my niedługo się odezwiemy.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="collapsible__question__wrapper">
+                <div class="collapsible__question">
+                    <h4>Jak długo trzeba czekać na efekt pozycjonowania?</h4>
+                    <div class="collapsible__question__answer">
+                        <p>Pozycjonowanie to nie jednorazowe działanie, lecz proces, który należy regularnie realizować. Na oczekiwany efekt optymalizacji SEO czeka się przeważnie <strong>od kilku tygodni do kilku miesięcy</strong>. Wiele także zależy od wybranej frazy i lokalizacji. Łatwiej jest wypozycjonować lokalną frazę w niszowej branży a zdecydowanie trudniej popularną frazę w całej Polsce.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="collapsible__question__wrapper">
+                <div class="collapsible__question">
+                    <h4>Jakie są etapy pozycjonowania strony www?</h4>
+                    <div class="collapsible__question__answer">
+                        <p>Pozycjonowanie strony zaczynamy od analizy używając audytu SEO oraz wdrożeń on-site. Optymalizacja nagłówków, metatagów, analiza adresów URL i poprawna walidacja strony to zazwyczaj pierwsze kroki jakie podejmujemy. Następnie sprawdzamy czy na twojej aktualnej stronie nie występuje tzw. duplicate content oraz czy nie jest ona skopiowana z innych portali. Kolejnym krokiem jest wprowadzenie tematycznej treści zawierającej odpowiednie frazy. Ostatnim krokiem jest sprawdzenie responsywności strony oraz optymalizacja pod kątem prędkości strony, jej dostępności oraz najlepszych praktyk. W dużej większości przypadków takie działania wystarczają do osiągnięcia przez klienta oczekiwanych rezultatów. Jeśli jednak tak się nie stało, przechodzimy do kolejnego etapu, czyli wdrożeń off-site.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="collapsible__question__wrapper">
+                <div class="collapsible__question">
+                    <h4>Jak mogę sprawdzić pozycję strony?</h4>
+                    <div class="collapsible__question__answer">
+                        <p>Najwygodniejszym i najłatwiejszym sposobem na sprawdzenie efektów naszych działań jest zalogowanie się do <strong>panelu klienta</strong>. Panel jest dostępny przez cały okres trwania umowy. Po zalogowaniu będziesz mógł w przyjazny sposób na bieżąco <strong>monitorować pozycję</strong> swojego serwisu na wybrane frazy.</p>
+                    </div>
+                </div>
+            </li>
+        </ol>
     </section>
     <section class="ending-section">
         <div class="info-box">
