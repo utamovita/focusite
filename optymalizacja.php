@@ -9,7 +9,7 @@ function optymalizacja($f){
     $Page_schema_info = array(
         '@context' => 'http://schema.org',
         '@type' => 'LocalBusiness',
-        address => array(
+        'address' => array(
             '@type' => 'PostalAddress',
             'addressLocality' => 'Buk',
             'streetAddress' => 'Dworcowa 1',
