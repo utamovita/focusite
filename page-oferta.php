@@ -9,7 +9,10 @@
                     <h1>Nasza <span class="purple-gradient">oferta</span></h1>
                     <p>Zapoznaj się z szerokim wachlarzem naszych usług. Działamy w tej branży od wielu lat tworząc strony internetowe, sklepy internetowe i aplikacje. Kreatywni graficy, zdolni copywriterzy i najlepsi programiści zadbają o to by Twoja firma zaistniała w internecie.</p>
                     <ul>
-                        <li class="simple">Szerokie doświadczenie</li><li class="optimized">Konkurencyjne ceny</li><li class="speed">Wsparcie 24/7</li><li class="simple">Działamy do skutku</li>
+                        <li class="simple">Szerokie doświadczenie</li>
+                        <li class="optimized">Konkurencyjne ceny</li>
+                        <li class="speed">Wsparcie 24/7</li>
+                        <li class="simple">Działamy do skutku</li>
                     </ul>
                     <button class="btn scroll-down">Czym się zajmujemy?</button>
                 </div>
@@ -18,7 +21,7 @@
                     <img src="<?php bloginfo('template_url'); ?>/img/wordpress-logo.png" class="wp-img" alt="wordpress logo">
                 </div>
             </div>
-        </div>      
+        </div>
     </section>
     <section class="offer-section scroll-to">
         <div class="bg"></div>
@@ -42,14 +45,14 @@
                 <h4>Rozwiązania dla e-commerce. <br>Zacznij sprzedawać online.</h4>
                 <ul>
                     <li>Prosty w obsłudze system WooCoommerce</li>
-                    <li>Spersonalizowany design graficzny lub szablon</li>  
+                    <li>Spersonalizowany design graficzny lub szablon</li>
                     <li>Samodzielne dodawanie produktów i treści</li>
                     <li>Wtyczki do płatności elektronicznych</li>
                 </ul>
                 <div class="button-box">
                     <a href="oferta/sklepy-internetowe" class="btn">Szczegóły</a>
                 </div>
-            </div>   
+            </div>
             <div class="type">
                 <h3><span>Aplikacje</span></h3>
                 <h4>Potrzebujesz dedykowanej aplikacji? <br>Stworzymy ją dla ciebie od A do Z.</h4>
@@ -86,14 +89,14 @@
                 <h4>Przygotujemy dla ciebie unikalną treść zgodną z zasadami SEO.</h4>
                 <ul>
                     <li>Przygotowanie tematycznej treści na serwisy www.</li>
-                    <li>Profesjonalny tekst oferty sprzedażowej.</li>       
+                    <li>Profesjonalny tekst oferty sprzedażowej.</li>
                     <li>Tekst do newslettera, bloga lub postów na facebooku.</li>
-                    <li>Dbamy o jakość tekstu i kwestie prawne.</li>  
+                    <li>Dbamy o jakość tekstu i kwestie prawne.</li>
                 </ul>
                 <div class="button-box">
                     <a href="oferta/copywriting" class="btn">Szczegóły</a>
                 </div>
-            </div>   
+            </div>
             <div class="type">
                 <h3><span>Optymalizacja</span></h3>
                 <h4>Jesteś niezadowolony z prędkości ładowania strony? Zostaw to nam.</h4>
@@ -116,11 +119,13 @@
                     <h2>Dlaczego <span><span class="purple-gradient">focusite?</span></span></h2>
                     <p>Nasz zespół stanowi grupa ekspertów i pasjonatów w swojej dziedzinie. Jesteśmy dobrzy w tym co robimy, ponieważ większość nowych klientów pochodzi z polecenia naszych dotychczasowych kontrahentów.</p>
                     <ul>
-                        <li class="team">mamy młody zespół</li><li class="deadline second">dotrzymujemy terminów</li><li class="passion">pracujemy z pasją</li>
+                        <li class="team">mamy młody zespół</li>
+                        <li class="deadline second">dotrzymujemy terminów</li>
+                        <li class="passion">pracujemy z pasją</li>
                     </ul>
                 </div>
                 <div class="lg-6 sm-12">
-                    <img src="<?php bloginfo('template_url'); ?>/img/team.png"  alt="team sitting around the round table">
+                    <img src="<?php bloginfo('template_url'); ?>/img/team.png" alt="team sitting around the round table">
                 </div>
                 <div class="btn-box">
                     <a href="kontakt" class="btn" title="kontakt">Skontaktuj się</a>

@@ -5,14 +5,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136824612-1"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        gtag('config', 'UA-136824612-1');
+    gtag('config', 'UA-136824612-1');
     </script>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700" rel="stylesheet">
@@ -28,17 +28,21 @@
             <div class="container">
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="logo" title="logo link">
                     Logo
-                    <svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451 109" style="enable-background:new 0 0 451 109;" xml:space="preserve">
+                    <svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451 109"
+                        style="enable-background:new 0 0 451 109;" xml:space="preserve">
                         <style type="text/css">
-                            .st0 {
-                                fill: url(#SVGID_1_);
-                            }
+                        .st0 {
+                            fill: url(#SVGID_1_);
+                        }
                         </style>
-                        <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="7.7168" y1="52.701" x2="445.6709" y2="52.701">
+                        <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="7.7168" y1="52.701"
+                            x2="445.6709" y2="52.701">
                             <stop offset="0" style="stop-color:#7374B6" />
                             <stop offset="1" style="stop-color:#333592" />
                         </linearGradient>
-                        <path class="st0" d="M16.1,40.7h-5.3c-2.1,0-3.2-1.1-3.2-3.2v-1.1c0-2.1,1.1-3.3,3.2-3.3h5.3v-3c0-20.9,15.7-24.5,22.2-24.5h1.4
+                        <path class="st0"
+                            d="M16.1,40.7h-5.3c-2.1,0-3.2-1.1-3.2-3.2v-1.1c0-2.1,1.1-3.3,3.2-3.3h5.3v-3c0-20.9,15.7-24.5,22.2-24.5h1.4
                             C41.9,5.7,43,6.9,43,9v1.6c0,2.2-1.2,3-3.6,3.2c-5.7,0.3-14.3,1.8-14.3,16.6v2.9h56.5c2.1,0-6.3,3.2-6.3,5.3l0,0
                             c0,2.1-8.5,2.2-10.6,2.2H25.1v54.9c0,2.1-1.2,3.3-3.3,3.3h-2.5c-2.1,0-3.2-1.2-3.2-3.3V40.7z M79.8,33.2c18.6,0,33.6,13.9,33.6,32.8
                             c0,19.2-15.1,33.7-33.5,33.7c-18.6,0-33.7-14.4-33.7-33.7C46.2,47.2,61.3,33.2,79.8,33.2z M79.8,92c13.5,0,24.7-11.1,24.7-25.9

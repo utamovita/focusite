@@ -13,8 +13,7 @@
                     <button class="btn scroll-down" title="oferta">Dowiedz się więcej</button>
                 </div>
                 <div class="lg-4 sm-12 img-box">
-                    <img src="<?php bloginfo('template_url'); ?>/img/computers.png"
-                        alt="computer devices and people around it">
+                    <img src="<?php bloginfo('template_url'); ?>/img/computers.png" alt="computer devices and people around it">
                 </div>
             </div>
         </div>
@@ -45,22 +44,19 @@
             <h2>Wykonamy <span><span class="purple-gradient">dla Ciebie</span></span></h2>
             <div class="lg-4 sm-12">
                 <a href="oferta/strony-internetowe" class="ball" title="oferta - strony internetowe">
-                    <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png"
-                        alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
+                    <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
                 </a>
                 <h3><a href="oferta/strony-internetowe" title="strony www">Strony internetowe</a></h3>
             </div>
             <div class="lg-4 sm-12">
                 <a href="sklepy-internetowe" class="ball" title="oferta - sklepy internetowe">
-                    <img src="<?php bloginfo('template_url'); ?>/img/sklepy-internetowe.png"
-                        alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
+                    <img src="<?php bloginfo('template_url'); ?>/img/sklepy-internetowe.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
                 </a>
                 <h3><a href="oferta/sklepy-internetowe" title="sklepy internetowe">Sklepy <br>internetowe</a></h3>
             </div>
             <div class="lg-4 sm-12">
                 <a href="oferta/pozycjonowanie" class="ball" title="oferta - pozycjonowanie">
-                    <img src="<?php bloginfo('template_url'); ?>/img/pozycjonowanie.png"
-                        alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
+                    <img src="<?php bloginfo('template_url'); ?>/img/pozycjonowanie.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
                 </a>
                 <h3><a href="oferta/aplikacje-webowe" title="pozycjonowanie">Aplikacje webowe</a></h3>
             </div>
@@ -79,24 +75,21 @@
         <div class="container">
             <div class="row">
                 <div class="lg-6 sm-12">
-                    <img src="<?php bloginfo('template_url'); ?>/img/copywriter.png"
-                        alt="copywriter holding a big pencil">
+                    <img src="<?php bloginfo('template_url'); ?>/img/copywriter.png" alt="copywriter holding a big pencil">
                 </div>
                 <div class="lg-6 sm-12 pricing-box">
                     <h2>Chcesz otrzymać indywidualną <span><span class="purple-gradient">wycenę strony?</span></span>
                     </h2>
                     <h5>Wypełnij krótki brief. Odpowiedź otrzymasz w ciągu 24h.<br> Możesz też się z nami spotkać na
                         kawie :)</h5>
-                    <a href="wycena" class="btn orange" title="brief">Wypełnij brief</a><span class="or">lub</span><a
-                        href="kontakt" title="kontakt" class="btn orange">Skontaktuj się</a>
+                    <a href="wycena" class="btn orange" title="brief">Wypełnij brief</a><span class="or">lub</span><a href="kontakt" title="kontakt" class="btn orange">Skontaktuj się</a>
                 </div>
             </div>
         </div>
     </section>
 </main>
 <footer>
-    <img src="<?php bloginfo('template_url'); ?>/img/home-wave-bottom.png" class="bottom-wave"
-        alt="background waves bottom">
+    <img src="<?php bloginfo('template_url'); ?>/img/home-wave-bottom.png" class="bottom-wave" alt="background waves bottom">
     <div class="container">
         <img src="<?php bloginfo('template_url'); ?>/img/copywriter.png" alt="copywriter holding a big pencil">
         <div class="lg-6 sm-6 xs-12 copyright">

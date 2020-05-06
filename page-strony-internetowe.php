@@ -7,7 +7,10 @@
             <h1 class="banner__title">Co wyróżnia <span><span class="purple-gradient banner__title__fragment">nasze strony</span></span></h1>
             <p class="banner__paragraph">Firma Focusite zajmuje się tworzeniem stron internetowych przystosowanych do urządzeń mobilnych. Używamy systemu CMS Wordpress - rozwiązanie idealne dla tych, którzy cenią sobie prostotę obsługi i możliwość samodzielnej edycji treści strony.</p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">prostota obsługi</li><li class="banner__list__element optimized">przyjazna dla wyszukiwarek</li><li class="banner__list__element speed">szybkość działania</li><li class="banner__list__element responsive">pełna responsywność</li>
+                <li class="banner__list__element simple">prostota obsługi</li>
+                <li class="banner__list__element optimized">przyjazna dla wyszukiwarek</li>
+                <li class="banner__list__element speed">szybkość działania</li>
+                <li class="banner__list__element responsive">pełna responsywność</li>
             </ul>
             <button class="banner__button btn">
                 Więcej
@@ -15,7 +18,7 @@
         </div>
         <div class="banner__box">
             <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
-        </div>    
+        </div>
     </section>
     <section class="benefits">
         <div class="bg"></div>
@@ -34,16 +37,16 @@
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Oszczędności</span></h3>
                     <p class="benefits__type__descri">Koszt utrzymania strony internetowej ogranicza się u nas tylko do opłaty za domenę (99zł/rok). Promocja nowych produktów, aktualizacja oferty czy katalogów wymaga zwykle zaangażowania osób trzecich.
-                    Posiadając własną stronę internetową możesz zrobić to samodzelnie, a jeśli zdecydujesz się na współpracę z nami, zajmiemy się tym za Ciebie.</p>
+                        Posiadając własną stronę internetową możesz zrobić to samodzelnie, a jeśli zdecydujesz się na współpracę z nami, zajmiemy się tym za Ciebie.</p>
                 </div>
             </div>
-            <h3 class="benefits__sub-title">Strona to nie koszt. <span class="purple-gradient">To inwestycja.</span></h3> 
+            <h3 class="benefits__sub-title">Strona to nie koszt. <span class="purple-gradient">To inwestycja.</span></h3>
             <a href="wycena" class="benefits__button btn">Zapytaj o wycenę</a>
         </div>
     </section>
     <section class="arguments">
         <div class="container">
-        <h2>Zalety naszych stron www</h2>
+            <h2>Zalety naszych stron www</h2>
             <div>
                 <h4>Twoja strona na każdym ekranie</h4>
                 <p>Wiedziałeś, że prawie 50% ruchu na stronach www pochodzi z samych smartfonów? Ta ogromna liczba tylko potwierdza naszą zasadę, że responsywność to podstawa podstaw. Wszystkie nasze witryny są w całości responsywne - dopasowują swój układ oraz wielkości elementów do rozdzielczości ekranu dzięki czemu wyglądają i działają dobrze na każdym urządzeniu.</p>

@@ -7,7 +7,10 @@
             <h1 class="banner__title">Co to jest <span><span class="purple-gradient banner__title__fragment">optymalizacja?</span></span></h1>
             <p class="banner__paragraph">Optymalizacja strony to zestaw działań mających na celu poprawę pozycji w wyszukiwarce, zwiększenia szybkości ładowania i działania stron, poprawa współczynnika CTR oraz ogólnego user experience. Szybko działająca strona lub sklep sprawia, że użytkownicy są bardziej chętni aby na nim pozostać, dokonać zakupu lub skontaktować się.</p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">Przyśpieszenie strony</li><li class="banner__list__element optimized">Wyższa pozycja w Google</li><li class="banner__list__element responsive">Większy współczynnik CTR</li><li class="banner__list__element speed">Bez utraty jakości</li>
+                <li class="banner__list__element simple">Przyśpieszenie strony</li>
+                <li class="banner__list__element optimized">Wyższa pozycja w Google</li>
+                <li class="banner__list__element responsive">Większy współczynnik CTR</li>
+                <li class="banner__list__element speed">Bez utraty jakości</li>
             </ul>
             <button class="banner__button btn scroll-down">
                 Czytaj więcej
@@ -15,7 +18,7 @@
         </div>
         <div class="banner__box">
             <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
-        </div>    
+        </div>
     </section>
     <section class="benefits scroll-to">
         <div class="bg"></div>
@@ -36,7 +39,7 @@
                     <p class="benefits__type__description">Zmniejszenie rozmiaru zdjęć i grafik, kompresja danych oraz inne działania mające na celu poprawę prędkości strony bynajmniej nie muszą oznaczać straty na ich jakości. Różnica jakości zdjęć nie będzie zauważalna gołym okiem a twój serwis będzie wyglądać tak samo jak przed zmianami, natomiast użytkowanie go będzie o wiele wygodniejsze i przyjaźniejsze.</p>
                 </div>
             </div>
-            <h3 class="benefits__sub-title">Wejdź na szczyt <span class="purple-gradient">wyników Google</span></h3> 
+            <h3 class="benefits__sub-title">Wejdź na szczyt <span class="purple-gradient">wyników Google</span></h3>
             <a href="wycena" class="benefits__button btn">Wycena pozycjonowania</a>
         </div>
     </section>
@@ -55,7 +58,7 @@
                 <div class="collapsible__question">
                     <h4>Ile czasu zajmuje optymalizacja strony?</h4>
                     <div class="collapsible__question__answer">
-                        <p>Przeważnie zajmuje od jednego <strong>do kilku dni</strong> roboczych. Prace kończymy w momencie, gdy wszystkie z czterech audytów (szybkość strony, dostępność, najlepsze praktyki oraz SEO) osiągają <strong>wynik minimum 90</strong>. Jest to bardzo dobry wynik, który zadowala naszych klientów i w zupełności wystarczy. Poniżej przykładowy wynik naszych działań - strona na której aktualnie się znajdujesz.             
+                        <p>Przeważnie zajmuje od jednego <strong>do kilku dni</strong> roboczych. Prace kończymy w momencie, gdy wszystkie z czterech audytów (szybkość strony, dostępność, najlepsze praktyki oraz SEO) osiągają <strong>wynik minimum 90</strong>. Jest to bardzo dobry wynik, który zadowala naszych klientów i w zupełności wystarczy. Poniżej przykładowy wynik naszych działań - strona na której aktualnie się znajdujesz.
                         </p>
                         <img src="<?php bloginfo('template_url'); ?>/img/lighthouse-score.png" alt="focusite lighthouse score">
                         <p>Wynik lighthouse dla strony focusite.pl</p>

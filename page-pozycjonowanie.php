@@ -7,7 +7,10 @@
             <h1 class="banner__title">Co to jest <span><span class="purple-gradient banner__title__fragment">pozycjonowanie?</span></span></h1>
             <p class="banner__paragraph">Jest to zespół działań mających na celu osiągnięcie jak najwyższej pozycji w wyszukiwarce Google. Jednocześnie jest uznawany jako jeden z najbardziej efektywnych sposobów marketingu internetowego. Ma to bezpośredni wpływ na zwiększenie ruchu na portalu.</p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">Pozycjonowanie stron www</li><li class="banner__list__element optimized">Pozycjonowanie e-sklepów</li><li class="banner__list__element responsive">Wysoka pozycja w wyszukiwarce</li><li class="banner__list__element speed">Większy ruch na stronie</li>
+                <li class="banner__list__element simple">Pozycjonowanie stron www</li>
+                <li class="banner__list__element optimized">Pozycjonowanie e-sklepów</li>
+                <li class="banner__list__element responsive">Wysoka pozycja w wyszukiwarce</li>
+                <li class="banner__list__element speed">Większy ruch na stronie</li>
             </ul>
             <button class="banner__button btn scroll-down">
                 Czytaj więcej
@@ -15,7 +18,7 @@
         </div>
         <div class="banner__box">
             <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
-        </div>    
+        </div>
     </section>
     <section class="benefits scroll-to">
         <div class="bg"></div>
@@ -36,7 +39,7 @@
                     <p class="benefits__type__description">Wysoka pozycja w wynikach wyszukiwania, którą można uzyskać dzięki dobrej optymalizacji SEO ma ogromne znaczenie w budowaniu rozpoznawalności marki. Użytkownicy uważają pierwszą stronę wyników za najtrafniejszą, zaufaną i adekwatną do ich zapytań. Większa wiarygodność, rzetelność i wizerunek marki to tylko część z korzyści pozycjonowania.</p>
                 </div>
             </div>
-            <h3 class="benefits__sub-title">Wejdź na szczyt <span class="purple-gradient">wyników Google</span></h3> 
+            <h3 class="benefits__sub-title">Wejdź na szczyt <span class="purple-gradient">wyników Google</span></h3>
             <a href="wycena" class="benefits__button btn">Wycena pozycjonowania</a>
         </div>
     </section>

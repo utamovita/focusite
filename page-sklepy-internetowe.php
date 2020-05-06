@@ -7,7 +7,10 @@
             <h1 class="banner__title">Sklep <span><span class="purple-gradient banner__title__fragment">internetowy</span></span></h1>
             <p class="banner__paragraph">Prowadzenie sklepu z naszą pomocą stanie się łatwiejsze niż kiedykolwiek. Specjalizujemy się w tworzeniu sklepów internetowych opartych na systemie WooCommerce. Rozwiązanie dobre zarówno dla małch jak i średnich sklepów - nawet do 1000 produktów.</p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">Łatwy w obsłudze</li><li class="banner__list__element optimized">Przyjazny dla wyszukiwarek</li><li class="banner__list__element speed">Ogromna społeczność</li><li class="banner__list__element responsive">Bezpieczny</li>
+                <li class="banner__list__element simple">Łatwy w obsłudze</li>
+                <li class="banner__list__element optimized">Przyjazny dla wyszukiwarek</li>
+                <li class="banner__list__element speed">Ogromna społeczność</li>
+                <li class="banner__list__element responsive">Bezpieczny</li>
             </ul>
             <button class="banner__button btn">
                 Czytaj więcej
@@ -15,7 +18,7 @@
         </div>
         <div class="banner__box">
             <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
-        </div>    
+        </div>
     </section>
     <section class="benefits">
         <div class="bg"></div>
@@ -36,13 +39,13 @@
                     <p class="benefits__type__descri">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
                 </div>
             </div>
-            <h3 class="benefits__sub-title">Gotowy otworzyć <span class="purple-gradient">swój sklep?</span></h3> 
+            <h3 class="benefits__sub-title">Gotowy otworzyć <span class="purple-gradient">swój sklep?</span></h3>
             <a href="wycena" class="benefits__button btn">Zapytaj o wycenę</a>
         </div>
     </section>
     <section class="arguments">
         <div class="container">
-        <h2>Zalety e-sklepów wykonanych przez nas</h2>
+            <h2>Zalety e-sklepów wykonanych przez nas</h2>
             <div>
                 <h4>Całodobowa praca</h4>
                 <p>Czas to pieniądz - nie każdy ma czas lub możliwość dotarcia do sklepu stacjonarnego, zwłaszcza w godzinach jego otwarcia. Zakładając sklep ułatwisz dokonywanie zakupów klientom a nawet dotrzesz do nowych. Sklep będzie dostępny i może zarabiać 24/7 gdy ty jesteś zajęty swoimi sprawami.</p>

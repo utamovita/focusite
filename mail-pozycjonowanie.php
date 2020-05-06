@@ -1,5 +1,4 @@
 <?php
-
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
@@ -10,8 +9,6 @@
         $message = trim($_POST["message"]);
         $web_url = trim($_POST["website-url"]);
         $radio_company = $_POST["company"];  
-        
-        
         
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {

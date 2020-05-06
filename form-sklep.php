@@ -17,7 +17,8 @@
                     </p>
                     <h4>Płatności internetowe</h4>
                 </div>
-                <span class="description">Otrzymasz wybrane przez ciebie wtyczki do obsługi płatności internetowych takie jak: Dotpay, paypal itd.</span>
+                <span class="description">Otrzymasz wybrane przez ciebie wtyczki do obsługi płatności internetowych
+                    takie jak: Dotpay, paypal itd.</span>
             </div>
             <div class="form-section">
                 <div class="align-mid">
@@ -33,7 +34,8 @@
                     </p>
                     <h4>Blog</h4>
                 </div>
-                <span class="description">Wprowadzimy system blogowy - osobną sekcję lub podstronę z np. nowościami czy aktualnościami wraz z możliwością samodzielnego dodawania i edycji treści.</span>
+                <span class="description">Wprowadzimy system blogowy - osobną sekcję lub podstronę z np. nowościami czy
+                    aktualnościami wraz z możliwością samodzielnego dodawania i edycji treści.</span>
             </div>
             <div class="form-section">
                 <div class="align-mid">
@@ -41,7 +43,8 @@
                     <h4>Ilość produktów</h4>
                 </div>
 
-                <span class="description">Podaj orientacyjną ilość produktów jaką planujesz posiadać w swoim sklepie internetowym.</span>
+                <span class="description">Podaj orientacyjną ilość produktów jaką planujesz posiadać w swoim sklepie
+                    internetowym.</span>
                 <div class="bar-container">
                     <div class="range-slider">
                         <span id="rs-bullet" class="rs-label">10</span>
@@ -99,7 +102,8 @@
                 <textarea id="messageArea" name="message"></textarea>
             </div>
             <label class="checkbox-container">
-                Wyrażam zgodę na przetwarzanie przez „focusite” moich danych osobowych, zawartych w formularzu kontaktowym, w celu udzielenia odpowiedzi na przesłane przeze mnie zapytanie. <a class="privacy" href="polityka-prywatnosci">Polityka prywatności.</a>
+                Wyrażam zgodę na przetwarzanie przez „focusite” moich danych osobowych, zawartych w formularzu
+                kontaktowym, w celu udzielenia odpowiedzi na przesłane przeze mnie zapytanie. <a class="privacy" href="polityka-prywatnosci">Polityka prywatności.</a>
                 <input type="checkbox">
                 <span class="checkmark"></span>
             </label>
@@ -151,7 +155,9 @@
 
             if (!(jQuery('input[type=checkbox]').is(':checked'))) {
                 jQuery('.darkness, .light-box').addClass('on');
-                jQuery(formMessages).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>');
+                jQuery(formMessages).html(
+                    '<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>'
+                );
                 return;
             };
 
@@ -177,7 +183,9 @@
                 if (data.responseText !== '') {
                     jQuery(formMessages).html(data.responseText);
                 } else {
-                    jQuery(formMessages).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3> <p>Wystąpił błąd i Twoja wiadomość nie mogła zostać wysłana.</p><p>Spróbuj jeszcze raz.</p>');
+                    jQuery(formMessages).html(
+                        '<h3><span><span class="purple-gradient">Ups!</span></span></h3> <p>Wystąpił błąd i Twoja wiadomość nie mogła zostać wysłana.</p><p>Spróbuj jeszcze raz.</p>'
+                    );
                 }
             });
         });

@@ -48,7 +48,8 @@
                 <textarea name="message" id="messageArea"></textarea>
             </div>
             <label class="checkbox-container">
-                Wyrażam zgodę na przetwarzanie przez „focusite” moich danych osobowych, zawartych w formularzu kontaktowym, w celu udzielenia odpowiedzi na przesłane przeze mnie zapytanie. <a class="privacy" href="polityka-prywatnosci">Polityka prywatności.</a>
+                Wyrażam zgodę na przetwarzanie przez „focusite” moich danych osobowych, zawartych w formularzu
+                kontaktowym, w celu udzielenia odpowiedzi na przesłane przeze mnie zapytanie. <a class="privacy" href="polityka-prywatnosci">Polityka prywatności.</a>
                 <input type="checkbox">
                 <span class="checkmark"></span>
             </label>
@@ -87,7 +88,9 @@
 
             if (!(jQuery('input[type=checkbox]').is(':checked'))) {
                 jQuery('.darkness, .light-box').addClass('on');
-                jQuery(formMessages).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>');
+                jQuery(formMessages).html(
+                    '<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>'
+                );
                 return;
             };
 
@@ -113,7 +116,9 @@
                 if (data.responseText !== '') {
                     jQuery(formMessages).html(data.responseText);
                 } else {
-                    jQuery(formMessages).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3> <p>Wystąpił błąd i Twoja wiadomość nie mogła zostać wysłana.</p><p>Spróbuj jeszcze raz.</p>');
+                    jQuery(formMessages).html(
+                        '<h3><span><span class="purple-gradient">Ups!</span></span></h3> <p>Wystąpił błąd i Twoja wiadomość nie mogła zostać wysłana.</p><p>Spróbuj jeszcze raz.</p>'
+                    );
                 }
             });
         });
