@@ -132,11 +132,7 @@ function optymalizacja($f){
         $f = str_replace('</head>','<script type="application/ld+json">'.json_encode($Page_schema_info).'</script>'."\n".'</head>',$f);
     }
 
-
-
     return $f;
 }
 
 ob_start('optymalizacja');
-
-?>

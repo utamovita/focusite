@@ -528,6 +528,7 @@
 
         span.or {
           margin: 15px 0;
+          max-width: 350px;
         }
 
         h2 span {
@@ -686,6 +687,10 @@
 
       h5 br {
         display: block;
+      }
+
+      .pricing-box span.or {
+        margin: 15px auto;
       }
 
       .btn {

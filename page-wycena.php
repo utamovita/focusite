@@ -11,7 +11,7 @@
                     <span>Strona www</span>
                 </button>
                 <button id="sklep" class="btn orange empty">
-                    <span>E-Commerce</span>
+                    <span>Sklep internetowy</span>
                 </button>
                 <button id="aplikacja" class="btn orange empty">
                     <span>Aplikacja</span>

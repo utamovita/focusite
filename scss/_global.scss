@@ -306,35 +306,15 @@ section h2 {
     color: $c-westSide;
     position: relative;
 
-    &:hover::before {
-      left: 85%;
-      opacity: 1;
-    }
-
-    &::before {
-      display: block;
-      content: "";
-      position: absolute;
-      left: 80%;
-      opacity: 0;
-      background: url("../img/svg/right-arrow.svg") no-repeat center;
-      background-size: 100% auto;
-      width: 11px;
-      height: 100%;
-      transition: 0.3s;
-      z-index: 10;
-      top: 1px;
-    }
-
-    &.long-name {
-      &::before {
-        left: 85%;
-      }
-
-      &:hover::before {
-        left: 90%;
-        opacity: 1;
-      }
+    &.active {
+      background-image: linear-gradient(
+        to right,
+        $c-burningOrange 0%,
+        $c-orangePeel 51%,
+        $c-burningOrange 100%
+      );
+      background-size: 200% auto;
+      color: $c-white;
     }
   }
 
@@ -342,6 +322,10 @@ section h2 {
     background: none;
     border: 2px solid $c-blueViolet;
     color: $c-blueViolet;
+
+    &.active {
+      background-image: linear-gradient(135deg, #7475d4 0%, #303096 100%);
+    }
   }
 }
 
@@ -574,7 +558,7 @@ section h2 {
   .banner {
     background-size: 300px;
   }
-  
+
   .hidden-xs {
     display: none;
   }
