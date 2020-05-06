@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136824612-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'UA-136824612-1');
-        </script>
-        <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700" rel="stylesheet">
-        <title><?php wp_title()?></title>
-        <?php wp_head() ?>
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    </head>
-    <body <?php body_class(); ?>>
-        <header>
-            <div class="darkness"></div>
-            <nav>
-                <div class="container">       
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo" title="logo link">
-                        Logo
-                        <svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                            y="0px" viewBox="0 0 451 109" style="enable-background:new 0 0 451 109;" xml:space="preserve">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136824612-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-136824612-1');
+    </script>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700" rel="stylesheet">
+    <title><?php wp_title() ?></title>
+    <?php wp_head() ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+</head>
+
+<body <?php body_class(); ?>>
+    <header>
+        <div class="darkness"></div>
+        <nav>
+            <div class="container">
+                <a href="<?php echo esc_url(home_url('/')); ?>" class="logo" title="logo link">
+                    Logo
+                    <svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451 109" style="enable-background:new 0 0 451 109;" xml:space="preserve">
                         <style type="text/css">
-                            .st0{fill:url(#SVGID_1_);}
+                            .st0 {
+                                fill: url(#SVGID_1_);
+                            }
                         </style>
                         <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="7.7168" y1="52.701" x2="445.6709" y2="52.701">
-                            <stop  offset="0" style="stop-color:#7374B6"/>
-                            <stop  offset="1" style="stop-color:#333592"/>
+                            <stop offset="0" style="stop-color:#7374B6" />
+                            <stop offset="1" style="stop-color:#333592" />
                         </linearGradient>
                         <path class="st0" d="M16.1,40.7h-5.3c-2.1,0-3.2-1.1-3.2-3.2v-1.1c0-2.1,1.1-3.3,3.2-3.3h5.3v-3c0-20.9,15.7-24.5,22.2-24.5h1.4
                             C41.9,5.7,43,6.9,43,9v1.6c0,2.2-1.2,3-3.6,3.2c-5.7,0.3-14.3,1.8-14.3,16.6v2.9h56.5c2.1,0-6.3,3.2-6.3,5.3l0,0
@@ -51,20 +57,18 @@
                             c0,2.1-1.6,2.2-3.7,2.2h-42.6v32.8c0,15.1,9.2,16.9,14.3,17.2c2.6,0.3,3.5,1,3.5,3.3v1.7c0,2.1-1,3.1-3.6,3.1
                             c-14.3,0-23-8.7-23-24.1V40.6z M419.1,33c17,0,26.6,12.3,26.6,30.4c0,1.8-1.4,3.2-3.3,3.2h-45.8C397,82.7,408.1,92,421.2,92
                             c8,0,13.8-3.5,16.7-5.8c1.8-1.1,3.2-0.9,4.2,0.8l1,1.5c0.9,1.5,0.6,3-0.9,4.2c-3.4,2.5-11,7.1-21.3,7.1c-19,0-33.3-13.7-33.3-33.3
-                            C387.7,45.5,401.9,33,419.1,33z M436.9,60.1c-0.5-13.4-8.6-20-18.1-20c-10.6,0-19.9,7.1-21.9,20H436.9z"/>
-                        </svg>
-                    </a>
-                    <div class="hamburger__box">
-                        <div class="hamburger">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
+                            C387.7,45.5,401.9,33,419.1,33z M436.9,60.1c-0.5-13.4-8.6-20-18.1-20c-10.6,0-19.9,7.1-21.9,20H436.9z" />
+                    </svg>
+                </a>
+                <div class="hamburger__box">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
-                    <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
                 </div>
-            </nav>   
-        </header>
-        
-        
+                <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+            </div>
+        </nav>
+    </header>

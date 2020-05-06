@@ -9,7 +9,7 @@
             <div class="lg-6 sm-12">
                 <h3>Strony nie odnaleziono :(</h3>
                 <h4>Strona, której szukasz nie istnieje.</h4>
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn">Strona główna</a>
+                <a href="<?php echo esc_url(home_url('/')); ?>" class="btn">Strona główna</a>
             </div>
         </div>
     </section>

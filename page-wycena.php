@@ -6,16 +6,25 @@
             <div class="centered choosePricing">
                 <h1><span><span class="purple-gradient">Darmowa wycena</span></span></h1>
                 <h2>Wybierz interesującą Cię ofertę i wypełnij krótki formularz.<br>Orientacyjną wycenę otrzymasz w ciągu 24h.</h2>
-                <button id="strona" class="btn orange empty">Strona www</button>
-                <button id="sklep" class="btn orange empty long-name">Sklep internetowy</button>
-                <button id="pozycjonowanie" class="btn orange empty">Pozycjonowanie</button>
-            </div>
-            <div class="info">
-                <h3>Nie wiesz co wybrać? <br>
-                    Skontaktuj się z nami - na pewno doradzimy :)</h3>
-                <ul>
-                    <li class="email"><a href="mailto:support@focusite.pl">office@focusite.pl</a></li><li class="phone"><a href="tel:+48732009546">+48 732 009 546</a></li>
-                </ul>
+                <h3><span><span class="orange-gradient">Projektowanie www</span></span></h3>
+                <button id="strona" class="btn orange empty">
+                    <span>Strona www</span>
+                </button>
+                <button id="sklep" class="btn orange empty">
+                    <span>E-Commerce</span>
+                </button>
+                <button id="aplikacja" class="btn orange empty">
+                    <span>Aplikacja</span>
+                </button>
+                <h3><span><span class="purple-gradient">Usługi dodatkowe</span></span></h3>
+                <button id="pozycjonowanie" class="btn purple empty">
+                    <span>Pozycjonowanie</span>
+                </button>
+                <button id="copywriting" class="btn purple empty">
+                    <span>Copywriting</span>
+                </button> <button id="optymalizacja" class="btn purple empty">
+                    <span>Optymalizacja</span>
+                </button>
             </div>
             <div class="light-box">
                 <div class="close-btn"></div>
@@ -27,22 +36,4 @@
     </div>
 </main>
 
-<footer class="hide">
-    <div class="container">
-        <div class="lg-6">
-            <div class="spacer-top"></div>
-            <div class="info">
-                <ul>
-                    <li class="email"><a href="mailto:office@focusite.pl">office@focusite.pl</a></li><li class="phone"><a href="tel:+48732009546">+48 732 009 546</a></li><li class="address">Dworcowa 1, 64-320 Buk</li>
-                </ul>
-            </div>
-        </div>
-        <div class="lg-6 copyright">© focusite <br>All rights reserved</div>
-    </div>
-    <img src="<?php bloginfo('template_url'); ?>/img/wave-bottom.png" class="bottom-wave" alt="purple background bottom wave">
-</footer>
-
-<?php wp_footer(); ?>
-
-</body>
-</html>
+<?php get_footer(); ?>

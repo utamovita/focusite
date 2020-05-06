@@ -5,15 +5,15 @@
             <h3 class="first"><span><span class="purple-gradient">Informacje podstawowe</span></span></h3>
             <div class="form-section">
                 <div class="align-mid">
-                    <p class="btn-switch">					
+                    <p class="btn-switch">
                         <input type="radio" value="yes" id="payment-yes" name="payments" class="btn-switch__radio btn-switch__radio_yes" />
-                        <input type="radio" value="no"  id="payment-no" name="payments" class="btn-switch__radio btn-switch__radio_no" checked />		
+                        <input type="radio" value="no" id="payment-no" name="payments" class="btn-switch__radio btn-switch__radio_no" checked />
                         <label for="payment-yes" class="btn-switch__label btn-switch__label_yes">
                             <span class="btn-switch__txt">Tak</span>
                         </label>
                         <label for="payment-no" class="btn-switch__label btn-switch__label_no">
                             <span class="btn-switch__txt">Nie</span>
-                        </label>							
+                        </label>
                     </p>
                     <h4>Płatności internetowe</h4>
                 </div>
@@ -21,15 +21,15 @@
             </div>
             <div class="form-section">
                 <div class="align-mid">
-                    <p class="btn-switch">					
+                    <p class="btn-switch">
                         <input type="radio" id="blog-yes" name="blog" class="btn-switch__radio btn-switch__radio_yes" />
-                        <input type="radio" checked id="blog-no" name="blog" class="btn-switch__radio btn-switch__radio_no" />		
+                        <input type="radio" checked id="blog-no" name="blog" class="btn-switch__radio btn-switch__radio_no" />
                         <label for="blog-yes" class="btn-switch__label btn-switch__label_yes">
                             <span class="btn-switch__txt">Tak</span>
                         </label>
                         <label for="blog-no" class="btn-switch__label btn-switch__label_no">
                             <span class="btn-switch__txt">Nie</span>
-                        </label>							
+                        </label>
                     </p>
                     <h4>Blog</h4>
                 </div>
@@ -61,15 +61,15 @@
             <h3><span><span class="purple-gradient">Dane kontaktowe</span></span></h3>
             <div class="form-section">
                 <div class="align-mid">
-                    <p class="btn-switch company-switch">					
+                    <p class="btn-switch company-switch">
                         <input type="radio" id="company-yes" name="company" class="btn-switch__radio btn-switch__radio_yes" />
-                        <input type="radio" checked id="company-no" name="company" class="btn-switch__radio btn-switch__radio_no" />	
+                        <input type="radio" checked id="company-no" name="company" class="btn-switch__radio btn-switch__radio_no" />
                         <label for="company-yes" class="btn-switch__label btn-switch__label_yes">
                             <span class="btn-switch__txt">Tak</span>
                         </label>
                         <label for="company-no" class="btn-switch__label btn-switch__label_no">
                             <span class="btn-switch__txt">Nie</span>
-                        </label>							
+                        </label>
                     </p>
                     <h4>Mam firmę</h4>
                 </div>
@@ -105,36 +105,35 @@
             </label>
         </section>
         <div class="btn-box">
-             <button type="submit" class="btn">Wyślij zgłoszenie</button>
+            <button type="submit" class="btn">Wyślij zgłoszenie</button>
         </div>
     </form>
 </div>
 
 <script>
- 
     var rangeSlider = document.getElementById("rs-range-line");
     var rangeBullet = document.getElementById("rs-bullet");
     var pageAmmount = document.getElementById("page-ammount");
 
     function showSliderValue() {
-      rangeBullet.innerHTML = rangeSlider.value;
-      pageAmmount.innerHTML = rangeSlider.value;
-      var bulletPosition = (rangeSlider.value /rangeSlider.max);
-      rangeBullet.style.left = (bulletPosition * 578) + "px";
+        rangeBullet.innerHTML = rangeSlider.value;
+        pageAmmount.innerHTML = rangeSlider.value;
+        var bulletPosition = (rangeSlider.value / rangeSlider.max);
+        rangeBullet.style.left = (bulletPosition * 578) + "px";
 
-    } 
+    }
     rangeSlider.addEventListener("input", showSliderValue, false);
 
     jQuery("footer").removeClass('hide');
 
     jQuery([document.documentElement, document.body]).animate({
-        scrollTop: jQuery("#section2").offset().top-50
+        scrollTop: jQuery("#section2").offset().top - 50
     }, 1000);
 
-    jQuery('.company-switch label').click(function(){
+    jQuery('.company-switch label').click(function() {
         jQuery('.company-box').toggleClass('hidden');
     });
-    
+
     jQuery(function() {
         // Get the form.
         var form = jQuery('#shop-form');
@@ -149,13 +148,13 @@
 
             // Serialize the form data.
             var formData = jQuery(form).serialize();
-            
-            if(!(jQuery('input[type=checkbox]').is(':checked'))){
+
+            if (!(jQuery('input[type=checkbox]').is(':checked'))) {
                 jQuery('.darkness, .light-box').addClass('on');
                 jQuery(formMessages).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>');
                 return;
             };
-             
+
             jQuery.ajax({
                 type: 'POST',
                 url: jQuery(form).attr('action'),

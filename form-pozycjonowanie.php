@@ -5,15 +5,15 @@
             <div class="form-section">
                 <div class="align-mid">
                     <div class="company-switch">
-                        <p class="btn-switch">					
+                        <p class="btn-switch">
                             <input type="radio" value="yes" id="company-yes" name="company" class="btn-switch__radio btn-switch__radio_yes" />
-                            <input type="radio" value="no" id="company-no" name="company" class="btn-switch__radio btn-switch__radio_no" checked/>	
+                            <input type="radio" value="no" id="company-no" name="company" class="btn-switch__radio btn-switch__radio_no" checked />
                             <label for="company-yes" class="btn-switch__label btn-switch__label_yes">
                                 <span class="btn-switch__txt">Tak</span>
                             </label>
                             <label for="company-no" class="btn-switch__label btn-switch__label_no">
                                 <span class="btn-switch__txt">Nie</span>
-                            </label>							
+                            </label>
                         </p>
                     </div>
                     <h4>Mam firmę</h4>
@@ -54,7 +54,7 @@
             </label>
         </section>
         <div class="btn-box">
-             <button type="submit" class="btn">Wyślij zgłoszenie</button>
+            <button type="submit" class="btn">Wyślij zgłoszenie</button>
         </div>
     </form>
 </div>
@@ -63,13 +63,13 @@
     jQuery("footer").removeClass('hide');
 
     jQuery([document.documentElement, document.body]).animate({
-        scrollTop: jQuery("#section2").offset().top-50
+        scrollTop: jQuery("#section2").offset().top - 50
     }, 1000);
-    
-    jQuery('.company-switch label').click(function(){
+
+    jQuery('.company-switch label').click(function() {
         jQuery('.company-box').toggleClass('hidden');
     });
-    
+
     jQuery(function() {
         // Get the form.
         var form = jQuery('#positioning-form');
@@ -84,13 +84,13 @@
 
             // Serialize the form data.
             var formData = jQuery(form).serialize();
-            
-            if(!(jQuery('input[type=checkbox]').is(':checked'))){
+
+            if (!(jQuery('input[type=checkbox]').is(':checked'))) {
                 jQuery('.darkness, .light-box').addClass('on');
                 jQuery(formMessages).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>');
                 return;
             };
-             
+
             jQuery.ajax({
                 type: 'POST',
                 url: jQuery(form).attr('action'),

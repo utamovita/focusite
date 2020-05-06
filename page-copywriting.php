@@ -4,10 +4,10 @@
     <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
     <section class="banner container">
         <div class="banner__box">
-            <h1 class="banner__title">Co to jest <span><span class="purple-gradient banner__title__fragment">pozycjonowanie?</span></span></h1>
-            <p class="banner__paragraph">Jest to zespół działań mających na celu osiągnięcie jak najwyższej pozycji w wyszukiwarce Google. Jednocześnie jest uznawany jako jeden z najbardziej efektywnych sposobów marketingu internetowego. Ma to bezpośredni wpływ na zwiększenie ruchu na portalu.</p>
+            <h1 class="banner__title">Co to jest <span><span class="purple-gradient banner__title__fragment">copywriting?</span></span></h1>
+            <p class="banner__paragraph">Krótko mówiąc, jest to tworzenie tematycznej oraz unikalnej treści. Odpowiednia ilość wartościowej treści na stronie www lub e-sklepie wpływa bardzo pozytywnie na algorytmy wyszukiwarki Google oraz zachęca użytkownika do dalszego czytania. </p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">Pozycjonowanie stron www</li><li class="banner__list__element optimized">Pozycjonowanie e-sklepów</li><li class="banner__list__element responsive">Wysoka pozycja w wyszukiwarce</li><li class="banner__list__element speed">Większy ruch na stronie</li>
+                <li class="banner__list__element simple">Treść do stron www</li><li class="banner__list__element optimized">Opisy produktów</li><li class="banner__list__element responsive">Artykuły na blogu</li><li class="banner__list__element speed">Teksty SEO</li>
             </ul>
             <button class="banner__button btn scroll-down">
                 Czytaj więcej
@@ -20,24 +20,24 @@
     <section class="benefits scroll-to">
         <div class="bg"></div>
         <div class="container">
-            <h2 class="benefits__title">Jakie korzyści daje <span><span class="purple-gradient">pozycjonowanie?</span></span></h2>
+            <h2 class="benefits__title">Dlaczego warto zamówić<span><span class="purple-gradient">copywriting?</span></span></h2>
             <div class="benefits__box">
                 <div class="benefits__type">
-                    <h3 class="benefits__type__title"><span>Większy ruch</span></h3>
+                    <h3 class="benefits__type__title"><span>Content marketing</span></h3>
                     <p class="benefits__type__description">Pozycjonowanie (ang. SEO - Search engine optimization) sprawia przede wszystkim, że twoja witryna będzie widoczna. Portal, którego nie da się znaleźć w wyszukiwarce, choćby miał piękny design to jest bezużyteczny. Jeśli narzekasz na widoczność swojej strony lub sklepu i zależy Ci na większej ilości wejść na twoją stronę to jest to opcja dla Ciebie.</p>
                 </div>
                 <div class="benefits__type">
-                    <h3 class="benefits__type__title"><span>Niskie koszty reklamy</span></h3>
-                    <p>Reklamowanie swojego serwisu poprzez SEO, obniża koszty za każdy inny rodzaj reklamy. Co więcej, pozycjonowanie samo w sobie nie należy do drogich inwestycji. Ostateczna cena jest zależna jest zależna od ilości fraz oraz ich popularności. Koszt pozycjonowania jednej frazy waha się między 150zł a 300zł netto miesięcznie. </p>
+                    <h3 class="benefits__type__title"><span>Większy ruch na stronie</span></h3>
+                    <p>Odpowiednia ilość merytorycznych treści to podstawowy czynnik, który wpływa na pozycję w wyszukiwarce. Google chce wyświetlać rzetelne informacje użytkownikom, adekwatne do ich zapytania. Oprócz samych treści na stronie, oferujemy profesjonalne teksty do bloga, newslettera czy nawet postów na facebooku.</p>
                 </div>
 
                 <div class="benefits__type">
-                    <h3 class="benefits__type__title"><span>Wyższa pozycja w wyszukiwarce</span></h3>
-                    <p class="benefits__type__description">Wysoka pozycja w wynikach wyszukiwania, którą można uzyskać dzięki dobrej optymalizacji SEO ma ogromne znaczenie w budowaniu rozpoznawalności marki. Użytkownicy uważają pierwszą stronę wyników za najtrafniejszą, zaufaną i adekwatną do ich zapytań. Większa wiarygodność, rzetelność i wizerunek marki to tylko część z korzyści pozycjonowania.</p>
+                    <h3 class="benefits__type__title"><span>Wizerunek ekseprta</span></h3>
+                    <p class="benefits__type__description">Profesjonalna oferta sprzedażowa budzi zaufanie i uznanie wsród potencjalnych klientów. Użytkownik widząc dobrze rozplanowaną i specjalistyczną treść </p>
                 </div>
             </div>
-            <h3 class="benefits__sub-title">Wejdź na szczyt <span class="purple-gradient">wyników Google</span></h3> 
-            <a href="wycena" class="benefits__button btn">Wycena pozycjonowania</a>
+            <h3 class="benefits__sub-title">Profesjonalne<span class="purple-gradient">teksty SEO</span></h3> 
+            <a href="kontakt" class="benefits__button btn">Kontakt</a>
         </div>
     </section>
     <section class="container faq">
@@ -64,8 +64,6 @@
                     <h4>Jakie są etapy pozycjonowania strony www?</h4>
                     <div class="collapsible__question__answer">
                         <p>Pozycjonowanie strony zaczynamy od analizy używając audytu SEO oraz wdrożeń on-site. Optymalizacja nagłówków, metatagów, analiza adresów URL i poprawna walidacja strony to zazwyczaj pierwsze kroki jakie podejmujemy. Następnie sprawdzamy czy na twojej aktualnej stronie nie występuje tzw. duplicate content oraz czy nie jest ona skopiowana z innych portali. Kolejnym krokiem jest wprowadzenie tematycznej treści zawierającej odpowiednie frazy. Ostatnim krokiem jest sprawdzenie responsywności strony oraz optymalizacja pod kątem prędkości strony, jej dostępności oraz najlepszych praktyk. W dużej większości przypadków takie działania wystarczają do osiągnięcia przez klienta oczekiwanych rezultatów. Jeśli jednak tak się nie stało, przechodzimy do kolejnego etapu, czyli wdrożeń off-site.</p>
-                        <img src="<?php bloginfo('template_url'); ?>/img/lighthouse-score.png" alt="focusite lighthouse score">
-                        <p>Przykład poprawnej optymalizacji strony po naszych działaniach on-site.</p>
                     </div>
                 </div>
             </li>
