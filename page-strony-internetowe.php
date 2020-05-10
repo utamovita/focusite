@@ -12,7 +12,7 @@
                 <li class="banner__list__element speed">szybkość działania</li>
                 <li class="banner__list__element responsive">pełna responsywność</li>
             </ul>
-            <button class="banner__button btn">
+            <button class="banner__button btn scroll-down">
                 Więcej
             </button>
         </div>
@@ -20,24 +20,23 @@
             <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
         </div>
     </section>
-    <section class="benefits">
+    <section class="benefits scroll-to">
         <div class="bg"></div>
         <div class="container">
-            <h2 class="benefits__title">Dlaczego powinieneś zainwestować w <span><span class="purple-gradient">profesjonalną stronę www?</span></span></h2>
+            <h2 class="benefits__title">Dlaczego warto zainwestować w <span><span class="purple-gradient">profesjonalną stronę www?</span></span></h2>
             <div class="benefits__box">
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Wizerunek firmy</span></h3>
-                    <p>W dzisiejszych czasach własna witryna to podstawowe narzędzie do pozyskiwania nowych użytkowników oraz budowania ich zaufania. Strona www zapewnia komfort zarówno Tobię jak i twoim potencjalnym klientom. Pozwala na zapoznanie się z Twoją firmą z dowolnego miejsca na świecie eliminując przy tym problem pracy tylko w określonych godzinach.</p>
+                    <p class="benefits__type__description">W dzisiejszych czasach własna witryna to podstawowe narzędzie do pozyskiwania nowych użytkowników oraz budowania ich zaufania. Strona www zapewnia komfort zarówno Tobię jak i twoim potencjalnym klientom. Pozwala na zapoznanie się z Twoją firmą z dowolnego miejsca na świecie eliminując przy tym problem pracy tylko w określonych godzinach.</p>
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Nowi klienci</span></h3>
-                    <p>Internet to pierwsze miejsce gdzie potencjalny klient wyszukuje informacji o twojej działalności oraz jej usługach. Jesteśmy przekonani, że profesjonalna strona internetowa wraz z przyjaznym dla oka designem zrobi dobre pierwsze wrażenie. Użytkownik widząc zadbaną i funkcjonalną stronę ma do niej większe zaufanie co przekłada się na zwiększenie wiarygodności Twojego biznesu.</p>
+                    <p class="benefits__type__description">Internet to pierwsze miejsce gdzie potencjalny klient wyszukuje informacji o twojej działalności oraz jej usługach. Jesteśmy przekonani, że profesjonalna strona internetowa wraz z przyjaznym dla oka designem zrobi dobre pierwsze wrażenie. Użytkownik widząc zadbaną stronę ma do niej większe zaufanie co przekłada się na wiarygodność Twojego biznesu.</p>
                 </div>
 
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Oszczędności</span></h3>
-                    <p class="benefits__type__descri">Koszt utrzymania strony internetowej ogranicza się u nas tylko do opłaty za domenę (99zł/rok). Promocja nowych produktów, aktualizacja oferty czy katalogów wymaga zwykle zaangażowania osób trzecich.
-                        Posiadając własną stronę internetową możesz zrobić to samodzelnie, a jeśli zdecydujesz się na współpracę z nami, zajmiemy się tym za Ciebie.</p>
+                    <p class="benefits__type__description">Koszt utrzymania strony internetowej ogranicza się u nas tylko do opłaty za domenę (99zł/rok). Promocja nowych produktów, aktualizacja oferty czy katalogów wymaga zwykle zaangażowania osób trzecich. Posiadając własną stronę internetową możesz zrobić to samodzelnie, a jeśli zdecydujesz się na współpracę z nami, zajmiemy się tym za Ciebie.</p>
                 </div>
             </div>
             <h3 class="benefits__sub-title">Strona to nie koszt. <span class="purple-gradient">To inwestycja.</span></h3>

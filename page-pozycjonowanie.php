@@ -31,7 +31,7 @@
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Niskie koszty reklamy</span></h3>
-                    <p>Reklamowanie swojego serwisu poprzez SEO, obniża koszty za każdy inny rodzaj reklamy. Co więcej, pozycjonowanie samo w sobie nie należy do drogich inwestycji. Ostateczna cena jest zależna jest zależna od ilości fraz oraz ich popularności. Koszt pozycjonowania jednej frazy waha się między 150zł a 300zł netto miesięcznie. </p>
+                    <p class="benefits__type__description">Reklamowanie swojego serwisu poprzez SEO, obniża koszty za każdy inny rodzaj reklamy. Co więcej, pozycjonowanie samo w sobie nie należy do drogich inwestycji. Ostateczna cena jest zależna jest zależna od ilości fraz oraz ich popularności. Koszt pozycjonowania jednej frazy waha się między 150zł a 300zł netto miesięcznie.</p>
                 </div>
 
                 <div class="benefits__type">

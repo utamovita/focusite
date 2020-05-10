@@ -27,16 +27,16 @@
             <div class="benefits__box">
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Open source</span></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
+                    <p class="benefits__type__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Elastyczność</span></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
+                    <p class="benefits__type__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
                 </div>
 
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Wszechstronność</span></h3>
-                    <p class="benefits__type__descri">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
+                    <p class="benefits__type__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
                 </div>
             </div>
             <h3 class="benefits__sub-title">Gotowy otworzyć <span class="purple-gradient">swój sklep?</span></h3>

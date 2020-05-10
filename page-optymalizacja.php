@@ -31,7 +31,7 @@
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Wysoki wynik SEO</span></h3>
-                    <p>Bacon ipsum dolor amet tongue buffalo doner, pork strip steak chislic jowl boudin kevin venison meatloaf tri-tip corned beef burgdoggen kielbasa. Pork belly frankfurter pork loin brisket leberkas cupim flank. Burgdoggen landjaeger pig chicken pork chop filet mignon. Turducken ground round meatloaf, strip steak hamburger rump drumstick jowl capicola.</p>
+                    <p class="benefits__type__description">Bacon ipsum dolor amet tongue buffalo doner, pork strip steak chislic jowl boudin kevin venison meatloaf tri-tip corned beef burgdoggen kielbasa. Pork belly frankfurter pork loin brisket leberkas cupim flank. Burgdoggen landjaeger pig chicken pork chop filet mignon. Turducken ground round meatloaf, strip steak hamburger rump drumstick jowl capicola.</p>
                 </div>
 
                 <div class="benefits__type">

@@ -592,14 +592,19 @@
         }
       }
     }
+
     #section3 {
       overflow: hidden;
 
-      h2 > span {
-        display: inline-block;
+      h2 {
+        font-size: 20px;
 
-        span {
-          font-size: 20px;
+        & > span {
+          display: inline-block;
+
+          span {
+            font-size: 20px;
+          }
         }
       }
 
@@ -615,7 +620,7 @@
         width: 290px;
         flex-wrap: wrap;
         justify-content: center;
-        
+
         li {
           flex-basis: 44%;
           margin-top: 20px;

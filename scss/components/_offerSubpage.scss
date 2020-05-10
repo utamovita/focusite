@@ -123,7 +123,8 @@
         }
       }
 
-      &__desc {
+      &__description {
+        font-size: 16px;
       }
     }
 
@@ -150,7 +151,7 @@
 
   .faq {
     margin-top: 100px;
-    
+
     h2 {
       margin-bottom: 25px;
       text-align: center;
@@ -219,6 +220,10 @@
             color: $c-blueViolet;
             font-weight: 500;
           }
+
+          img {
+            max-width: 100%;
+          }
         }
       }
     }
@@ -269,22 +274,37 @@
 
 @media only screen and (max-width: $break-desktop) {
   .offer-subpage {
-    .section1 h1 {
-      margin-bottom: 25px;
+    .banner {
+      &__list__element {
+        font-size: 16px;
+        margin: 15px 0;
+      }
+
+      &__paragraph {
+        line-height: 1.6em;
+        margin: 20px 0;
+      }
+
+      &__button {
+        margin-bottom: 0;
+      }
+    }
+
+    .benefits {
+      &__type {
+        padding: 15px 20px;
+        flex-basis: 31.33%;
+      }
     }
   }
 }
 
 @media only screen and (max-width: $break-laptop) {
   .offer-subpage {
-    .section1 {
-      h1 {
+    .banner {
+      &__title {
         font-size: 42px;
         margin-bottom: 15px;
-      }
-
-      h2 {
-        font-size: 20px;
       }
     }
   }
@@ -292,41 +312,172 @@
 
 @media only screen and (max-width: $break-mid) {
   .offer-subpage {
-    .section1 {
-      min-height: 400px;
-
-      h1 {
-        padding-top: 150px;
-      }
-    }
+    padding-top: 120px;
   }
 }
 
 @media only screen and (max-width: $break-mobile) {
   .offer-subpage {
-    .section1 {
-      min-height: calc(100vh - 100px);
-      height: auto;
+    padding-top: 0;
+
+    .banner {
+      flex-direction: column;
+
+      &__box {
+        flex-basis: 100%;
+
+        &:first-child {
+          order: 2;
+        }
+
+        &:last-child {
+          order: 1;
+          max-width: 400px;
+          margin: 120px auto 0;
+        }
+      }
+
+      &__list {
+        display: flex;
+        flex-wrap: wrap;
+
+        &__element {
+          display: flex;
+          flex-basis: 50%;
+          align-items: center;
+          line-height: 1.5em;
+          padding-left: 60px;
+          background-size: 45px;
+          font-size: 16px;
+        }
+      }
+
+      &__button {
+        margin: 30px auto 0;
+      }
+
+      &__title {
+        font-size: 28px;
+      }
+    }
+
+    .benefits {
+      &__title {
+        font-size: 28px;
+
+        span {
+          font-size: 28px;
+        }
+      }
+
+      &__box {
+        flex-direction: column;
+      }
+
+      &__type {
+        flex-basis: 100%;
+        margin: 15px auto;
+        max-width: 400px;
+      }
+
+      &__sub-title {
+        margin-top: 30px;
+        font-size: 22px;
+
+        span {
+          font-size: 28px;
+        }
+      }
+    }
+
+    .faq {
+      padding: 0 50px;
+      margin-top: 25px;
+
+      h2 {
+        font-size: 26px;
+
+        span {
+          font-size: 26px;
+        }
+      }
+
+      .collapsible__question {
+        &::before {
+          position: absolute;
+          left: -25px;
+          transform: translateY(-3px);
+          margin-right: 0;
+        }
+
+        h4 {
+          position: relative;
+          font-size: 1rem;
+          width: 100%;
+
+          &::after {
+            content: "+";
+            font: normal normal normal 2.5rem/28px "Montserrat", sans-serif;
+            color: #7475d4;
+            position: absolute;
+            right: -30px;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+          }
+        }
+
+        &__answer {
+          display: none;
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .ending-section {
+      margin: 50px 0;
+
+      h5 {
+        font-size: 16px;
+      }
+
+      .info-box {
+        padding: 0 15px;
+
+        .btn {
+          display: block;
+          width: 100%;
+          max-width: 300px;
+          margin: auto;
+        }
+
+        span.or {
+          margin: 10px 0;
+        }
+      }
     }
   }
 }
 
 @media only screen and (max-width: $break-xs) {
   .offer-subpage {
-    .section1 {
-      min-height: calc(100vh - 100px);
-      padding-bottom: 0;
-
-      h1 {
-        font-size: 32px;
-        padding-top: 100px;
-        line-height: 32px;
+    .banner {
+      &__list__element {
+        flex-basis: 100%;
+        margin: 10px 0;
       }
 
-      h2 {
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 0;
+      &__image {
+        margin-left: 0;
+      }
+    }
+
+    .faq h2 {
+      font-size: 20px;
+
+      span {
+        font-size: 20px;
       }
     }
   }

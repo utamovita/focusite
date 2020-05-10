@@ -17,9 +17,7 @@
                     </p>
                     <h4>System zarządzania treścią (CMS)</h4>
                 </div>
-                <span class="description">Otrzymasz panel administracyjny pozwalający na samodzielne dodawanie i
-                    zmienianie treści oraz zdjęć bez znajomości programowania. Jeśli na Twojej stronie będzie np. blog
-                    lub aktualności jest to opcja zdecydowanie dla Ciebie.</span>
+                <span class="description">Otrzymasz panel administracyjny pozwalający na samodzielne dodawanie i zmienianie treści oraz zdjęć bez znajomości programowania. Jeśli na Twojej stronie będzie np. blog lub aktualności jest to opcja zdecydowanie dla Ciebie.</span>
             </div>
             <div class="form-section">
                 <div class="align-mid">
@@ -35,9 +33,7 @@
                     </p>
                     <h4>Indywidualny projekt graficzny</h4>
                 </div>
-                <span class="description">Nasz grafik przygotuje dla Ciebie unikatową i spersonalizowaną grafikę Twojej
-                    strony. Jeśli nie zdecydujesz się na takie rozwiązanie - nie szkodzi, otrzymasz od nas do wyboru
-                    szablon graficzny, który dopasujemy do Twoich potrzeb.</span>
+                <span class="description">Nasz grafik przygotuje dla Ciebie unikatową i spersonalizowaną grafikę Twojej strony. Jeśli nie zdecydujesz się na takie rozwiązanie - nie szkodzi, otrzymasz od nas do wyboru szablon graficzny, który dopasujemy do Twoich potrzeb.</span>
             </div>
             <div class="form-section">
                 <div class="align-mid">
@@ -45,8 +41,7 @@
                     <h4>Ilość podstron</h4>
                 </div>
 
-                <span class="description">Podaj orientacyjną ilość podstron jaką planujesz posiadać na swojej stronie
-                    (np. home, o nas, oferta, kontakt).</span>
+                <span class="description">Podaj orientacyjną ilość podstron jaką planujesz posiadać na swojej stronie (np. home, o nas, oferta, kontakt).</span>
                 <div class="bar-container">
                     <div class="range-slider">
                         <span id="rs-bullet" class="rs-label">1</span>
@@ -73,8 +68,7 @@
                     </p>
                     <h4>Logo</h4>
                 </div>
-                <span class="description">Jeśli nie posiadasz w swojej firmie loga lub chcesz je odświeżyć - jest to
-                    opcja dla Ciebie. Zaprojektujemy dla Ciebie identyfikujący Twoją firmę logotyp i sygnet.</span>
+                <span class="description">Jeśli nie posiadasz w swojej firmie loga lub chcesz je odświeżyć - jest to opcja dla Ciebie. Zaprojektujemy dla Ciebie identyfikujący Twoją firmę logotyp i sygnet.</span>
             </div>
             <div class="form-section">
                 <div class="align-mid">
@@ -90,16 +84,13 @@
                     </p>
                     <h4>Pozycjonowanie (SEO)</h4>
                 </div>
-                <span class="description">Oprócz standardowego pozycjonowania strony na etapie produkcji, wprowadzimy
-                    dodatkowe zmiany w kodzie źródłowym oraz przygotujemy teksty tak, aby Twoja strona była jeszcze
-                    bardziej czytelna i osiągała jak najwyższą pozycję w wynikach wyszukiwarek (np. Google).</span>
+                <span class="description">Oprócz standardowego pozycjonowania strony na etapie produkcji, wprowadzimy dodatkowe zmiany w kodzie źródłowym oraz przygotujemy teksty tak, aby Twoja strona była jeszcze bardziej czytelna i osiągała jak najwyższą pozycję w wynikach wyszukiwarek (np. Google).</span>
             </div>
         </section>
 
         <!-- funkcjonalności -->
         <section>
             <h3><span><span class="purple-gradient">Widgety i funkcjonalności</span></span></h3>
-
             <div class="form-section">
                 <div class="align-mid">
                     <p class="btn-switch">
@@ -114,8 +105,7 @@
                     </p>
                     <h4>Mapa Google</h4>
                 </div>
-                <span class="description">Podłączymy dla Ciebie Google maps aby potencjalny klient mógł łatwo
-                    zlokalizować Twoją firmę.</span>
+                <span class="description">Podłączymy dla Ciebie Google maps aby potencjalny klient mógł łatwo zlokalizować Twoją firmę.</span>
             </div>
             <div class="form-section">
                 <div class="align-mid">
@@ -131,8 +121,7 @@
                     </p>
                     <h4>Formularz kontaktowy</h4>
                 </div>
-                <span class="description">Kilka prostych pól do wypełnienia(np. imię, temat, zapytanie). Po wypełnieniu
-                    go przez użytkownika, wiadomość otrzymasz na wskazany przez Ciebie e-mail.</span>
+                <span class="description">Kilka prostych pól do wypełnienia(np. imię, temat, zapytanie). Po wypełnieniu go przez użytkownika, wiadomość otrzymasz na wskazany przez Ciebie e-mail.</span>
             </div>
             <div class="form-section">
                 <div class="align-mid">
@@ -148,8 +137,7 @@
                     </p>
                     <h4>Galeria</h4>
                 </div>
-                <span class="description">Wiele grafik lub zdjęć umieszczonych obok siebie w przejrzysty sposób wraz z
-                    możliwością ich przybliżania.</span>
+                <span class="description">Wiele grafik lub zdjęć umieszczonych obok siebie w przejrzysty sposób wraz z możliwością ich przybliżania.</span>
             </div>
             <div class="form-section">
                 <div class="align-mid">
@@ -165,8 +153,7 @@
                     </p>
                     <h4>Slider</h4>
                 </div>
-                <span class="description">Karuzela przewijająca automatycznie (lub ręcznie) slajdy ze zdjęciami co kilka
-                    sekund.</span>
+                <span class="description">Karuzela przewijająca automatycznie (lub ręcznie) slajdy ze zdjęciami co kilka sekund.</span>
             </div>
             <div class="form-section">
                 <div class="align-mid">
@@ -182,8 +169,7 @@
                     </p>
                     <h4>Wersje językowe</h4>
                 </div>
-                <span class="description">Jeśli masz lub planujesz posiadać zagranicznych kontrahentów to jest to opcja
-                    dla Ciebie.</span>
+                <span class="description">Jeśli masz lub planujesz posiadać zagranicznych kontrahentów to jest to opcja dla Ciebie.</span>
             </div>
         </section>
 
