@@ -51,7 +51,7 @@
                 <div class="collapsible__question">
                     <h4>Czy moja strona będzie widoczna w wyszukiwarce Google?</h4>
                     <div class="collapsible__question__answer">
-                        <p>Tak, wszystkie wykonywane przez nas strony są widoczne w Google. W ramach umowy na wykonanie strony lub sklepu internetowego <strong>zobowiązujemy się</strong> do wykonania podstawowej optymalizacji SEO, która pozwala na osiągnięcie wysokich pozycji w wyszukiwarce Google. Jeśli twoja działalność znajduje się na niewielkim, lokalnym rynku bądź w niszowej branży to taka optymalizacja może wystarczyć do znalezienia się na <strong>pierwszej stronie wyników Google</strong>. Jeśli w Twoim obszarze występuje silna konkurecja, konieczne będą dodatkowe działania z usług SEO.</p>
+                        <p>Tak, wszystkie wykonywane przez nas strony są widoczne w Google. W ramach umowy na wykonanie strony lub sklepu internetowego <strong>zobowiązujemy się</strong> do wykonania podstawowej optymalizacji SEO, która pozwala na osiągnięcie wysokich pozycji w wyszukiwarce Google. Jeśli twoja działalność znajduje się na niewielkim, lokalnym rynku bądź w niszowej branży to taka optymalizacja może wystarczyć do znalezienia się na <strong>pierwszej stronie wyników Google</strong>. Jeśli w Twoim obszarze występuje silna konkurecja, konieczne będą dodatkowe działania z usług SEO/SEM.</p>
                     </div>
                 </div>
             </li>

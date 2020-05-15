@@ -26,17 +26,16 @@
             <h2 class="benefits__title">Dlaczego <span><span class="purple-gradient">WooCommerce?</span></span></h2>
             <div class="benefits__box">
                 <div class="benefits__type">
-                    <h3 class="benefits__type__title"><span>Open source</span></h3>
-                    <p class="benefits__type__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
+                    <h3 class="benefits__type__title"><span>Prosty w obsłudze</span></h3>
+                    <p class="benefits__type__description">Sam WooCommerce jest jedynie wtyczką do WordPress'a, natomiast pozwala on na stworzenie pełnoprawnego sklepu internetowego. Zarządzanie produktami, ich zdjęciami, opisem oraz ceną nigdy nie było prostsze. Otrzymasz od nas materiały intruktażowe z zakresu obsługi systemu, chociaż pewnie nie będziesz musiał ich czytać, ponieważ system jest bardzo intuicyjny.</p>
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Elastyczność</span></h3>
-                    <p class="benefits__type__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
+                    <p class="benefits__type__description">Prostota tego systemu nie oznacza, że brakuje mu zaawansowanych możliwości personalizacji - wręcz przeciwnie. Dzięki otwartemu kodu źródłowemu, nasi developerzy mogą dowolnie modyfikować i dostosować oprogromwanie tak, aby sprostać  wszystkim wymaganiom klientów. Część dodatkowych rozwiązań jesteś w stanie dodać samemu dzięki gotowym wtyczkom.</p>
                 </div>
-
                 <div class="benefits__type">
-                    <h3 class="benefits__type__title"><span>Wszechstronność</span></h3>
-                    <p class="benefits__type__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper eros velit, in viverra urna elementum et. Nam ullamcorper enim at sem malesuada varius. Duis nec nunc vitae felis malesuada consequat. Pellentesque elementum felis at turpis imperdiet malesuada. Nullam ipsum tortor, euismod sit amet ante e</p>
+                    <h3 class="benefits__type__title"><span>Stabilność</span></h3>
+                    <p class="benefits__type__description">System WooCommerce został jest oparty na WordPressie, który został zaprojektowany tak, aby zapewnić stabilne działanie w każdych warunkach. Wszystkie ewentualne problemy z jego działniem są na bieżąco wykrywane i rozwiązane. W przypadku błędów takich jak przestarzała wersja systemu lub wtyczek do niego, zostaniesz poinformowany o tym mailowo.</p>
                 </div>
             </div>
             <h3 class="benefits__sub-title">Gotowy otworzyć <span class="purple-gradient">swój sklep?</span></h3>
@@ -56,7 +55,7 @@
             </div>
             <div>
                 <h4>Optymalizacja i responsywność</h4>
-                <p>Każdy z naszych projektów przechodzi przez szereg czynności poprawiających jego szybkość, dostępność a przede wszystkim pozycję w wyszukiwarce Google. Twój sklep będzie działał poprawnie na każdym urządzeniu. Wysoki standard oferty to u nas podstawa.</p>
+                <p>Każdy z naszych projektów przechodzi przez szereg działań poprawiających jego szybkość, dostępność a przede wszystkim pozycję w wyszukiwarce Google. Twój sklep będzie działał poprawnie na każdym urządzeniu. Wysoki standard oferty sprawia, że klienci są zadowoleni z naszych projektów i polecają nas innym.</p>
             </div>
             <div>
                 <h4>Niskie koszta</h4>

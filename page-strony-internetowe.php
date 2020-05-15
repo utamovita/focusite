@@ -52,7 +52,7 @@
             </div>
             <div>
                 <h4>Administracja</h4>
-                <p>Samodzielne edytowanie treści stron nigdy nie było prostsze. Wszystko dzięki intuicyjnemu systemowi CMS - Wordpress. Daje ci to możliwość własnoręcznej zmiany treści tekstowej oraz graficznej na Twoim portalu. Jeśli nie chcesz dopłacać za tę funkcjonalność lub po prostu nie masz na czasu na administrowanie swoją stroną, zostaw to nam a wszelkie zmiany wykonamy za Ciebie.</p>
+                <p>Samodzielne edytowanie treści stron nigdy nie było prostsze. Wszystko dzięki intuicyjnemu systemowi CMS Wordpress. Daje ci to możliwość własnoręcznej zmiany treści tekstowej oraz graficznej na Twoim portalu. Jeśli nie chcesz dopłacać za tę funkcjonalność lub po prostu nie masz na czasu na administrację swoją stroną, zostaw to nam a wszelkie zmiany wykonamy za Ciebie.</p>
             </div>
             <div>
                 <h4>Wyróżnij się designem</h4>
@@ -60,11 +60,11 @@
             </div>
             <div>
                 <h4>Optymalizacja</h4>
-                <p>W przeciwieństwie do sporej części konkurencji, kładziemy duży nacisk na to, żeby strona była dobrze zoptymalizowana pod względem szybkości, dostępności a przede wszystkim SEO. Co z tego, że strona dobrze wygląda skoro ładuje się długo, nie każdy może ją odwiedzić a użytkownik po wejściu od razu wychodzi? Strona ma być widoczna, praktyczna i funkcjonalna - my o to zadbamy.</p>
+                <p>W przeciwieństwie do sporej części konkurencji, kładziemy duży nacisk na to, żeby strona była dobrze zoptymalizowana pod względem szybkości, dostępności, najlepszych praktych a przede wszystkim SEO. Co z tego, że strona dobrze wygląda skoro ładuje się długo, nie każdy może ją odwiedzić a użytkownik po wejściu od razu wychodzi? Strona ma być widoczna, praktyczna i funkcjonalna - my o to zadbamy.</p>
             </div>
             <div>
                 <h4>Opieka oraz szkolenie z obsługi</h4>
-                <p>Ukończona strona www nie oznacza końca współpracy - wręcz przeciwnie. Od teraz możesz liczyć na nasze wsparcie z zakresu obsługi, pomocy technicznej i zmian na stronie. Po zakończonym projekcie otrzymasz materiały instruktażowe z obsługi sytemu oraz administracją. Od teraz będziemy dokładali starań aby Twoja strona pracowała na codzienny sukces.
+                <p>Ukończona strona www bynajmniej nie musi oznaczać końca naszej współpracy - wręcz przeciwnie. Od teraz możesz liczyć na nasze wsparcie z zakresu obsługi, pomocy technicznej i zmian na stronie. Po zakończonym projekcie otrzymasz materiały instruktażowe z obsługi sytemu oraz administracji. Od teraz będziemy dokładali starań aby Twoja strona pracowała na codzienny sukces.</p>
             </div>
         </div>
     </section>
