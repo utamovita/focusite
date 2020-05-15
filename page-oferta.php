@@ -9,10 +9,22 @@
                     <h1>Nasza <span class="purple-gradient">oferta</span></h1>
                     <p>Zapoznaj się z szerokim wachlarzem naszych usług. Działamy w tej branży od wielu lat tworząc strony internetowe, sklepy internetowe i aplikacje. Kreatywni graficy, zdolni copywriterzy i najlepsi programiści zadbają o to by Twoja firma zaistniała w internecie.</p>
                     <ul>
-                        <li class="simple">Szerokie doświadczenie</li>
-                        <li class="optimized">Konkurencyjne ceny</li>
-                        <li class="speed">Wsparcie 24/7</li>
-                        <li class="simple">Działamy do skutku</li>
+                        <li>
+                            <img src="<?php bloginfo('template_url'); ?>/img/svg/szerokie_doswiadczenie.svg" alt="focusite experience">
+                            Szerokie doświadczenie
+                        </li>
+                        <li>
+                            <img src="<?php bloginfo('template_url'); ?>/img/svg/konkurencyjne_ceny.svg" alt="focusite price">
+                            Konkurencyjne ceny
+                        </li>
+                        <li>
+                            <img src="<?php bloginfo('template_url'); ?>/img/svg/wsparcie_24.svg" alt="focusite support">
+                            Wsparcie 24/7
+                        </li>
+                        <li>
+                            <img src="<?php bloginfo('template_url'); ?>/img/svg/dzialamy_do_skutku.svg" alt="focusite work">
+                            Działamy do skutku
+                        </li>
                     </ul>
                     <button class="btn scroll-down">Czym się zajmujemy?</button>
                 </div>

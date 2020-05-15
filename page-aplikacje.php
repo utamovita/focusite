@@ -5,21 +5,31 @@
     <section class="banner container">
         <div class="banner__box">
             <h1 class="banner__title">Aplikacje<span><span class="purple-gradient banner__title__fragment">webowe</span></span></h1>
-            <p class="banner__paragraph">Firma focusite tworzy aplikacje, które pozwalają na automatyzację procesów w
-                firmie i nie tylko. Nazywane są aplikacjami webowymi, bo opierają swoje działanie na dowolnej przeglądarce internetowej. Możesz używać aplikacji z dowolnego urządzenia, nie pobierając przy tym
-                żadnego oprogramowania - potrzebujesz jedynie internetu.</p>
+            <p class="banner__paragraph">Firma focusite tworzy aplikacje, które pozwalają na automatyzację procesów w firmie i nie tylko. Nazywane są aplikacjami webowymi, bo opierają swoje działanie na dowolnej przeglądarce żadnego oprogramowania - potrzebujesz jedynie internetu.</p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">Automatyzacja procesów</li>
-                <li class="banner__list__element optimized">Sprawdzone metody</li>
-                <li class="banner__list__element responsive">Używaj gdziekolwiek jesteś</li>
-                <li class="banner__list__element speed">Szybkość działania</li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/automatyzacja.svg" alt="focusite automation">
+                    Automatyzacja procesów
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/sprawdzone_metody.svg" alt="focusite methods">
+                    Sprawdzone metody
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/pelna_responsywnosc.svg" alt="focusite responsible">
+                    Używaj gdziekolwiek jesteś
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/szybkosc_dzialania.svg" alt="focusite fast">
+                    Szybkość działania
+                </li>
             </ul>
             <button class="banner__button btn">
                 Czytaj więcej
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/aplikacje-webowe.svg" class="banner__image" alt="focusite app">
         </div>
     </section>
     <section class="benefits">

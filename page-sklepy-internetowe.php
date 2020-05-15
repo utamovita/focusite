@@ -7,17 +7,29 @@
             <h1 class="banner__title">Sklep <span><span class="purple-gradient banner__title__fragment">internetowy</span></span></h1>
             <p class="banner__paragraph">Prowadzenie sklepu z naszą pomocą stanie się łatwiejsze niż kiedykolwiek. Specjalizujemy się w tworzeniu sklepów internetowych opartych na systemie WooCommerce. Rozwiązanie dobre zarówno dla małch jak i średnich sklepów - nawet do 1000 produktów.</p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">Łatwy w obsłudze</li>
-                <li class="banner__list__element optimized">Przyjazny dla wyszukiwarek</li>
-                <li class="banner__list__element speed">Ogromna społeczność</li>
-                <li class="banner__list__element responsive">Bezpieczny</li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/prostota_obslugi.svg" alt="focusite simple">
+                    Łatwy w obsłudze
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/przyjazna_dla_wyszukiwarek.svg" alt="focusite seo friendly">
+                    Przyjazny dla wyszukiwarek
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/ogromna_spolecznosc.svg" alt="focusite community">
+                    Ogromna społeczność
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/safe.svg" alt="focusite full responsible">
+                    Bezpieczny
+                </li>
             </ul>
             <button class="banner__button btn">
                 Czytaj więcej
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/sklepy-internetowe.svg" class="banner__image" alt="focusite e-commerce">
         </div>
     </section>
     <section class="benefits">

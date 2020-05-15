@@ -7,17 +7,29 @@
             <h1 class="banner__title">Co to jest <span><span class="purple-gradient banner__title__fragment">optymalizacja?</span></span></h1>
             <p class="banner__paragraph">Optymalizacja stron to zestaw działań mających na celu poprawę pozycji w wyszukiwarce, zwiększenia szybkości ładowania i działania stron, polepszenie współczynnika CTR oraz ogólnego user experience. Szybko działająca strona lub sklep sprawia, że użytkownicy są bardziej chętni aby na nim pozostać, dokonać zakupu lub skontaktować się.</p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">Przyśpieszenie strony</li>
-                <li class="banner__list__element optimized">Wyższa pozycja w Google</li>
-                <li class="banner__list__element responsive">Większy współczynnik CTR</li>
-                <li class="banner__list__element speed">Bez utraty jakości</li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/szybkosc_dzialania.svg" alt="focusite pagespeed">
+                    Przyśpieszenie strony
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wysoka_pozycja.svg" alt="focusite high position">
+                    Wyższa pozycja w Google
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wiekszy_ctr.svg" alt="focusite article text">
+                    Większy współczynnik CTR
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/bez_utraty_jakosci.svg" alt="focusite seo text">
+                    Bez utraty jakości
+                </li>
             </ul>
             <button class="banner__button btn scroll-down">
                 Czytaj więcej
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/optymalizacja.svg" class="banner__image" alt="focusite optimalize website">
         </div>
     </section>
     <section class="benefits scroll-to">

@@ -7,17 +7,29 @@
             <h1 class="banner__title">Czym jest <span><span class="purple-gradient banner__title__fragment">copywriting?</span></span></h1>
             <p class="banner__paragraph">Krótko mówiąc, jest to tworzenie tematycznej oraz unikalnej treści. Odpowiednia ilość wartościowej treści na stronie www lub e-sklepie wpływa bardzo pozytywnie na algorytmy wyszukiwarki Google oraz zachęca użytkownika do dalszego czytania twojej oferty.</p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">Treść do stron www</li>
-                <li class="banner__list__element optimized">Opisy produktów</li>
-                <li class="banner__list__element responsive">Artykuły na blogu</li>
-                <li class="banner__list__element speed">Teksty SEO</li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/tresci_do_www.svg" alt="focusite website content">
+                    Treść do stron www
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/opisy_produktow.svg" alt="focusite product description">
+                    Opisy produktów
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/artykuly_na_blogu.svg" alt="focusite article text">
+                    Artykuły na blogu
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/teksty_seo.svg" alt="focusite seo text">
+                    Teksty SEO
+                </li>
             </ul>
             <button class="banner__button btn scroll-down">
                 Czytaj więcej
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/copywriting.svg" class="banner__image" alt="focusite copywriting">
         </div>
     </section>
     <section class="benefits scroll-to">

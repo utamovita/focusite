@@ -7,17 +7,29 @@
             <h1 class="banner__title">Co to jest <span><span class="purple-gradient banner__title__fragment">pozycjonowanie?</span></span></h1>
             <p class="banner__paragraph">Jest to zespół działań mających na celu osiągnięcie jak najwyższej pozycji w wyszukiwarce Google. Jednocześnie jest uznawany jako jeden z najbardziej efektywnych sposobów marketingu internetowego. Ma to bezpośredni wpływ na zwiększenie ruchu na portalu.</p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">Pozycjonowanie stron www</li>
-                <li class="banner__list__element optimized">Pozycjonowanie e-sklepów</li>
-                <li class="banner__list__element responsive">Wysoka pozycja w wyszukiwarce</li>
-                <li class="banner__list__element speed">Większy ruch na stronie</li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie_www.svg" alt="focusite website seo">
+                    Pozycjonowanie stron www
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie_sklepow.svg" alt="focusite e-commerce seo">
+                    Pozycjonowanie e-sklepów
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wysoka_pozycja.svg" alt="focusite high position">
+                    Wysoka pozycja w wyszukiwarce
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wiekszy_ruch.svg" alt="focusite more traffic">
+                    Większy ruch na stronie
+                </li>
             </ul>
             <button class="banner__button btn scroll-down">
                 Czytaj więcej
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie.svg" class="banner__image" alt="focusite seo picture">
         </div>
     </section>
     <section class="benefits scroll-to">
@@ -26,7 +38,7 @@
             <h2 class="benefits__title">Jakie korzyści daje <span><span class="purple-gradient">pozycjonowanie?</span></span></h2>
             <div class="benefits__box">
                 <div class="benefits__type">
-                    <h3 class="benefits__type__title"><span>Większy ruch</span></h3>
+                    <h3 class="benefits__type__title"><span>Zwiększenie ruchu</span></h3>
                     <p class="benefits__type__description">Pozycjonowanie (ang. SEO - Search engine optimization) sprawia przede wszystkim, że twoja witryna będzie widoczna. Portal, którego nie da się znaleźć w wyszukiwarce, choćby miał piękny design to jest bezużyteczny. Jeśli narzekasz na widoczność swojej strony lub sklepu i zależy Ci na większej ilości wejść na twoją stronę to jest to opcja dla Ciebie.</p>
                 </div>
                 <div class="benefits__type">
@@ -35,7 +47,7 @@
                 </div>
 
                 <div class="benefits__type">
-                    <h3 class="benefits__type__title"><span>Wyższa pozycja w wyszukiwarce</span></h3>
+                    <h3 class="benefits__type__title"><span>Wyższy wynik w Google</span></h3>
                     <p class="benefits__type__description">Wysoka pozycja w wynikach wyszukiwania, którą można uzyskać dzięki dobrej optymalizacji SEO ma ogromne znaczenie w budowaniu rozpoznawalności marki. Użytkownicy uważają pierwszą stronę wyników za najtrafniejszą, zaufaną i adekwatną do ich zapytań. Większa wiarygodność, rzetelność i wizerunek marki to tylko część z korzyści pozycjonowania.</p>
                 </div>
             </div>

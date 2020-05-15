@@ -44,10 +44,9 @@
         padding-left: 30px;
 
         li {
-          display: block;
+          display: flex;
           height: 60px;
           margin: 20px 0;
-          padding-left: 80px;
           font-size: 18px;
           font-weight: 500;
           line-height: 60px;
@@ -56,22 +55,12 @@
           background-position: left center;
           background-repeat: no-repeat;
           background-size: 50px auto;
+          align-items: center;
+        }
 
-          &.simple {
-            background-image: url(../img/svg/simple.svg);
-          }
-
-          &.optimized {
-            background-image: url(../img/svg/optymalizacja.svg);
-          }
-
-          &.speed {
-            background-image: url(../img/svg/szybkosc.svg);
-          }
-
-          &.responsive {
-            background-image: url(../img/svg/responsive.svg);
-          }
+        img {
+          margin-right: 20px;
+          width: 50px;
         }
       }
 

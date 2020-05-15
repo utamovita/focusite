@@ -7,17 +7,29 @@
             <h1 class="banner__title">Co wyróżnia <span><span class="purple-gradient banner__title__fragment">nasze strony</span></span></h1>
             <p class="banner__paragraph">Firma Focusite zajmuje się tworzeniem stron internetowych przystosowanych do urządzeń mobilnych. Używamy systemu CMS Wordpress - rozwiązanie idealne dla tych, którzy cenią sobie prostotę obsługi i możliwość samodzielnej edycji treści strony.</p>
             <ul class="banner__list">
-                <li class="banner__list__element simple">prostota obsługi</li>
-                <li class="banner__list__element optimized">przyjazna dla wyszukiwarek</li>
-                <li class="banner__list__element speed">szybkość działania</li>
-                <li class="banner__list__element responsive">pełna responsywność</li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/prostota_obslugi.svg" alt="focusite simple">
+                    Prostota obsługi
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/przyjazna_dla_wyszukiwarek.svg" alt="focusite seo friendly">
+                    Przyjazna dla wyszukiwarek
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/szybkosc_dzialania.svg" alt="focusite speed">
+                    Szybkość działania
+                </li>
+                <li class="banner__list__element">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/pelna_responsywnosc.svg" alt="focusite full responsible">
+                    Pełna responsywność
+                </li>
             </ul>
             <button class="banner__button btn scroll-down">
-                Więcej
+                Czytaj więcej
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" class="banner__image" alt="wireless computer">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/strony-internetowe.svg" class="banner__image" alt="focusite website">
         </div>
     </section>
     <section class="benefits scroll-to">

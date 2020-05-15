@@ -42,16 +42,32 @@
 
       .btn {
         display: flex;
-        margin: 0 10px;
-        width: 260px;
+        flex-direction: column;
+        margin: 0 20px;
+        width: 250px;
         border-radius: 20px;
         justify-content: center;
+        align-items: center;
         height: auto;
+        padding: 10px 20px;
+
+        svg {
+          max-width: 70px;
+          height: auto;
+        }
+
+        &.active svg path {
+          fill: $c-white;
+        }
 
         span {
-          margin-top: 80px;
+          margin: 10px auto 0;
+          line-height: 1.5em;
+          min-height: 42px;
+          display: flex;
+          align-items: center;
         }
-        
+
         &-box {
           display: flex;
           justify-content: center;
@@ -569,7 +585,7 @@
       padding-top: 0;
     }
 
-    #section1 {
+    .section1 {
       min-height: 0;
       height: auto;
 
