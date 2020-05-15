@@ -4,8 +4,8 @@
     <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
     <section class="banner container">
         <div class="banner__box">
-            <h1 class="banner__title">Co to jest <span><span class="purple-gradient banner__title__fragment">copywriting?</span></span></h1>
-            <p class="banner__paragraph">Krótko mówiąc, jest to tworzenie tematycznej oraz unikalnej treści. Odpowiednia ilość wartościowej treści na stronie www lub e-sklepie wpływa bardzo pozytywnie na algorytmy wyszukiwarki Google oraz zachęca użytkownika do dalszego czytania.</p>
+            <h1 class="banner__title">Czym jest <span><span class="purple-gradient banner__title__fragment">copywriting?</span></span></h1>
+            <p class="banner__paragraph">Krótko mówiąc, jest to tworzenie tematycznej oraz unikalnej treści. Odpowiednia ilość wartościowej treści na stronie www lub e-sklepie wpływa bardzo pozytywnie na algorytmy wyszukiwarki Google oraz zachęca użytkownika do dalszego czytania twojej oferty.</p>
             <ul class="banner__list">
                 <li class="banner__list__element simple">Treść do stron www</li>
                 <li class="banner__list__element optimized">Opisy produktów</li>
@@ -26,21 +26,21 @@
             <h2 class="benefits__title">Dlaczego warto zamówić<span><span class="purple-gradient">copywriting?</span></span></h2>
             <div class="benefits__box">
                 <div class="benefits__type">
-                    <h3 class="benefits__type__title"><span>Content marketing</span></h3>
-                    <p class="benefits__type__description">Pozycjonowanie (ang. SEO - Search engine optimization) sprawia przede wszystkim, że twoja witryna będzie widoczna. Portal, którego nie da się znaleźć w wyszukiwarce, choćby miał piękny design to jest bezużyteczny. Jeśli narzekasz na widoczność swojej strony lub sklepu i zależy Ci na większej ilości wejść na twoją stronę to jest to opcja dla Ciebie.</p>
+                    <h3 class="benefits__type__title"><span>Oszczędności</span></h3>
+                    <p class="benefits__type__description">Jako, że do tworzenia profesjonalnych treści nie wystarczy dobra znajomość zasad poprawnej polszczyzny a cena za 1000 zzs to u nas zaledwie 25zł, zachęcamy naszych klientów, by skorzystali z usług copywriterskich. W czasie gdy będziemy przygotowywać treści do Twojej witryny, możesz zająć się swoimi sprawami ze świadomością, że przygotowane treści będą odpowiednie do twoich potrzeb.</p>
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Większy ruch na stronie</span></h3>
-                    <p class="benefits__type__description">Odpowiednia ilość merytorycznych treści to podstawowy czynnik, który wpływa na pozycję w wyszukiwarce. Google chce wyświetlać rzetelne informacje użytkownikom, adekwatne do ich zapytania. Oprócz samych treści na stronie, oferujemy profesjonalne teksty do bloga, newslettera czy nawet postów na facebooku.</p>
+                    <p class="benefits__type__description">Content is king - odpowiednia ilość merytorycznych oraz wartościowych treści to podstawowy czynnik SEO, który wpływa na pozycję w wyszukiwarce. Google chce wyświetlać rzetelne informacje użytkownikom, adekwatne do ich zapytania. Oprócz samych treści na stronie, oferujemy profesjonalne teksty do bloga, newslettera czy nawet postów na facebooku.</p>
                 </div>
 
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Wizerunek ekseprta</span></h3>
-                    <p class="benefits__type__description">Profesjonalna oferta sprzedażowa budzi zaufanie i uznanie wsród potencjalnych klientów. Użytkownik widząc dobrze rozplanowaną i specjalistyczną treść</p>
+                    <p class="benefits__type__description">Profesjonalna oferta sprzedażowa budzi zaufanie i uznanie wsród potencjalnych klientów. Poprawnie przygotowany opis produktu lub artykuł zawierający słowa kluczowe ma bezpośredni wpływ na zwiększenie widoczności Twojej strony. Dobry copywriter potrafi napisać taką treść do strony www od której ciężko się oderwać, dbając o konkretne frazy i zachowując przy tym zasady SEO.</p>
                 </div>
             </div>
-            <h3 class="benefits__sub-title">Profesjonalne<span class="purple-gradient">teksty SEO</span></h3>
-            <a href="kontakt" class="benefits__button btn">Kontakt</a>
+            <h3 class="benefits__sub-title">Profesjonalne <span class="purple-gradient">teksty SEO</span></h3>
+            <a href="wycena" class="benefits__button btn">Wycena copywritingu</a>
         </div>
     </section>
     <section class="container faq">
@@ -48,33 +48,33 @@
         <ol class="collapsible">
             <li class="collapsible__question__wrapper">
                 <div class="collapsible__question">
-                    <h4>Ile kosztuje pozycjonowanie?</h4>
+                    <h4>Ile kosztuje copywriting?</h4>
                     <div class="collapsible__question__answer">
-                        <p>Niestety, jest zbyt wiele czynników aby móc podać konkretną kwotę pozycjonowania. W jednym przypadku może się okazać, że za wprowadzenie zmian SEO oraz monitorowanie ich przez następne kilka miesięcy, cena wyniesie <strong>zaledwie 1000zł</strong> (w przypadku małych stron www, z wcześniejszymi działaniami SEO). W innym przypadku koszt może sięgać kilkunastu tysięcy złotych (w przypadku dużych sklepów internetowych). Jeśli jesteś ciekaw ile kosztowałoby pozycjonowanie twojego serwisu, wypełnij <a href="wycena">krótki formularz</a>, a my niedługo się odezwiemy.</p>
+                        <p>Dla merytorycznych tekstów do stron internetowych lub blogów, cena za każde 1000 znaków ze spacją wynosi <strong>25zł netto</strong>. Jeśli chcesz wiedzieć ile kosztowałoby napisanie treści do twojego serwisu, wypełnij <a href="wycena">krótki formularz</a>, a my niedługo się odezwiemy.</p>
                     </div>
                 </div>
             </li>
             <li class="collapsible__question__wrapper">
                 <div class="collapsible__question">
-                    <h4>Jak długo trzeba czekać na efekt pozycjonowania?</h4>
+                    <h4>Zamówiłem u was projekt strony, czy mogę napisać sam do niej tekst?</h4>
                     <div class="collapsible__question__answer">
-                        <p>Pozycjonowanie to nie jednorazowe działanie, lecz proces, który należy regularnie realizować. Na oczekiwany efekt optymalizacji SEO czeka się przeważnie <strong>od kilku tygodni do kilku miesięcy</strong>. Wiele także zależy od wybranej frazy i lokalizacji. Łatwiej jest wypozycjonować lokalną frazę w niszowej branży a zdecydowanie trudniej popularną frazę w całej Polsce.</p>
+                        <p>Wiele osób postanawia podjąć się samodzielnego napisania treści do swojej strony internetowej, jednakże wkrótce zdają sobie sprawę jak wiele czasu, wiedzy i pracy potrzeba do takiego procesu. <strong>Wykwalifikowani copywriterzy</strong> posiadają wiedze jak tworzyć wartościową treść a mimo to spędzają <strong>długie godziny</strong> przy pracy nad nią. Zamawiając u nas tekst do strony internetowej masz pewność, że napisali ją ludzie z doświadczeniem, którzy wiedzą co robią.</p>
                     </div>
                 </div>
             </li>
             <li class="collapsible__question__wrapper">
                 <div class="collapsible__question">
-                    <h4>Jakie są etapy pozycjonowania strony www?</h4>
+                    <h4>Nie podoba mi się treść do strony, którą otrzymałem. Czy mogę prosić o poprawkę?</h4>
                     <div class="collapsible__question__answer">
-                        <p>Pozycjonowanie strony zaczynamy od analizy używając audytu SEO oraz wdrożeń on-site. Optymalizacja nagłówków, metatagów, analiza adresów URL i poprawna walidacja strony to zazwyczaj pierwsze kroki jakie podejmujemy. Następnie sprawdzamy czy na twojej aktualnej stronie nie występuje tzw. duplicate content oraz czy nie jest ona skopiowana z innych portali. Kolejnym krokiem jest wprowadzenie tematycznej treści zawierającej odpowiednie frazy. Ostatnim krokiem jest sprawdzenie responsywności strony oraz optymalizacja pod kątem prędkości strony, jej dostępności oraz najlepszych praktyk. W dużej większości przypadków takie działania wystarczają do osiągnięcia przez klienta oczekiwanych rezultatów. Jeśli jednak tak się nie stało, przechodzimy do kolejnego etapu, czyli wdrożeń off-site.</p>
+                        <p>Oczywiście, w cenę wchodzi <strong>tyle poprawek, ile będzie konieczne</strong>. Stawiamy na wysoką jakość usług, dlatego klient ma prawo do zmiany tekstu do momentu, gdy będzie w pełni zadowolony a jego treść będzie taka jaką sobie życzył.</p>
                     </div>
                 </div>
             </li>
             <li class="collapsible__question__wrapper">
                 <div class="collapsible__question">
-                    <h4>Jak mogę sprawdzić pozycję strony?</h4>
+                    <h4>Ile tekstu powinno być na stronie?</h4>
                     <div class="collapsible__question__answer">
-                        <p>Najwygodniejszym i najłatwiejszym sposobem na sprawdzenie efektów naszych działań jest zalogowanie się do <strong>panelu klienta</strong>. Panel jest dostępny przez cały okres trwania umowy. Po zalogowaniu będziesz mógł w przyjazny sposób na bieżąco <strong>monitorować pozycję</strong> swojego serwisu na wybrane frazy.</p>
+                        <p>Zależy od twojego celu, jeśli chcesz osiągnąć jak najwyższe miejsce w rankingu Google to <strong>zasada jest prosta</strong> - im więcej tekstu tym lepiej. Statystyki pokazują, że najlepsze wyniki wyszukiwania osiągają strony posiądające <strong>od 5000 do 7000 znaków</strong> (lub od 1000 do 1300 słów). Z kolei krótkie treści mają przeznaczanie aby pozysać uwagę i zachęcić do konkretnej akcji. Nie każdy temat można rozbudować, czasmi wystarczy napisać zaledwie 1000 zzs.</p>
                     </div>
                 </div>
             </li>
