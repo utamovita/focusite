@@ -257,6 +257,7 @@
       width: 85%;
     }
   }
+
   .ending-section {
     margin: 100px 0;
     position: relative;
@@ -335,6 +336,46 @@
         margin-bottom: 15px;
       }
     }
+
+    .benefits {
+      &__title {
+        font-size: 32px;
+
+        span {
+          font-size: 40px;
+        }
+      }
+
+      &__type {
+        &__description {
+          font-size: 15px;
+        }
+
+        &__title {
+          font-size: 22px;
+        }
+      }
+
+      &__sub-title {
+        font-size: 24px;
+        
+        span {
+          font-size: 32px;
+        }
+      }
+    }
+    .arguments {
+      &__title {
+        font-size: 32px;
+
+        span {
+          font-size: 40px;
+        }
+      }
+      &__description {
+        font-size: 15px;
+      }
+    }
   }
 }
 
@@ -374,7 +415,6 @@
           flex-basis: 50%;
           align-items: center;
           line-height: 1.5em;
-          padding-left: 60px;
           background-size: 45px;
           font-size: 16px;
         }

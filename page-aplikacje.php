@@ -1,26 +1,26 @@
 <?php get_header(); ?>
 
 <main class="offer-subpage">
-    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="fioletowa fala">
     <section class="banner container">
         <div class="banner__box">
             <h1 class="banner__title">Aplikacje<span><span class="purple-gradient banner__title__fragment">webowe</span></span></h1>
             <p class="banner__paragraph">Firma focusite tworzy aplikacje, które pozwalają na automatyzację procesów w firmie i nie tylko. Nazywane są aplikacjami webowymi, bo opierają swoje działanie na dowolnej przeglądarce żadnego oprogramowania - potrzebujesz jedynie internetu.</p>
             <ul class="banner__list">
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/automatyzacja.svg" alt="focusite automation">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/automatyzacja.svg" alt="automatyzacja procesów">
                     Automatyzacja procesów
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/sprawdzone_metody.svg" alt="focusite methods">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/sprawdzone_metody.svg" alt="sprawdzone metody">
                     Sprawdzone metody
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/pelna_responsywnosc.svg" alt="focusite responsible">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/pelna_responsywnosc.svg" alt="używaj gdziekolwiek jesteś">
                     Używaj gdziekolwiek jesteś
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/szybkosc_dzialania.svg" alt="focusite fast">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/szybkosc_dzialania.svg" alt="szybkość działania">
                     Szybkość działania
                 </li>
             </ul>
@@ -29,7 +29,7 @@
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/svg/aplikacje-webowe.svg" class="banner__image" alt="focusite app">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/aplikacje_webowe.svg" class="banner__image" alt="aplikacja focusite">
         </div>
     </section>
     <section class="benefits">
@@ -57,26 +57,51 @@
     </section>
     <section class="arguments">
         <div class="container">
-            <h2>Zalety naszych aplikacji</h2>
-            <div>
-                <h4>Dopasowanie do Twoich potrzeb</h4>
-                <p>Kupując licencję do gotowego programu, często okazuje się, że brakuje mu jakiś funkcjonalności lub część z nich po prostu jest zbędna. Rozwiązanie dedykowane eliminuje ten problem. Przed rozpoczęciem pracy nad aplikacją, omówimy dokładnie jej działanie aby uniknąć wcześniej wymienionych problemów.</p>
+            <h2 class="arguments__title">Poznaj zalety naszych <span class="purple-gradient">aplikacji</span></h2>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/dopasowanie_do_potrzeb.svg" alt="dopasowanie do potrzeb">
+                </div>
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Dopasowanie do Twoich potrzeb</h4>
+                    <p class="arguments__description">Kupując licencję do gotowego programu, często okazuje się, że brakuje mu jakiś funkcjonalności lub część z nich po prostu jest zbędna. Rozwiązanie dedykowane eliminuje ten problem. Przed rozpoczęciem pracy nad aplikacją, omówimy dokładnie jej działanie aby uniknąć wcześniej wymienionych problemów.</p>
+                </div>
             </div>
-            <div>
-                <h4>Używaj gdziekolwiek, na czymkolwiek</h4>
-                <p>Ogrmoną zaletą aplikacji webowych jest możliwość użytkowania jej przez każde urządzenie. Zaczynając od smartfonów, poprzez tablety, kończąc na urządzeniach desktopowych. Ponadto, nie wymagana jest żadna instalacja lub pobieranie oprogramowania - wystarczy jedynie dostęp do internetu.</p>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Używaj gdziekolwiek, na czymkolwiek</h4>
+                    <p class="arguments__description">Ogrmoną zaletą aplikacji webowych jest możliwość użytkowania jej przez każde urządzenie. Zaczynając od smartfonów, poprzez tablety, kończąc na urządzeniach desktopowych. Ponadto, nie wymagana jest żadna instalacja lub pobieranie oprogramowania - wystarczy jedynie dostęp do internetu.</p>
+                </div>
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/strona_na_kazdym_ekranie.svg" alt="aplikacja mobilna">
+                </div>
             </div>
-            <div>
-                <h4>Jednorazowy koszt</h4>
-                <p>Kupując gotowy produkt jesteś zobowiązany na opłacenie go przez dłuższy czas abonamentowo. Aplikacja dedykowana stworzona przez nas to jednorazowa inwestycja, która na dłuższy okres czasu może okazać się bardziej opłacalna. Nie wymagamy żadnych opłat abonamentowych.</p>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/jednorazowy_koszt.svg" alt="jednorazowy koszt">
+                </div>
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Jednorazowy koszt</h4>
+                    <p class="arguments__description">Kupując gotowy produkt jesteś zobowiązany na opłacenie go przez dłuższy czas abonamentowo. Aplikacja dedykowana stworzona przez nas to jednorazowa inwestycja, która na dłuższy okres czasu może okazać się bardziej opłacalna. Nie wymagamy żadnych opłat abonamentowych.</p>
+                </div>
             </div>
-            <div>
-                <h4>Bezpieczeństwo</h4>
-                <p>Kładziemy ogromny nacisk na zagadnienie jakim jest bezpieczeństwo, szczególnie w przypadku aplikacji operującej z tzw. danymi wrażliwymi, takimi jak dane personalne, hasła czy adresy. Regularnie tworzymy kopie zapasowe w której dane są zaszyfrowane a jeśli projekt tego wymaga, do używania aplikacji wymagana jest autoryzacja.</p>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Bezpieczeństwo</h4>
+                    <p class="arguments__description">Kładziemy ogromny nacisk na zagadnienie jakim jest bezpieczeństwo, szczególnie w przypadku aplikacji operującej z tzw. danymi wrażliwymi, takimi jak dane personalne, hasła czy adresy. Regularnie tworzymy kopie zapasowe w której dane są zaszyfrowane a jeśli projekt tego wymaga, do używania aplikacji wymagana jest autoryzacja.</p>
+                </div>
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/bezpieczenstwo.svg" alt="bezpieczeństwo">
+                </div>
             </div>
-            <div>
-                <h4>Gwarancja oraz opieka</h4>
-                <p>Skończon aplikacja bynajmniej nie oznacza końca naszej współpracy. Po wykonanej aplikacji otrzymasz materiały instruktażowe z jej obsługi oraz 12 miesięczną gwarancję na to, że Twoja aplikacja będzie w pełni sprawna. Jeśli planujesz w przyszłości rozbudowę funkcjonalności aplikacji, chętnie pomożemy.</p>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/szkolenie.svg" alt="szkolenie">
+                </div>
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Gwarancja oraz opieka</h4>
+                    <p class="arguments__description">Skończona aplikacja bynajmniej nie oznacza końca naszej współpracy. Po wykonanej aplikacji otrzymasz materiały instruktażowe z jej obsługi oraz 12 miesięczną gwarancję na to, że Twoja aplikacja będzie w pełni sprawna. Jeśli planujesz w przyszłości rozbudowę funkcjonalności aplikacji, chętnie pomożemy.</p>
+                </div>
             </div>
         </div>
     </section>

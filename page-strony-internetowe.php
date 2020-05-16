@@ -69,7 +69,7 @@
             <div class="arguments__wrapper">
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Administracja</h4>
-                    <p>Samodzielne edytowanie treści stron nigdy nie było prostsze. Wszystko dzięki intuicyjnemu systemowi CMS Wordpress. Daje ci to możliwość własnoręcznej zmiany treści tekstowej oraz graficznej na Twoim portalu. Jeśli nie chcesz dopłacać za tę funkcjonalność lub po prostu nie masz na czasu na administrację swoją stroną, zostaw to nam a wszelkie zmiany wykonamy za Ciebie.</p>
+                    <p class="arguments__description">Samodzielne edytowanie treści stron nigdy nie było prostsze. Wszystko dzięki intuicyjnemu systemowi CMS Wordpress. Daje ci to możliwość własnoręcznej zmiany treści tekstowej oraz graficznej na Twoim portalu. Jeśli nie chcesz dopłacać za tę funkcjonalność lub po prostu nie masz na czasu na administrację swoją stroną, zostaw to nam a wszelkie zmiany wykonamy za Ciebie.</p>
                 </div>
                 <div class="arguments__box arguments__box--short">
                     <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/administracja.svg" alt="administracja">
@@ -81,13 +81,13 @@
                 </div>
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Wyróżnij się designem</h4>
-                    <p>Zachęcamy wszystkich naszych klientom, którzy zdecydowali się na wykonanie przez nas strony internetowej na wybór indywidualnej szaty graficznej strony zamiast gotowego szablonu. Nasi kreatywni graficy zaprojektują dla Ciebie piękną stronę która wzbudza zaufanie i zatrzyma użytkowników na dłużej. Opcja droższa ale efekt jest tego wart.</p>
+                    <p class="arguments__description">Zachęcamy wszystkim naszym klientom, którzy zdecydowali się na wykonanie przez nas strony internetowej na wybór indywidualnej szaty graficznej strony zamiast gotowego szablonu. Nasi kreatywni graficy zaprojektują dla Ciebie piękną stronę która wzbudza zaufanie i zatrzyma użytkowników na dłużej. Opcja droższa ale efekt jest tego wart.</p>
                 </div>
             </div>
             <div class="arguments__wrapper">
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Optymalizacja</h4>
-                    <p>W przeciwieństwie do sporej części konkurencji, kładziemy duży nacisk na to, żeby strona była dobrze zoptymalizowana pod względem szybkości, dostępności, najlepszych praktych a przede wszystkim SEO. Co z tego, że strona dobrze wygląda skoro ładuje się długo, nie każdy może ją odwiedzić a użytkownik po wejściu od razu wychodzi? Strona ma być widoczna, praktyczna i funkcjonalna - my o to zadbamy.</p>
+                    <p class="arguments__description">W przeciwieństwie do sporej części konkurencji, kładziemy duży nacisk na to, żeby strona była dobrze zoptymalizowana pod względem szybkości, dostępności, najlepszych praktych a przede wszystkim SEO. Co z tego, że strona dobrze wygląda skoro ładuje się długo, nie każdy może ją odwiedzić a użytkownik po wejściu od razu wychodzi? Strona ma być widoczna, praktyczna i funkcjonalna - my o to zadbamy.</p>
                 </div>
                 <div class="arguments__box arguments__box--short">
                     <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/optymalizacja.svg" alt="optymalizacja">
@@ -99,7 +99,7 @@
                 </div>
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Opieka oraz szkolenie z obsługi</h4>
-                    <p>Ukończona strona www bynajmniej nie musi oznaczać końca naszej współpracy - wręcz przeciwnie. Od teraz możesz liczyć na nasze wsparcie z zakresu obsługi, pomocy technicznej i zmian na stronie. Po zakończonym projekcie otrzymasz materiały instruktażowe z obsługi sytemu oraz administracji. Od teraz będziemy dokładali starań aby Twoja strona pracowała na codzienny sukces.</p>
+                    <p class="arguments__description">Ukończona strona www bynajmniej nie musi oznaczać końca naszej współpracy - wręcz przeciwnie. Od teraz możesz liczyć na nasze wsparcie z zakresu obsługi, pomocy technicznej i zmian na stronie. Po zakończonym projekcie otrzymasz materiały instruktażowe z obsługi sytemu oraz administracji. Od teraz będziemy dokładali starań aby Twoja strona pracowała na codzienny sukces.</p>
                 </div>
             </div>
         </div>

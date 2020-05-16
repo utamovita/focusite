@@ -68,7 +68,7 @@
             <div class="arguments__wrapper">
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Budowa marki</h4>
-                    <p>Budowanie twojej marki na dużych serwisach aukcyjnych jest niemal niemożliwe. Klienci rzadko wracają do konkretnych sprzedawców tylko do ponownego przeszukiwania ofert. Pomożemy Ci wyróżnić się spośród konkurecji, promując twój sklep np. poprzez dbanie o jego zawartość i pozycjonowanie go.</p>
+                    <p class="arguments__description">Budowanie twojej marki na dużych serwisach aukcyjnych jest niemal niemożliwe. Klienci rzadko wracają do konkretnych sprzedawców tylko do ponownego przeszukiwania ofert. Pomożemy Ci wyróżnić się spośród konkurecji, promując twój sklep np. poprzez dbanie o jego zawartość i pozycjonowanie go.</p>
                 </div>
                 <div class="arguments__box arguments__box--short">
                     <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/budowa_marki.svg" alt="budowa marki">
@@ -80,13 +80,13 @@
                 </div>
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Optymalizacja i responsywność</h4>
-                    <p>Każdy z naszych projektów przechodzi przez szereg działań poprawiających jego szybkość, dostępność a przede wszystkim pozycję w wyszukiwarce Google. Twój sklep będzie działał poprawnie na każdym urządzeniu. Wysoki standard oferty sprawia, że klienci są zadowoleni z naszych projektów i polecają nas innym.</p>
+                    <p class="arguments__description">Każdy z naszych projektów przechodzi przez szereg działań poprawiających jego szybkość, dostępność a przede wszystkim pozycję w wyszukiwarce Google. Twój sklep będzie działał poprawnie na każdym urządzeniu. Wysoki standard oferty sprawia, że klienci są zadowoleni z naszych projektów i polecają nas innym.</p>
                 </div>
             </div>
             <div class="arguments__wrapper">
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Niskie koszta</h4>
-                    <p>W przeciwieństwie do sklepu stacjonarnego, nie musisz się przejmować kosztami wynajmu oraz magazynowania. Asortyment, który ofertujesz możesz kupować lub wytwarzać dopiero po zamówieniu przez klienta i dostarczyć go mu w kilka dni. Koszty utrzymania sklepu internetwego są takie same jak strony www - praktycznie zerowe.</p>
+                    <p class="arguments__description">W przeciwieństwie do sklepu stacjonarnego, nie musisz się przejmować kosztami wynajmu oraz magazynowania. Asortyment, który ofertujesz możesz kupować lub wytwarzać dopiero po zamówieniu przez klienta i dostarczyć go mu w kilka dni. Koszty utrzymania sklepu internetwego są takie same jak strony www - praktycznie zerowe.</p>
                 </div>
                 <div class="arguments__box arguments__box--short">
                     <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/niskie_koszta.svg" alt="niskie koszta">
@@ -98,7 +98,7 @@
                 </div>
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Stały kontakt</h4>
-                    <p>Skończony projekt nie musi oznaczać końca naszej współpracy. Możesz liczyć na nasze wsparcie z zakresu technicznych rzeczy czy nawet dodawania produktów. Po wykonanym e-sklepie otrzymasz materiały instruktażowe z obsługi systemu WooCommerce oraz jego administracji. Postaramy się, by Twój sklep pracował na sukces twojej firmy.</p>
+                    <p class="arguments__description">Skończony projekt nie musi oznaczać końca naszej współpracy. Możesz liczyć na nasze wsparcie z zakresu technicznych rzeczy czy nawet dodawania produktów. Po wykonanym e-sklepie otrzymasz materiały instruktażowe z obsługi systemu WooCommerce oraz jego administracji. Postaramy się, by Twój sklep pracował na sukces twojej firmy.</p>
                 </div>
             </div>
         </div>
