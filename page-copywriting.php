@@ -33,7 +33,6 @@
         </div>
     </section>
     <section class="benefits scroll-to">
-        <div class="bg"></div>
         <div class="container">
             <h2 class="benefits__title">Dlaczego warto zamówić<span><span class="purple-gradient">copywriting?</span></span></h2>
             <div class="benefits__box">

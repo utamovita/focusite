@@ -1,26 +1,26 @@
 <?php get_header(); ?>
 
 <main class="offer-subpage">
-    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="fioletowa fala">
     <section class="banner container">
         <div class="banner__box">
             <h1 class="banner__title">Sklep <span><span class="purple-gradient banner__title__fragment">internetowy</span></span></h1>
             <p class="banner__paragraph">Prowadzenie sklepu z naszą pomocą stanie się łatwiejsze niż kiedykolwiek. Specjalizujemy się w tworzeniu sklepów internetowych opartych na systemie WooCommerce. Rozwiązanie dobre zarówno dla małch jak i średnich sklepów - nawet do 1000 produktów.</p>
             <ul class="banner__list">
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/prostota_obslugi.svg" alt="focusite simple">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/prostota_obslugi.svg" alt="łatwy w obsłudze">
                     Łatwy w obsłudze
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/przyjazna_dla_wyszukiwarek.svg" alt="focusite seo friendly">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/przyjazna_dla_wyszukiwarek.svg" alt="przyjazny dla przeglądarek">
                     Przyjazny dla wyszukiwarek
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/ogromna_spolecznosc.svg" alt="focusite community">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/ogromna_spolecznosc.svg" alt="ogromna społeczność">
                     Ogromna społeczność
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/safe.svg" alt="focusite full responsible">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/safe.svg" alt="bezpieczny">
                     Bezpieczny
                 </li>
             </ul>
@@ -29,11 +29,10 @@
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/svg/sklepy-internetowe.svg" class="banner__image" alt="focusite e-commerce">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/sklepy-internetowe.svg" class="banner__image" alt="sklepy internetowe">
         </div>
     </section>
     <section class="benefits">
-        <div class="bg"></div>
         <div class="container">
             <h2 class="benefits__title">Dlaczego <span><span class="purple-gradient">WooCommerce?</span></span></h2>
             <div class="benefits__box">
@@ -43,7 +42,7 @@
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Elastyczność</span></h3>
-                    <p class="benefits__type__description">Prostota tego systemu nie oznacza, że brakuje mu zaawansowanych możliwości personalizacji - wręcz przeciwnie. Dzięki otwartemu kodu źródłowemu, nasi developerzy mogą dowolnie modyfikować i dostosować oprogromwanie tak, aby sprostać  wszystkim wymaganiom klientów. Część dodatkowych rozwiązań jesteś w stanie dodać samemu dzięki gotowym wtyczkom.</p>
+                    <p class="benefits__type__description">Prostota tego systemu nie oznacza, że brakuje mu zaawansowanych możliwości personalizacji - wręcz przeciwnie. Dzięki otwartemu kodu źródłowemu, nasi developerzy mogą dowolnie modyfikować i dostosować oprogromwanie tak, aby sprostać wszystkim wymaganiom klientów. Część dodatkowych rozwiązań jesteś w stanie dodać samemu dzięki gotowym wtyczkom.</p>
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Stabilność</span></h3>
@@ -56,26 +55,51 @@
     </section>
     <section class="arguments">
         <div class="container">
-            <h2>Zalety e-sklepów wykonanych przez nas</h2>
-            <div>
-                <h4>Całodobowa praca</h4>
-                <p>Czas to pieniądz - nie każdy ma czas lub możliwość dotarcia do sklepu stacjonarnego, zwłaszcza w godzinach jego otwarcia. Zakładając sklep ułatwisz dokonywanie zakupów klientom a nawet dotrzesz do nowych. Sklep będzie dostępny i może zarabiać 24/7 gdy ty jesteś zajęty swoimi sprawami.</p>
+            <h2 class="arguments__title">Jakie korzyści da ci <span class="purple-gradient">sklep internetowy?</span></h2>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/calodobowa_praca.svg" alt="całodobowa praca">
+                </div>
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Całodobowa praca</h4>
+                    <p class="arguments__description">Czas to pieniądz - nie każdy ma czas lub możliwość dotarcia do sklepu stacjonarnego, zwłaszcza w godzinach jego otwarcia. Zakładając sklep ułatwisz dokonywanie zakupów klientom a nawet dotrzesz do nowych. Sklep będzie dostępny i może zarabiać 24/7 gdy ty jesteś zajęty swoimi sprawami.</p>
+                </div>
             </div>
-            <div>
-                <h4>Budowa marki</h4>
-                <p>Budowanie twojej marki na dużych serwisach aukcyjnych jest niemal niemożliwe. Klienci rzadko wracają do konkretnych sprzedawców tylko do ponownego przeszukiwania ofert. Pomożemy Ci wyróżnić się spośród konkurecji, promując twój sklep np. poprzez dbanie o jego zawartość i pozycjonowanie go.</p>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Budowa marki</h4>
+                    <p>Budowanie twojej marki na dużych serwisach aukcyjnych jest niemal niemożliwe. Klienci rzadko wracają do konkretnych sprzedawców tylko do ponownego przeszukiwania ofert. Pomożemy Ci wyróżnić się spośród konkurecji, promując twój sklep np. poprzez dbanie o jego zawartość i pozycjonowanie go.</p>
+                </div>
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/budowa_marki.svg" alt="budowa marki">
+                </div>
             </div>
-            <div>
-                <h4>Optymalizacja i responsywność</h4>
-                <p>Każdy z naszych projektów przechodzi przez szereg działań poprawiających jego szybkość, dostępność a przede wszystkim pozycję w wyszukiwarce Google. Twój sklep będzie działał poprawnie na każdym urządzeniu. Wysoki standard oferty sprawia, że klienci są zadowoleni z naszych projektów i polecają nas innym.</p>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/optymalizacja_i_responsywnosc.svg" alt="optymalizacja i responsywność">
+                </div>
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Optymalizacja i responsywność</h4>
+                    <p>Każdy z naszych projektów przechodzi przez szereg działań poprawiających jego szybkość, dostępność a przede wszystkim pozycję w wyszukiwarce Google. Twój sklep będzie działał poprawnie na każdym urządzeniu. Wysoki standard oferty sprawia, że klienci są zadowoleni z naszych projektów i polecają nas innym.</p>
+                </div>
             </div>
-            <div>
-                <h4>Niskie koszta</h4>
-                <p>W przeciwieństwie do sklepu stacjonarnego, nie musisz się przejmować kosztami wynajmu oraz magazynowania. Asortyment, który ofertujesz możesz kupować lub wytwarzać dopiero po zamówieniu przez klienta i dostarczyć go mu w kilka dni. Koszty utrzymania sklepu internetwego są takie same jak strony www - praktycznie zerowe.</p>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Niskie koszta</h4>
+                    <p>W przeciwieństwie do sklepu stacjonarnego, nie musisz się przejmować kosztami wynajmu oraz magazynowania. Asortyment, który ofertujesz możesz kupować lub wytwarzać dopiero po zamówieniu przez klienta i dostarczyć go mu w kilka dni. Koszty utrzymania sklepu internetwego są takie same jak strony www - praktycznie zerowe.</p>
+                </div>
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/niskie_koszta.svg" alt="niskie koszta">
+                </div>
             </div>
-            <div>
-                <h4>Stały kontakt</h4>
-                <p>Skończony projekt nie musi oznaczać końca naszej współpracy. Możesz liczyć na nasze wsparcie z zakresu technicznych rzeczy czy nawet dodawania produktów. Po wykonanym e-sklepie otrzymasz materiały instruktażowe z obsługi systemu WooCommerce oraz jego administracji. Postaramy się, by Twój sklep pracował na sukces twojej firmy.</p>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/szkolenie.svg" alt="szkolenie">
+                </div>
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Stały kontakt</h4>
+                    <p>Skończony projekt nie musi oznaczać końca naszej współpracy. Możesz liczyć na nasze wsparcie z zakresu technicznych rzeczy czy nawet dodawania produktów. Po wykonanym e-sklepie otrzymasz materiały instruktażowe z obsługi systemu WooCommerce oraz jego administracji. Postaramy się, by Twój sklep pracował na sukces twojej firmy.</p>
+                </div>
             </div>
         </div>
     </section>

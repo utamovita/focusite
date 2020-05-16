@@ -41,7 +41,7 @@
         background-repeat: no-repeat;
         background-size: 50px auto;
         align-items: center;
-        
+
         &__icon {
           margin-right: 20px;
           width: 50px;
@@ -71,6 +71,8 @@
   }
 
   .benefits {
+    padding-bottom: 50px;
+
     &__title {
       text-align: center;
       margin-top: 35px;
@@ -80,14 +82,6 @@
       display: flex;
       justify-content: space-between;
       margin-top: 50px;
-    }
-
-    .bg {
-      height: 500px;
-      background-color: $c-alabaster;
-      position: absolute;
-      z-index: -1;
-      width: 100%;
     }
 
     &__type {
@@ -218,6 +212,51 @@
     }
   }
 
+  .arguments {
+    background-color: $c-alabaster;
+    padding: 25px 0 50px;
+
+    &__wrapper {
+      border-bottom: 1px solid $c-gallery;
+      padding: 40px 0;
+      display: flex;
+      align-items: center;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    &__box {
+      &--long {
+        flex-basis: 60%;
+      }
+
+      &--short {
+        flex-basis: 40%;
+      }
+    }
+
+    &__title {
+      text-align: center;
+      margin: 25px 0;
+    }
+
+    &__subtitle {
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    &__description {
+      color: $c-doveGray;
+    }
+
+    &__image {
+      display: block;
+      margin: auto;
+      width: 85%;
+    }
+  }
   .ending-section {
     margin: 100px 0;
     position: relative;

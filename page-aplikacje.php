@@ -33,7 +33,6 @@
         </div>
     </section>
     <section class="benefits">
-        <div class="bg"></div>
         <div class="container">
             <h2 class="benefits__title">Co wyróżnia nasze <span><span class="purple-gradient">aplikacje?</span></span>
             </h2>

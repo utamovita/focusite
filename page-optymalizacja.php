@@ -33,7 +33,6 @@
         </div>
     </section>
     <section class="benefits scroll-to">
-        <div class="bg"></div>
         <div class="container">
             <h2 class="benefits__title">Jakie korzyści daje nasza<span><span class="purple-gradient">optymalizacja?</span></span></h2>
             <div class="benefits__box">
