@@ -184,76 +184,20 @@
     }
   }
 
-  #section2 {
-    text-align: center;
-    position: relative;
+  .arguments {
+    padding: 25px 0;
+    margin-bottom: 50px;
+  }
 
-    .bg {
-      height: 350px;
-      background-color: $c-alabaster;
-      position: absolute;
-      z-index: -1;
-      width: 100%;
-    }
-
-    h2 {
-      margin: 65px 0;
-    }
-
-    .ball {
-      display: block;
-      width: 250px;
-      height: 250px;
-      box-shadow: 0px 0px 29px -10px rgba($c-black, 0.75);
-      margin: auto;
-      border-radius: 50%;
-      background-color: $c-white;
-
-      img {
-        width: 100%;
-        height: auto;
-        margin-left: -10%;
-        margin-top: 50%;
-        transform: translateY(-50%);
-      }
-    }
-
-    .btn-box {
-      float: left;
-      width: 100%;
-      margin: 25px 0 75px;
-    }
-
-    .btn {
-      margin: auto;
-      width: 235px;
-    }
-
-    h3 {
-      height: 70px;
-      margin-top: 40px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-
-      a {
-        display: block;
-        font-weight: 700;
-        color: $c-emperor;
-        margin: auto;
-      }
-    }
-
+  .quote {
     .description {
-      float: left;
-      width: 100%;
       margin-top: 75px;
+      text-align: center;
 
       p {
         font-size: 18px;
-        font-weight: 300;
         color: $c-doveGray;
-        max-width: 950px;
+        max-width: 970px;
         margin: auto;
         position: relative;
 
@@ -273,6 +217,10 @@
           }
         }
       }
+    }
+
+    .btn-box .btn {
+      margin: 0 auto 100px;
     }
   }
 
@@ -422,22 +370,11 @@
       }
     }
 
-    #section2 {
-      .ball {
-        width: 200px;
-        height: 200px;
-      }
+    .quote .description {
+      margin-top: 50px;
 
-      h3 {
-        font-size: 22px;
-      }
-
-      .description {
-        margin-top: 50px;
-
-        p {
-          max-width: 700px;
-        }
+      p {
+        max-width: 700px;
       }
     }
 
@@ -505,11 +442,6 @@
       .img-box img {
         width: 450px;
       }
-    }
-
-    #section2 .ball {
-      width: 175px;
-      height: 175px;
     }
 
     #section3 {
@@ -718,7 +650,7 @@
         li {
           text-align: left;
           font-size: 12px;
-          
+
           &.address {
             font-size: 12px;
           }

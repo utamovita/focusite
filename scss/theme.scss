@@ -4,14 +4,18 @@
 /* import components styles
 ************************************************************** */
 @import './components/nav';
-@import './components/oferta';
+@import './components/footer';
+@import './components/cookieBar';
+@import './components/arguments';
+
+/* import styles for specific pages
+************************************************************** */
+@import './components/offerSubpage';
+@import './components/privacyPolicy';
 @import './components/home';
 @import './components/wycena';
 @import './components/portfolio';
 @import './components/kontakt';
-@import './components/footer';
-@import './components/privacyPolicy';
-@import './components/404';
 @import './components/faq';
-@import './components/offerSubpage';
-@import './components/cookieBar';
+@import './components/oferta';
+@import './components/404';

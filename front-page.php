@@ -38,39 +38,79 @@
             </div>
         </div>
     </section>
-    <section id="section2">
-        <div class="bg"></div>
+    <section class="arguments">
         <div class="container">
-            <h2>Wykonamy <span><span class="purple-gradient">dla Ciebie</span></span></h2>
-            <div class="lg-4 sm-12">
-                <a href="oferta/strony-internetowe" class="ball" title="oferta - strony internetowe">
-                    <img src="<?php bloginfo('template_url'); ?>/img/strony-internetowe.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
-                </a>
-                <h3><a href="oferta/strony-internetowe" title="strony www">Strony internetowe</a></h3>
+            <h2 class="arguments__title">Wykonamy <span class="purple-gradient">dla Ciebie</span></h2>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/strony_internetowe.svg" alt="strona internetowa">
+                </div>
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Strony internetowe</h4>
+                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
+                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                </div>
             </div>
-            <div class="lg-4 sm-12">
-                <a href="sklepy-internetowe" class="ball" title="oferta - sklepy internetowe">
-                    <img src="<?php bloginfo('template_url'); ?>/img/sklepy-internetowe.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
-                </a>
-                <h3><a href="oferta/sklepy-internetowe" title="sklepy internetowe">Sklepy <br>internetowe</a></h3>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Sklepy internetowe</h4>
+                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
+                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                </div>
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/sklepy_internetowe.svg" alt="sklepy internetowe">
+                </div>
             </div>
-            <div class="lg-4 sm-12">
-                <a href="oferta/pozycjonowanie" class="ball" title="oferta - pozycjonowanie">
-                    <img src="<?php bloginfo('template_url'); ?>/img/pozycjonowanie.png" alt="Focusite - Strony WWW / Sklepy internetowe / Pozycjonowanie">
-                </a>
-                <h3><a href="oferta/aplikacje-webowe" title="pozycjonowanie">Aplikacje webowe</a></h3>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/aplikacje_webowe.svg" alt="aplikacje webowe">
+                </div>
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Aplikacje webowe</h4>
+                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
+                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                </div>
             </div>
-            <div class="description">
-                <p>To coś więcej niż serwisy www. To nasza pasja, którą stale rozwijamy, dzięki czemu spełniamy
-                    wymagania naszych klientów i dostarczamy im najlepsze rozwiązania na rynku. U nas nie ma drogi na
-                    skróty, a strony "byle jakie" to nie my. Strona www, sklep internetowy a może aplikacja? - zrobimy
-                    to za Ciebie. <strong>Jesteśmy gotowi. <span class="purple-gradient">A Ty?</span></strong></p>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Pozycjonowanie</h4>
+                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
+                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                </div>
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie.svg" alt="pozycjonowanie">
+                </div>
             </div>
-            <div class="btn-box">
-                <a href="oferta" class="btn" title="oferta">Zobacz ofertę</a>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/optymalizacja.svg" alt="optymalizacja">
+                </div>
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Optymalizacja</h4>
+                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
+                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                </div>
+            </div>
+            <div class="arguments__wrapper">
+                <div class="arguments__box arguments__box--long">
+                    <h4 class="arguments__subtitle">Copywriting</h4>
+                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
+                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                </div>
+                <div class="arguments__box arguments__box--short">
+                    <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/copywriting.svg" alt="copywriting">
+                </div>
             </div>
         </div>
     </section>
+    <div class="quote">
+        <div class="description">
+            <p>To coś więcej niż serwisy www. To nasza pasja, którą stale rozwijamy, dzięki czemu spełniamy wymagania naszych klientów i dostarczamy im najlepsze rozwiązania na rynku. U nas nie ma drogi na skróty, a strony "byle jakie" to nie my. Strona www, sklep internetowy a może aplikacja? - zrobimy to za Ciebie. <strong>Jesteśmy gotowi. <span class="purple-gradient">A Ty?</span></strong></p>
+        </div>
+        <div class="btn-box">
+            <a href="oferta" class="btn" title="oferta">Zobacz pełną ofertę</a>
+        </div>
+    </div>
     <section id="section3">
         <div class="container">
             <div class="row">
