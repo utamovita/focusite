@@ -184,11 +184,12 @@
   }
 
   .arguments {
-    padding: 25px 0;
     margin-bottom: 50px;
   }
 
   .quote {
+    padding: 0 15px;
+
     .description {
       margin-top: 75px;
       text-align: center;
@@ -571,38 +572,6 @@
       }
     }
 
-    #section2 {
-      .bg {
-        height: 100%;
-      }
-
-      .ball {
-        width: 250px;
-        height: 250px;
-      }
-
-      .lg-4:first-of-type h3 {
-        margin-top: 20px;
-      }
-
-      h3 {
-        margin: 30px 0;
-      }
-
-      .btn-box {
-        margin-bottom: 30px;
-        margin-top: 0;
-      }
-
-      .description {
-        margin-top: 0;
-
-        p {
-          font-size: 16px;
-        }
-      }
-    }
-
     #section3 {
       padding-top: 15px;
       height: auto;
@@ -752,17 +721,6 @@
       }
     }
 
-    #section2 {
-      h2 {
-        margin: 40px 0;
-        margin-top: 25px;
-      }
-
-      .description p {
-        font-size: 14px;
-      }
-    }
-
     #section3 {
       img {
         display: none;
@@ -779,6 +737,10 @@
       h5 br {
         display: none;
       }
+    }
+    
+    .quote .description p {
+      font-size: 14px;
     }
 
     footer {
