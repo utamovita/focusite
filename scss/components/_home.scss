@@ -132,8 +132,7 @@
   }
 
   #section1 {
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding: 30px 0;
 
     h2 {
       margin-top: 0;
@@ -155,7 +154,7 @@
         &:before {
           content: "";
           display: block;
-          background-image: url(../img/svg/check-mark-button.svg);
+          background-image: url(../img/svg/check_mark_button.svg);
           width: 30px;
           height: 30px;
           background-size: cover;
@@ -748,7 +747,7 @@
       font-size: 22px;
       line-height: 24px;
 
-      span span {
+      span {
         font-size: 26px;
       }
     }

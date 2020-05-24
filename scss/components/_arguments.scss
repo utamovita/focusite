@@ -75,3 +75,37 @@
     }
   }
 }
+
+@media only screen and (max-width: $break-mobile) {
+  .arguments {
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__box {
+      flex-basis: 100%;
+      width: 100%;
+      padding: 0 30px;
+
+      &--short {
+        order: 1;
+      }
+
+      &--long {
+        order: 2;
+        text-align: center;
+      }
+    }
+
+    &__image {
+      max-width: 500px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: $break-xs) {
+  .arguments__box {
+    padding: 0;
+  }
+} 
