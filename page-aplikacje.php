@@ -24,7 +24,7 @@
                     Szybkość działania
                 </li>
             </ul>
-            <button class="banner__button btn">
+            <button class="banner__button btn scroll-down">
                 Czytaj więcej
             </button>
         </div>
@@ -32,7 +32,7 @@
             <img src="<?php bloginfo('template_url'); ?>/img/svg/aplikacje_webowe.svg" class="banner__image" alt="aplikacja focusite">
         </div>
     </section>
-    <section class="benefits">
+    <section class="benefits scroll-to">
         <div class="container">
             <h2 class="benefits__title">Co wyróżnia nasze <span><span class="purple-gradient">aplikacje?</span></span>
             </h2>

@@ -5,7 +5,7 @@
         <div class="container">
             <div class="centered choosePricing">
                 <h1><span><span class="purple-gradient">Darmowa wycena</span></span></h1>
-                <h2>Wybierz interesującą Cię ofertę i wypełnij krótki formularz.<br>Orientacyjną wycenę otrzymasz w ciągu 24h.</h2>
+                <h2>Pomóż nam lepiej zacząć współpracę. <br>Wybierz interesującą Cię ofertę i wypełnij krótki formularz.</h2>
                 <h3><span><span class="orange-gradient">Projektowanie www</span></span></h3>
                 <div class="btn-box">
                     <button id="strona" class="btn orange empty">
@@ -103,7 +103,7 @@
             </div>
         </div>
     </section>
-    <div id="section2">
+    <div class="form-section">
     </div>
 </main>
 

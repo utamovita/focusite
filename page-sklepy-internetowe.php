@@ -29,7 +29,7 @@
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/svg/sklepy-internetowe.svg" class="banner__image" alt="sklepy internetowe">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/sklepy_internetowe.svg" class="banner__image" alt="sklepy internetowe">
         </div>
     </section>
     <section class="benefits">

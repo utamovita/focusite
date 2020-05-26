@@ -16,10 +16,10 @@ jQuery(document).ready(function () {
     jQuery(".choosePricing .btn").removeClass("active");
     jQuery(this).addClass("active");
     var thisID = jQuery(this).attr("id");
-    jQuery("#section2").load(
+    jQuery(".form-section").load(
       "../wp-content/themes/focusite/form-" + thisID + ".php"
     );
-    jQuery("#section2").addClass("loaded");
+    jQuery(".form-section").addClass("loaded");
   });
 
   jQuery(".close-btn").click(function () {

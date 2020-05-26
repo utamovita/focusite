@@ -47,15 +47,15 @@
                 </div>
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Strony internetowe</h4>
-                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
+                    <p class="arguments__description">Nasza agencja interaktywna tworzy strony internetowe, których głównym celem jest generowanie ruchu i promocja twojej działalności. Zajmujemy się dosłownie wszystkim, zaczynając od zaprojektowania wyglądu witryny, poprzez optymalizację i pozycjonowanie, kończąc na opublikowaniu strony na serwerze z wybraną przez Ciebie domeną. Zamów u nas stronę internetową i poszerz grono odbiorców, zdobywając nowych klientów.</p>
                     <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
                 </div>
             </div>
             <div class="arguments__wrapper">
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Sklepy internetowe</h4>
-                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
-                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                    <p class="arguments__description">Chcesz otworzyć sklep internetowy? Z nami to proste, specjalizujemy się w tworzeniu sklepów internetowych opartych o WooCommerce. Wznieś swój biznes na nowy poziom, zwiększając bazę swoich klientów, a co za tym idzie, podnosząc sprzedaż i zyski twojej firmy. Budujemy szybkie i intuicyjne sklepy internetowe z podstawowym procesem zakupowym, które pozwolą Ci w prosty sposób sprzedawać twoje produkty.</p>
+                    <a class="arguments__link" href="oferta/sklepy-internetowe">Poznaj szczegóły</a>
                 </div>
                 <div class="arguments__box arguments__box--short">
                     <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/sklepy_internetowe.svg" alt="sklepy internetowe">
@@ -67,15 +67,15 @@
                 </div>
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Aplikacje webowe</h4>
-                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
-                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                    <p class="arguments__description">Stworzymy od podstaw dedykowaną aplikację, która pozwala na automatyzacje procesów w firmie i nie tylko. W dzisiejszych czasach, aplikacje webowe są idealnym rozwiązaniem, ponieważ pozwalaja zarządzać firmą przez jakiekolwiek urządzenie. Aplikacja opiera swoje działanie na przeglądarce i pozwala na korzystanie z niej z dowolnego miejsca, bez konieczności pobierania i instalowania oprogramowania, potrzebujesz jedynie internetu.</p>
+                    <a class="arguments__link" href="oferta/aplikacje-webowe">Poznaj szczegóły</a>
                 </div>
             </div>
             <div class="arguments__wrapper">
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Pozycjonowanie</h4>
-                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
-                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                    <p class="arguments__description">Pozycjonowanie jest jednym z najskuteczniejszych sposobów, by poprawić widoczność twojej strony w internecie. Nasi pozycjonerzy przeanalizują twoją aktualną stronę i wprowadzą odpowiednie zmiany aby osiągnąć wysoką pozycję w Google. Wysoka pozycja w wynikach Google ma ogromne znaczenie w budowaniu rozpoznawalności marki. Sprawdź co wpływa na pozycję strony internetowej lub sklepu e-commerce w sieci. </p>
+                    <a class="arguments__link" href="oferta/pozycjonowanie">Poznaj szczegóły</a>
                 </div>
                 <div class="arguments__box arguments__box--short">
                     <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie.svg" alt="pozycjonowanie">
@@ -87,15 +87,15 @@
                 </div>
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Optymalizacja</h4>
-                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
-                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                    <p class="arguments__description">Ponad połowa użytkowników mobilnych opuszcza stronę, która wczytuje się dłużej niż trzy sekundy. Prędkość ładowania strony to również czynnik rankingowy Google, który wpływa na SEO i pozycję strony w wynikach wyszukiwania. Pełna optymalizacja strony to nie tylko przyśpieszenie strony ale również przeprowadzenie kompletnego audytu wymaganych zmian. Jeśli natomiast zależy Ci tylko na prędkości, zajmiemy się tylko tym.</p>
+                    <a class="arguments__link" href="oferta/optymalizacja">Poznaj szczegóły</a>
                 </div>
             </div>
             <div class="arguments__wrapper">
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Copywriting</h4>
-                    <p class="arguments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur nulla vitae molestie lacinia. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo. Nulla nec velit eget nisl aliquam volutpat. Maecenas vitae vehicula mi. Proin ac facilisis ligula, et tempus magna. Maecenas quis vehicula dolor. Aliquam posuere nisl blandit mi finibus commodo.</p>
-                    <a class="arguments__link" href="oferta/strony-internetowe">Poznaj szczegóły</a>
+                    <p class="arguments__description">Dobrze napisana treść do strony wpływa nie tylko na pozytywny odbiór użytkownika ale również jest to jeden z najważniejszych czynników poprawiających pozycję strony w wyszukiwarce. Teksty i słowa kluczowe strony internetowej lub sklepu e-commerce powinny być łatwe w zrozumieniu i adekwatne do tematyki witryny. Zachęcamy do zamówienia u nas tekstów do stron internetowych jak i innych powiązanych usług. </p>
+                    <a class="arguments__link" href="oferta/copywriting">Poznaj szczegóły</a>
                 </div>
                 <div class="arguments__box arguments__box--short">
                     <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/copywriting.svg" alt="copywriting">
