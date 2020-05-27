@@ -17,7 +17,7 @@ jQuery(document).ready(function () {
     jQuery(this).addClass("active");
     var thisID = jQuery(this).attr("id");
     jQuery(".form-section").load(
-      "../wp-content/themes/focusite/form-" + thisID + ".php"
+      "../wp-content/themes/focusite/form/form-" + thisID + ".php"
     );
     jQuery(".form-section").addClass("loaded");
   });
