@@ -51,21 +51,21 @@
     }
 
     li.email {
-      background-image: url(../img/svg/email.svg);
+      background-image: url(img/svg/email.svg);
     }
 
     li.phone {
-      background-image: url(../img/svg/phone.svg);
+      background-image: url(img/svg/phone.svg);
     }
 
     li.hours {
-      background-image: url(../img/svg/time.svg);
+      background-image: url(img/svg/time.svg);
       display: block;
       line-height: 28px;
     }
 
     li.address {
-      background-image: url(../img/svg/location.svg);
+      background-image: url(img/svg/location.svg);
       display: block;
       line-height: 28px;
     }
@@ -248,7 +248,7 @@
       height: 35px;
       background: none;
       border: none;
-      background-image: url("../img/close-icon.png");
+      background-image: url(img/close-icon.png);
       background-repeat: no-repeat;
       background-size: cover;
       cursor: pointer;

@@ -69,15 +69,15 @@ footer {
       }
 
       &.email a {
-        background-image: url(../img/svg/email.svg);
+        background-image: url(img/svg/email.svg);
       }
 
       &.phone a {
-        background-image: url(../img/svg/phone.svg);
+        background-image: url(img/svg/phone.svg);
       }
 
       &.address {
-        background-image: url(../img/svg/location.svg);
+        background-image: url(img/svg/location.svg);
         padding-left: 25px;
         padding-right: 0;
       }
@@ -103,7 +103,7 @@ footer {
 
 @media only screen and (max-width: $break-mobile) {
   footer {
-    background-image: url(../img/wave-bottom-mobile.png);
+    background-image: url(img/wave-bottom-mobile.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 305px;

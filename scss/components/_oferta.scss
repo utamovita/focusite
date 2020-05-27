@@ -149,7 +149,7 @@
           &::before {
             content: "";
             display: block;
-            background-image: url(../img/svg/purple-check-mark.svg);
+            background-image: url(img/svg/purple-check-mark.svg);
             width: 30px;
             height: 30px;
             background-size: cover;
@@ -227,15 +227,15 @@
         }
 
         &.deadline {
-          background-image: url(../img/svg/terminy.svg);
+          background-image: url(img/svg/terminy.svg);
         }
 
         &.team {
-          background-image: url(../img/svg/team.svg);
+          background-image: url(img/svg/team.svg);
         }
 
         &.passion {
-          background-image: url(../img/svg/pasja.svg);
+          background-image: url(img/svg/pasja.svg);
         }
       }
     }
