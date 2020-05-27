@@ -626,7 +626,7 @@
           width: 31%;
           margin: 0;
 
-          span{
+          span {
             margin-top: 0;
           }
 
@@ -694,6 +694,10 @@
           height: 200px;
         }
       }
+
+      .btn__submit {
+        margin: 25px auto;
+      }
     }
 
     .light-box {
@@ -709,46 +713,73 @@
 }
 
 @media only screen and (max-width: $break-s) {
-  .page-wycena .form-section .input-box {
-    .btn-switch {
-      width: 85px;
-      height: 40px;
-      min-width: 85px;
+  .page-wycena {
+    .section1 .centered .btn-box {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .btn {
+        margin: 10px;
+        width: 150px;
+        font-size: 11px;
+
+        span {
+          min-height: 32px;
+        }
+      }
     }
 
-    .btn-switch__label {
-      font-size: 14px;
-    }
+    .form-section .input-box {
+      .btn-switch {
+        width: 85px;
+        height: 40px;
+        min-width: 85px;
+      }
 
-    .qty {
-      width: 85px;
-      height: 40px;
-      font-size: 18px;
-      line-height: 42px;
-    }
+      .btn-switch__label {
+        font-size: 14px;
+      }
 
-    .align-mid h4 {
-      font-size: 18px;
-    }
+      .qty {
+        width: 85px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 42px;
+      }
 
-    span.description {
-      font-size: 14px;
+      .align-mid h4 {
+        font-size: 18px;
+      }
+
+      span.description {
+        font-size: 14px;
+      }
     }
   }
 }
 
 @media only screen and (max-width: $break-xs) {
   .page-wycena {
-    #section1 {
-      background-size: 300px;
-      padding-bottom: 0;
+    .section1 .centered {
+      h1 {
+        font-size: 28px;
+        padding-top: 100px;
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
     }
 
     .form-section {
+      padding-bottom: 50px;
+
       .input-box {
         padding-bottom: 40px;
       }
-      
+
       h3 {
         margin: 25px 0;
       }
