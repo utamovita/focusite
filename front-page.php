@@ -55,7 +55,7 @@
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Sklepy internetowe</h4>
                     <p class="arguments__description">Chcesz otworzyć sklep internetowy? Z nami to proste, specjalizujemy się w tworzeniu sklepów internetowych opartych o WooCommerce. Wznieś swój biznes na nowy poziom, zwiększając bazę swoich klientów, a co za tym idzie, podnosząc sprzedaż i zyski twojej firmy. Budujemy szybkie i intuicyjne sklepy internetowe z podstawowym procesem zakupowym, które pozwolą Ci w prosty sposób sprzedawać twoje produkty.</p>
-                    <a class="arguments__link" href="oferta/sklepy-internetowe">Poznaj szczegóły</a>
+                    <a class="arguments__link" href="sklepy-internetowe">Poznaj szczegóły</a>
                 </div>
                 <div class="arguments__box arguments__box--short">
                     <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/sklepy_internetowe.svg" alt="sklepy internetowe">
@@ -68,14 +68,14 @@
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Aplikacje webowe</h4>
                     <p class="arguments__description">Stworzymy od podstaw dedykowaną aplikację, która pozwala na automatyzacje procesów w firmie i nie tylko. W dzisiejszych czasach, aplikacje webowe są idealnym rozwiązaniem, ponieważ pozwalaja zarządzać firmą przez jakiekolwiek urządzenie. Aplikacja opiera swoje działanie na przeglądarce i pozwala na korzystanie z niej z dowolnego miejsca, bez konieczności pobierania i instalowania oprogramowania, potrzebujesz jedynie internetu.</p>
-                    <a class="arguments__link" href="oferta/aplikacje-webowe">Poznaj szczegóły</a>
+                    <a class="arguments__link" href="aplikacje-webowe">Poznaj szczegóły</a>
                 </div>
             </div>
             <div class="arguments__wrapper">
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Pozycjonowanie</h4>
                     <p class="arguments__description">Pozycjonowanie jest jednym z najskuteczniejszych sposobów, by poprawić widoczność twojej strony w internecie. Nasi pozycjonerzy przeanalizują twoją aktualną stronę i wprowadzą odpowiednie zmiany aby osiągnąć wysoką pozycję w Google. Wysoka pozycja w wynikach Google ma ogromne znaczenie w budowaniu rozpoznawalności marki. Sprawdź co wpływa na pozycję strony internetowej lub sklepu e-commerce w sieci. </p>
-                    <a class="arguments__link" href="oferta/pozycjonowanie">Poznaj szczegóły</a>
+                    <a class="arguments__link" href="pozycjonowanie">Poznaj szczegóły</a>
                 </div>
                 <div class="arguments__box arguments__box--short">
                     <img class="arguments__image" src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie.svg" alt="pozycjonowanie">

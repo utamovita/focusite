@@ -1,3 +1,4 @@
+<?php /* Template Name: Copywriting*/ ?>
 <?php get_header(); ?>
 
 <main class="offer-subpage">

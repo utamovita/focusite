@@ -1,3 +1,4 @@
+<?php /* Template Name: Pozycjonowanie*/ ?>
 <?php get_header(); ?>
 
 <main class="offer-subpage">

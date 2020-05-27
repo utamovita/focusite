@@ -1,3 +1,4 @@
+<?php /* Template Name: Strony internetowe */ ?>
 <?php get_header(); ?>
 
 <main class="offer-subpage">

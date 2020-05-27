@@ -1,3 +1,4 @@
+<?php /* Template Name: Aplikacje webowe*/ ?>
 <?php get_header(); ?>
 
 <main class="offer-subpage">
