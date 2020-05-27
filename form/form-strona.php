@@ -1,6 +1,6 @@
 <div class="container">
     <h2 class="form-section__title">Wycena <span><span class="purple-gradient">strony internetowej</span></h2>
-    <form id="website-form" method="POST" action="https://<?php echo $_SERVER['HTTP_HOST'] . '/wp-content/themes/focusite/form/mail-strona.php'?>">
+    <form class="main-form" method="POST" action="https://<?php echo $_SERVER['HTTP_HOST'] . '/wp-content/themes/focusite/form/mail-strona.php'?>">
         <!-- informacje podstawowe -->
         <section>
             <h3 class="first"><span><span class="purple-gradient">Informacje podstawowe</span></span></h3>
@@ -18,7 +18,7 @@
                     </p>
                     <h4>System zarządzania treścią (CMS)</h4>
                 </div>
-                <span class="description">Otrzymasz panel administracyjny pozwalający na samodzielne dodawanie i zmienianie treści oraz zdjęć bez znajomości programowania. Jeśli na Twojej stronie będzie np. blog lub aktualności jest to opcja zdecydowanie dla Ciebie.</span>
+                <span class="description">Otrzymasz panel administracyjny pozwalający na samodzielne dodawanie i zmienianie treści oraz zdjęć bez znajomości programowania.</span>
             </div>
             <div class="input-box">
                 <div class="align-mid">
@@ -34,7 +34,7 @@
                     </p>
                     <h4>Indywidualny projekt graficzny</h4>
                 </div>
-                <span class="description">Nasz grafik przygotuje dla Ciebie unikatową i spersonalizowaną grafikę Twojej strony. Jeśli nie zdecydujesz się na takie rozwiązanie - nie szkodzi, otrzymasz od nas do wyboru szablon graficzny, który dopasujemy do Twoich potrzeb.</span>
+                <span class="description">Nasz grafik przygotuje dla Ciebie unikatową i spersonalizowany projekt Twojej strony. Jeśli nie zdecydujesz się na takie rozwiązanie otrzymasz od nas do wyboru szablon graficzny, który dopasujemy do Twoich potrzeb.</span>
             </div>
             <div class="input-box">
                 <div class="align-mid">
@@ -69,7 +69,7 @@
                     </p>
                     <h4>Logo</h4>
                 </div>
-                <span class="description">Jeśli nie posiadasz w swojej firmie loga lub chcesz je odświeżyć - jest to opcja dla Ciebie. Zaprojektujemy dla Ciebie identyfikujący Twoją firmę logotyp i sygnet.</span>
+                <span class="description">Potrzebujesz logo firmy lub chcesz je odświeżyć? Zlecimy naszemu grafikowi zaprojektowanie go dla Ciebie.</span>
             </div>
             <div class="input-box">
                 <div class="align-mid">
@@ -86,6 +86,22 @@
                     <h4>Pozycjonowanie (SEO)</h4>
                 </div>
                 <span class="description">Oprócz podstawowego pozycjonowania strony na etapie budowy, wprowadzimy dodatkowe zmiany w kodzie źródłowym oraz przygotujemy teksty tak, aby Twoja strona była jeszcze bardziej czytelna i osiągała jak najwyższą pozycję w wynikach wyszukiwarek (np. Google).</span>
+            </div>
+            <div class="input-box">
+                <div class="align-mid">
+                    <p class="btn-switch">
+                        <input type="radio" value="yes" id="copywriting-yes" name="copywriting" class="btn-switch__radio btn-switch__radio_yes" />
+                        <input type="radio" value="no" id="copywriting-no" name="copywriting" class="btn-switch__radio btn-switch__radio_no" checked />
+                        <label for="copywriting-yes" class="btn-switch__label btn-switch__label_yes">
+                            <span class="btn-switch__txt">Tak</span>
+                        </label>
+                        <label for="copywriting-no" class="btn-switch__label btn-switch__label_no">
+                            <span class="btn-switch__txt">Nie</span>
+                        </label>
+                    </p>
+                    <h4>Copywriting</h4>
+                </div>
+                <span class="description">Napiszemy dla ciebie potrzebną treść do strony.</span>
             </div>
         </section>
 
@@ -173,7 +189,7 @@
                 <span class="description">Jeśli masz lub planujesz posiadać zagranicznych kontrahentów to jest to opcja dla Ciebie.</span>
             </div>
         </section>
-
+        
         <!-- dane kontaktowe -->
         <section class="contact-form">
             <h3><span><span class="purple-gradient">Dane kontaktowe</span></span></h3>
@@ -224,6 +240,7 @@
             </label>
         </section>
 
+        <!-- submit -->
         <div class="btn-box">
             <button type="submit" class="btn btn__submit">Wyślij zgłoszenie</button>
         </div>
@@ -242,9 +259,6 @@
         rangeBullet.style.left = (bulletPosition * 578) + "px";
     }
 
-    jQuery("footer").removeClass('hide');
-    rangeSlider.addEventListener("input", showSliderValue, false);
-
     jQuery([document.documentElement, document.body]).animate({
         scrollTop: jQuery(".form-section").offset().top - 100
     }, 800);
@@ -255,7 +269,7 @@
 
     jQuery(function() {
         // Get the form.
-        var form = jQuery('#website-form');
+        var form = jQuery('.main-form');
 
         // Get the messages div.
         var formMessages = jQuery('#form-messages');

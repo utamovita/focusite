@@ -1,6 +1,6 @@
 <div class="container">
     <h2 class="form-section__title">Wycena <span><span class="purple-gradient">pozycjonowania</span></h2>
-    <form class="main-form" method="POST" action="https://<?php echo $_SERVER['HTTP_HOST'] . '/wp-content/themes/focusite/form/mail-pozycjonowanie.php'?>">
+    <form class="main-form" method="POST" action="https://<?php echo $_SERVER['HTTP_HOST'] . '/wp-content/themes/focusite/form/mail-optymalizacja.php'?>">
         <section class="contact-form">
             <h3 class="first"><span><span class="purple-gradient">Informacje podstawowe</span></span></h3>
             <div class="input-box">

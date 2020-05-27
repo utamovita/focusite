@@ -1,6 +1,6 @@
 <div class="container">
     <h2 class="form-section__title">Wycena <span><span class="purple-gradient">sklepu internetowego</span></h2>
-    <form id="shop-form" method="POST" action="https://<?php echo $_SERVER['HTTP_HOST'] . '/wp-content/themes/focusite/form/mail-sklep.php'?>">
+    <form class="main-form" method="POST" action="https://<?php echo $_SERVER['HTTP_HOST'] . '/wp-content/themes/focusite/form/mail-sklep.php'?>">
         <!-- informacje podstawowe -->
         <section>
             <h3 class="first"><span><span class="purple-gradient">Informacje podstawowe</span></span></h3>
@@ -108,6 +108,7 @@
             </label>
         </section>
 
+        <!-- submit -->
         <div class="btn-box">
             <button type="submit" class="btn btn__submit">Wyślij zgłoszenie</button>
         </div>
@@ -140,7 +141,7 @@
 
     jQuery(function() {
         // Get the form.
-        var form = jQuery('#shop-form');
+        var form = jQuery('.main-form');
 
         // Get the messages div.
         var formMessages = jQuery('#form-messages');

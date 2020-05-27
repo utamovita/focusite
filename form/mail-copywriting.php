@@ -8,17 +8,7 @@
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
         $radio_company = $_POST["company"];  
-        $cms = trim($_POST["cms"]);
-        $project= trim($_POST["project"]);
-        $page_num = trim($_POST["page-num"]);
-        $logo = trim($_POST["logo"]);
-        $seo = trim($_POST["seo"]);
-        $copywriting = trim($_POST["copywriting"]);
-        $gmap = trim($_POST["gmap"]);
-        $contactForm = trim($_POST["contactForm"]);
-        $gallery = trim($_POST["gallery"]);
-        $slider = trim($_POST["slider"]);
-        $lang = trim($_POST["lang"]);
+        $zzs_num = trim($_POST["zzs-num"]);
         
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -36,31 +26,21 @@
         $recipient = "michalkowit@gmail.com, office@focusite.pl";
 
         // Set the email subject.
-        $subject = "Wycena strony od $name";
+        $subject = "Wycena copywriting od $name";
 
         // Build the email content.
         $email_content = '';
         
-        if($cms == "yes")$email_content .=  "CMS : Tak\n\n";
-        if($project == "yes")$email_content .=  "Indywidualny projekt graficzny : Tak\n\n";
-        $email_content .=  "Ilość podstron : $page_num\n\n";
-        if($logo == "yes")$email_content .=  "Logo : Tak\n\n";
-        if($seo == "yes")$email_content .=  "Pozycjonowanie : Tak\n\n";
-        if($copywriting == "yes")$email_content .=  "Copywriting : Tak\n\n";
-        if($contactForm == "yes")$email_content .=  "Formularz kontaktowy : Tak\n\n";
-        if($gmap == "yes")$email_content .=  "Google Maps : Tak\n\n";
-        if($gallery == "yes")$email_content .=  "Galeria : Tak\n\n";
-        if($slider == "yes")$email_content .=  "Slider/Karuzela : Tak\n\n";
-        if($lang == "yes")$email_content .=  "Wersje językowe : Tak\n\n";
+        $email_content .=  "Ilość zzs : $zzs_num\n\n";
         
         if ($radio_company == "yes") {          
-            $email_content .=  "\n\nFirma : Tak\n\n";
+            $email_content .=  "Firma : Tak\n\n";
             $company_name = trim($_POST["company-name"]);
             $email_content .=  "Nazwa firmy : $company_name\n\n";
             $company_nip = trim($_POST["company-nip"]);
             $email_content .=  "NIP : $company_nip\n\n";
-        }
-        else $email_content .= "\n\nFirma : Nie\n\n";
+        } else $email_content .= "Firma : Nie\n\n";
+        
         $email_content .= "Imię i nazwisko: $name\n\n";
         $email_content .= "E-mail: $email\n\n";
         $email_content .= "Telefon: $phone\n\n";
@@ -90,4 +70,3 @@
         echo '<h3><span><span class="purple-gradient">Ups!</span></span></h3>
         <p>Wystąpił problem z przesłaniem Twojej wiadomości.</p><p>Spróbuj ponownie.</p>';
     }
-?>

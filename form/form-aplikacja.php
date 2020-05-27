@@ -1,6 +1,6 @@
 <div class="container">
-    <h2 class="form-section__title">Wycena <span><span class="purple-gradient">pozycjonowania</span></h2>
-    <form class="main-form" method="POST" action="https://<?php echo $_SERVER['HTTP_HOST'] . '/wp-content/themes/focusite/form/mail-pozycjonowanie.php'?>">
+    <h2 class="form-section__title">Wycena <span><span class="purple-gradient">aplikacji</span></h2>
+    <form class="main-form" method="POST" action="https://<?php echo $_SERVER['HTTP_HOST'] . '/wp-content/themes/focusite/form/mail-aplikacja.php'?>">
         <section class="contact-form">
             <h3 class="first"><span><span class="purple-gradient">Informacje podstawowe</span></span></h3>
             <div class="input-box">
@@ -29,10 +29,6 @@
                 <input type="number" class="inputClass" name="company-nip">
             </div>
             <div class="input-box">
-                <label>Adres strony</label>
-                <input type="text" class="inputClass" name="website-url">
-            </div>
-            <div class="input-box">
                 <label>Imię i nazwisko</label>
                 <input type="text" class="inputClass" name="name">
             </div>
@@ -45,7 +41,7 @@
                 <input type="number" class="inputClass" name="phone">
             </div>
             <div class="input-box">
-                <label>Uwagi</label>
+                <label>Opis działania aplikacji</label>
                 <textarea name="message" id="messageArea"></textarea>
             </div>
             <label class="checkbox-container">
