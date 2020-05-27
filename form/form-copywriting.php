@@ -1,5 +1,5 @@
 <div class="container">
-    <h2 class="form-section__title">Wycena <span><span class="purple-gradient">sklepu internetowego</span></h2>
+    <h2 class="form-section__title">Wycena <span><span class="purple-gradient">copywritingu</span></h2>
     <form class="main-form" method="POST" action="https://<?php echo $_SERVER['HTTP_HOST'] . '/wp-content/themes/focusite/form/mail-copywriting.php' ?>">
         <!-- informacje podstawowe + kontakt -->
         <section class="contact-form">
