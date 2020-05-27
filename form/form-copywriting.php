@@ -6,7 +6,7 @@
             <h3 class="first"><span><span class="purple-gradient">Informacje podstawowe</span></span></h3>
             <div class="input-box">
                 <div class="align-mid">
-                    <div class="qty" id="page-ammount" value="8000">8000</div>
+                    <div class="qty" value="8000">8000</div>
                     <h4>Ilość zzs</h4>
                 </div>
                 <span class="description">Podaj orientacyjną ilość znaków ze spacją jaką planujesz zamówić.</span>
@@ -78,17 +78,17 @@
 </div>
 
 <script>
-    var rangeSlider = document.getElementById("rs-range-line");
-    var rangeBullet = document.getElementById("rs-bullet");
-    var pageAmmount = document.getElementById("page-ammount");
+    var rangeSlider = document.querySelector("#rs-range-line");
+    var rangeBullet = document.querySelector("#rs-bullet");
+    var qty = document.querySelector(".qty");
 
     function showSliderValue() {
         rangeBullet.innerHTML = rangeSlider.value;
-        pageAmmount.innerHTML = rangeSlider.value;
+        qty.innerHTML = rangeSlider.value;
         var bulletPosition = (rangeSlider.value / rangeSlider.max);
         rangeBullet.style.left = (bulletPosition * 678) + "px";
-
     }
+    
     rangeSlider.addEventListener("input", showSliderValue, false);
 
     jQuery("footer").removeClass('hide');

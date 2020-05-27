@@ -44,7 +44,7 @@
         $email_content .= "Imię i nazwisko: $name\n\n";
         $email_content .= "E-mail: $email\n\n";
         $email_content .= "Telefon: $phone\n\n";
-        $email_content .= "Uwagi:\n$message\n";
+        $email_content .= "Branża/Uwagi:\n$message\n";
 
         // Build the email headers.
         $email_headers = "From: Focusite - $name <office@focusite.pl>";

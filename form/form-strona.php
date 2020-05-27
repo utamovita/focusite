@@ -38,7 +38,7 @@
             </div>
             <div class="input-box">
                 <div class="align-mid">
-                    <div id="page-ammount">1</div>
+                    <div class="qty">1</div>
                     <h4>Ilość podstron</h4>
                 </div>
 
@@ -248,16 +248,17 @@
 </div>
 
 <script>
-    var rangeSlider = document.getElementById("rs-range-line");
-    var rangeBullet = document.getElementById("rs-bullet");
-    var pageAmmount = document.getElementById("page-ammount");
+    var rangeSlider = document.querySelector("#rs-range-line");
+    var rangeBullet = document.querySelector("#rs-bullet");
+    var qty = document.querySelector(".qty");
 
     function showSliderValue() {
         rangeBullet.innerHTML = rangeSlider.value;
-        pageAmmount.innerHTML = rangeSlider.value;
+        qty.innerHTML = rangeSlider.value;
         var bulletPosition = (rangeSlider.value / rangeSlider.max);
         rangeBullet.style.left = (bulletPosition * 578) + "px";
     }
+    rangeSlider.addEventListener("input", showSliderValue, false);
 
     jQuery([document.documentElement, document.body]).animate({
         scrollTop: jQuery(".form-section").offset().top - 100

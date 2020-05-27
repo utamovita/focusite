@@ -7,7 +7,6 @@
         $phone = trim($_POST["phone"]);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
-        $web_url = trim($_POST["website-url"]);
         $radio_company = $_POST["company"];  
         
         // Check that data was sent to the mailer.
@@ -38,7 +37,6 @@
             $email_content .=  "NIP : $company_nip\n\n";
         }
         else $email_content .= "Firma : Nie\n\n";
-        $email_content = "Strona : $web_url \n\n";
         $email_content .= "Imię i nazwisko: $name\n\n";
         $email_content .= "E-mail: $email\n\n";
         $email_content .= "Telefon: $phone\n\n";
