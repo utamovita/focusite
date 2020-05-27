@@ -318,7 +318,6 @@
         ul li {
           font-size: 14px;
           background-size: 40px auto;
-          padding-left: 60px;
           margin: 10px 0;
         }
       }
@@ -379,10 +378,18 @@
       .offer {
         order: 2;
 
-        ul li {
-          width: 50%;
-          display: inline-block;
-          margin: auto;
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+
+          li {
+            display: flex;
+            flex-basis: 50%;
+            align-items: center;
+            line-height: 1.5em;
+            background-size: 45px;
+            font-size: 14px;
+          }
         }
 
         p {
@@ -519,7 +526,11 @@
 
     .banner {
       padding-bottom: 25px;
-
+      
+      button {
+        margin: 30px auto 0;
+      }
+      
       .offer {
         p {
           padding-left: 15px;
@@ -535,6 +546,7 @@
           li {
             min-width: 265px;
             padding-right: 0;
+            margin: 5px 0;
           }
         }
       }
