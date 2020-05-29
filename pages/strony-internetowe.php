@@ -52,7 +52,7 @@
                 </div>
             </div>
             <h3 class="benefits__sub-title">Strona to nie koszt, <span class="purple-gradient">to inwestycja.</span></h3>
-            <a href="wycena" class="benefits__button btn">Zapytaj o wycenę</a>
+            <a href="<?php site_url(); ?>/wycena" class="benefits__button btn">Zapytaj o wycenę</a>
         </div>
     </section>
     <section class="arguments">
@@ -109,7 +109,7 @@
         <div class="info-box">
             <h2>Masz <span><span class="purple-gradient">pytania?</span></span></h2>
             <h5>Zobacz dział najczęsciej zadawanych pytań. <br>Lub po prostu odezwij się do nas ;)</h5>
-            <a href="faq" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="kontakt" class="btn orange" title="kontakt">Skontaktuj się</a>
+            <a href="<?php site_url(); ?>/faq" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="<?php site_url(); ?>/kontakt" class="btn orange" title="kontakt">Skontaktuj się</a>
         </div>
     </section>
 </main>
