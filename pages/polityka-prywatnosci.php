@@ -25,6 +25,7 @@
                 <li>NIP firmy</li>
                 <li>numer telefonu kontaktowego</li>
                 <li>adres e-mail</li>
+                <li>adresy IP</li>
                 <li>informacje komplementarne, dotyczące prowadzonego przez Użytkownika biznesu</li>
             </ul>
 

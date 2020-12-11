@@ -30,60 +30,104 @@ function optymalizacja($f){
         'description' => 'Firma Focusite zajmuje się profesjonalnym tworzeniem stron internetowych, sklepów oraz pozycjonowaniem portali w wyszukiwarce Google.'
     );
 
+    # Przekierowania błędnych linków
+    $Page_redirect = array(
+        '/demo/dummy-text/' => '/',
+        '/demo/image-generator/' => '/',
+        '/oferta/optymalizacja/faq' => '/faq/',
+        '/oferta/aplikacje-webowe/faq' => '/faq/',
+        '/oferta/copywriting/wycena' => '/wycena/',
+        '/oferta/pozycjonowanie/wycena' => '/wycena/',
+        '/portfolio' => '/oferta/',
+        '/portfolio/' => '/oferta/',
+        '/oferta/portfolio' => '/oferta/',
+    );
+    if( isset($Page_redirect) ){
+        foreach( $Page_redirect as $Strona => $Przekierowanie ){
+            if( $Page_uri == $Strona ){
+                header("HTTP/1.1 301 Moved Permanently");
+                header("Location: ".$Page_domain.$Przekierowanie);
+                exit;
+            }
+        }
+    }
+
+    # Podmiany treści
+    $Page_str_replace = array(
+        'href="oferta/strony-internetowe"' => 'href="/oferta/strony-internetowe/"',
+        'href="sklepy-internetowe"' => 'href="/oferta/sklepy-internetowe/"',
+        'href="aplikacje-webowe"' => 'href="/oferta/aplikacje-webowe/"',
+        'href="pozycjonowanie"' => 'href="/oferta/pozycjonowanie/"',
+        'href="oferta/optymalizacja"' => 'href="/oferta/optymalizacja/"',
+        'href="oferta/copywriting"' => 'href="/oferta/copywriting/"',
+        'href="oferta"' => 'href="/oferta/"',
+        'href="strony-internetowe"' => 'href="/oferta/strony-internetowe/"',
+        'href="copywriting"' => 'href="/oferta/copywriting/"',
+        'href="optymalizacja"' => 'href="/oferta/optymalizacja/"',
+        'href="kontakt"' => 'href="/kontakt/"',
+        'href="/kontakt"' => 'href="/kontakt/"',
+        'href="wycena"' => 'href="/wycena/"',
+        'href="/wycena"' => 'href="/wycena/"',
+        'href="/faq"' => 'href="/faq/"',
+        '<a href="tel:+48732009546">' => '<a rel="nofollow" href="tel:+48732009546">',
+        '<a href="mailto:office@focusite.pl">' => '<a rel="nofollow" href="mailto:office@focusite.pl">',
+        '<a href="https://gtmetrix.com">' => '<a rel="nofollow" href="https://gtmetrix.com">',
+    );
+
     # Zarządzanie znacznikami meta
     switch( $Page_uri ) {
         case '/': {
-            $Page_title = 'Focusite: Strony internetowe, sklepy online oraz dedykowane aplikacje dla firm';
+            $Page_title = 'Tworzenie stron internetowych oraz sklepów, aplikacje internetowe dla firm Buk';
             $Page_description = 'W ofercie firmy Focusite z Buku mogą Państwo znaleźć profesjonalne tworzenie stron internetowych, sklepów, aplikacji oraz pozycjonowanie portali. Całodobowe wsparcie, nieszablonowe działanie i wieloletnie doświadczenie, wejdź i dokonaj indywidualnej wyceny.';
         } break;
 
         case '/oferta/': {
-            $Page_title = 'Oferta Focusite: Zapoznaj się z szerokim wachlarzem naszych usług';
+            $Page_title = 'Oferta firmy';
             $Page_description = 'Firma Focusite specjalizuje się w tworzeniu stron internetowych, sklepów e-commerce i aplikacji webowych. Ponadto oferujemy wiele innych usług promujących twoją firmę w internecie takich jak pozycjonowanie, copywriting lub optymalizacja stron.';
         } break;
 
         case '/oferta/strony-internetowe/': {
-            $Page_title = 'Strony internetowe: Zrób dobre pierwsze wrażenie i zdobądź przewagę nad konkurecją';
+            $Page_title = 'Tworzenie stron internetowych Buk';
             $Page_description = 'Tworzymy i projektujemy profesjonalne strony internetowe, które osiągają wysokie rankingi w wyszukiwarkach. Unikalny design, szybkość działania oraz łatwy i intuicyjny system administracji. Rozpocznij nowy projekt z nami już teraz.';
         } break;
 
         case '/oferta/sklepy-internetowe/': {
-            $Page_title = 'Sklepy internetowe: Tworzenie oraz projektowanie e-commerce';
+            $Page_title = 'Tworzenie oraz projektowanie sklepów internetowych, e-commerce Buk';
             $Page_description = 'Zaprojektujemy i stworzymy dla Ciebie prosty w obsłudze sklep online, który ułatwi Twoim klientom zakupy w internecie. Specjalizujemy się w tworzeniu sklepów opartych o system WooCommerce. Rozwiązanie idealne dla małych i średnich sklepów internetowych';
         } break;
 
         case '/oferta/aplikacje-webowe/': {
-            $Page_title = 'Aplikacje webowe: Dedykowane rozwiązania dla małych firm';
+            $Page_title = 'Aplikacje webowe Buk';
             $Page_description = 'Napiszemy dla Ciebie aplikacje mobilną, która pomoże Ci w automatyzacji wybranych procesów Twojej firmy. Napisz nam jaki masz pomysł na swoją aplikację a my ją dla ciebie stworzymy.';
         } break;
 
         case '/oferta/pozycjonowanie/': {
-            $Page_title = 'Pozycjonowanie SEO: Zwiększ swoją pozycję w wyszukiwarce Google';
+            $Page_title = 'Pozycjonowanie stron w Google: optymalizacja SEO Buk';
             $Page_description = 'Firma Focusite zajmuje się szeroko rozumianym pozycjonowaniem SEO. Poprawiamy widoczność stron internetowych aby osiągały jak najwyższe pozycję w wynikach Google.';
         } break;
 
         case '/oferta/copywriting/': {
-            $Page_title = 'Copywriting: Treści do strony internetowej, bloga lub sklepu e-commerce';
+            $Page_title = 'Copywriting: Profesjonalne treści do strony internetowej, bloga lub sklepu e-commerce';
             $Page_description = 'Unikalne i wartościowe Teksty SEO do twojej witryny w rozsądnej cenie. Oryginalne teksty, regularne dodawanie treści do artykułów, postów na facebooku i nie tylko.';
         } break;
 
         case '/oferta/optymalizacja/': {
-            $Page_title = 'Optymalizacja: Przyśpiesz swoją stronę lub sklep internetowy';
+            $Page_title = 'Optymalizacja prędkości stron';
             $Page_description = 'Prędkość strony internetowej nie tylko ułatwia dostęp użytkownikowi ale również jest czynnikiem SEO, który bezpośrednio wpływa na pozycję w wyszukiwarce. Wykonamy dla Ciebie pełną optymalizację strony, w która znacząco przyśpieszy twój serwis i polepszy jego użytkowanie.';
         } break;
 
         case '/faq/': {
-            $Page_title = 'Focusite FAQ - sekcja najczęściej zadawanych pytań i odpowiedzi';
+            $Page_title = 'FAQ: Najczęściej zadawane pytania';
             $Page_description = 'Odpowiedzi na najczęściej zadawane pytania. Jesteśmy transparentni i odpowiadamy na każde pytania bez żadnych tajemnic. Ile kosztuje strona? Co to jest pozycjonowanie, system CMS lub responsywność? Na te i wiele innych pytań znajdziesz u nas odpowiedź. Sprawdź co dla Ciebie przygotowaliśmy.';
         } break;
 
         case '/kontakt/': {
-            $Page_title = 'Kontakt z Focusite - zapraszamy do skontaktowania się z nami';
+            $Page_title = 'Kontakt';
             $Page_description = 'Zapraszamy do skontaktowania się z firmą Focusite. Masz pytania, chcesz skorzystać z naszych usług lub potrzebujesz porady? Daj nam znać, na pewno pomożemy.';
         } break;
 
         case '/wycena/': {
-            $Page_title = 'Darmowa wycena - sprawdź ile kosztują nasze usługi. Nie kupuj kota w worku.';
+            $Page_title = 'Darmowa wycena';
             $Page_description = 'Dowiedz się ile kosztuje realizacja twojego pomysłu dzięki indywidualnej wycenie. Wypełnij krótki brief a my odezwiemy się w ciągu doby z orientacyjnym kosztorysem.';
         } break;
 
@@ -127,6 +171,13 @@ function optymalizacja($f){
 
 
     /* === FUNKCJE === */
+
+    # Podmiana treści
+    if( isset($Page_str_replace) ){
+        foreach( $Page_str_replace as $Podstawa => $Korekta ){
+            $f = str_replace($Podstawa,$Korekta,$f);
+        }
+    }
 
     # Aktualizacja description stron
     if( isset($Page_description) ){

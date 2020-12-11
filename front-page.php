@@ -108,7 +108,7 @@
             <p>To coś więcej niż serwisy www. To nasza pasja, którą stale rozwijamy, dzięki czemu spełniamy wymagania naszych klientów i dostarczamy im najlepsze rozwiązania na rynku. U nas nie ma drogi na skróty, a strony "byle jakie" to nie my. Strona www, sklep internetowy a może aplikacja? - zrobimy to za Ciebie. <strong>Jesteśmy gotowi. <span class="purple-gradient">A Ty?</span></strong></p>
         </div>
         <div class="btn-box">
-            <a href="oferta" class="btn" title="Oferta">Zobacz pełną ofertę</a>
+            <a href="oferta" class="btn" title="oferta">Zobacz pełną ofertę</a>
         </div>
     </div>
     <section id="section3">
@@ -122,7 +122,7 @@
                     </h2>
                     <h5>Wypełnij krótki brief. Odpowiedź otrzymasz w ciągu 24h.<br> Możesz też się z nami spotkać na
                         kawie :)</h5>
-                    <a href="wycena" class="btn orange" title="brief">Wypełnij brief</a><span class="or">lub</span><a href="kontakt" title="Kontakt" class="btn orange">Skontaktuj się</a>
+                    <a href="wycena" class="btn orange" title="brief">Wypełnij brief</a><span class="or">lub</span><a href="kontakt" title="kontakt" class="btn orange">Skontaktuj się</a>
                 </div>
             </div>
         </div>
@@ -139,8 +139,8 @@
             <div class="spacer-top"></div>
             <div class="info">
                 <ul>
-                    <li class="email"><a href="mailto:office@focusite.pl" title="Email">office@focusite.pl</a></li>
-                    <li class="phone"><a href="tel:+48732009546" title="Telefon">+48 732 009 546</a></li>
+                    <li class="email"><a href="mailto:office@focusite.pl">office@focusite.pl</a></li>
+                    <li class="phone"><a href="tel:+48732009546">+48 732 009 546</a></li>
                     <li class="address">Dworcowa 1, 64-320 Buk</li>
                 </ul>
             </div>
