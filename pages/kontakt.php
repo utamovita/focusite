@@ -84,25 +84,42 @@
 
 <script>
     jQuery(function() {
-        var e = jQuery(".contact-form"),
-            a = jQuery("#form-messages");
-        e.submit(!1), jQuery(e).submit(function(s) {
+        var form = jQuery(".contact-form"),
+            dialog = jQuery("#form-messages");
+
+        var contentNoTerms = `
+                <h3><span><span class="purple-gradient">Ups!</span></span></h3>
+                <p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p>
+                <p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>
+            `,
+            contentError = `
+                <h3><span><span class="purple-gradient">Ups!</span></span></h3>
+                <p>Wystąpił błąd i Twoja wiadomość nie mogła zostać wysłana.</p>
+                <p>Spróbuj jeszcze raz.</p>
+            `;
+            
+        form.submit(!1), jQuery(form).submit(function(s) {
             s.preventDefault();
-            var r = jQuery(e).serialize();
-            if (!jQuery("input[type=checkbox]").is(":checked")) return jQuery(".darkness, .light-box").addClass("on"), void jQuery(a).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>');
+            var formData = jQuery(form).serialize();
+            if (!jQuery("input[type=checkbox]").is(":checked")) return jQuery(".darkness, .light-box").addClass("on"), 
+            void jQuery(dialog).html(contentNoTerms);
+            
             jQuery.ajax({
                 type: "POST",
-                url: jQuery(e).attr("action"),
-                data: r
+                url: jQuery(form).attr("action"),
+                data: formData
             }).done(function(e) {
-                jQuery(a).removeClass("error"), jQuery(a).addClass("success"), jQuery(".darkness, .light-box").addClass("on"), jQuery(a).html(e), jQuery("#name").val(""), jQuery("#message").val(""), jQuery("#phone").val(""), jQuery("#email").val("")
+                jQuery(dialog).removeClass("error").addClass("success").html(e), 
+                jQuery(".darkness, .light-box").addClass("on"), 
+                jQuery("#name, #message, #phone, #email").val("")
             }).fail(function(e) {
-                jQuery(a).removeClass("success"), jQuery(a).addClass("error"), jQuery(".darkness, .light-box").addClass("on"), "" !== e.responseText ? jQuery(a).html(e.responseText) : jQuery(a).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3> <p>Wystąpił błąd i Twoja wiadomość nie mogła zostać wysłana.</p><p>Spróbuj jeszcze raz.</p>')
+                jQuery(dialog).removeClass("success").addClass("error"),
+                jQuery(".darkness, .light-box").addClass("on"), 
+                e.responseText !== "" ? jQuery(dialog).html(e.responseText) : jQuery(dialog).html(contentError)
             })
         })
     });
 </script>
 
 </body>
-
 </html>

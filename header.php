@@ -16,6 +16,7 @@
     </script>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LchaOQZAAAAAJfHF0dVYc1Nk54B-KEtRiWghDnv"></script>
     <title><?php wp_title() ?></title>
     <?php wp_head() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
