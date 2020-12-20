@@ -18,6 +18,7 @@
                 </div>
                 <div class="lg-8 sm-12">
                     <form class="contact-form" method="POST" action="<?php bloginfo('template_url'); ?>/mail.php">
+                        <input type="hidden" name="g-recaptcha-response" id="recaptchaRes" />
                         <table>
                             <tr>
                                 <td><label for="name">Imię i nazwisko:</label></td>
@@ -100,23 +101,32 @@
             
         form.submit(!1), jQuery(form).submit(function(s) {
             s.preventDefault();
-            var formData = jQuery(form).serialize();
+
             if (!jQuery("input[type=checkbox]").is(":checked")) return jQuery(".darkness, .light-box").addClass("on"), 
             void jQuery(dialog).html(contentNoTerms);
             
-            jQuery.ajax({
-                type: "POST",
-                url: jQuery(form).attr("action"),
-                data: formData
-            }).done(function(e) {
-                jQuery(dialog).removeClass("error").addClass("success").html(e), 
-                jQuery(".darkness, .light-box").addClass("on"), 
-                jQuery("#name, #message, #phone, #email").val("")
-            }).fail(function(e) {
-                jQuery(dialog).removeClass("success").addClass("error"),
-                jQuery(".darkness, .light-box").addClass("on"), 
-                e.responseText !== "" ? jQuery(dialog).html(e.responseText) : jQuery(dialog).html(contentError)
-            })
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6LchaOQZAAAAAJfHF0dVYc1Nk54B-KEtRiWghDnv', {action: 'submit'}).then(function(token) {
+                    jQuery('#recaptchaRes').val(token); 
+                    var formData = jQuery(form).serialize();
+
+                    jQuery.ajax({
+                        type: "POST",
+                        url: jQuery(form).attr("action"),
+                        data: formData,
+                    }).done(function(successContent) {
+                        console.log('xd ' + successContent),
+                        jQuery(dialog).removeClass("error").addClass("success").html(successContent), 
+                        jQuery(".darkness, .light-box").addClass("on"), 
+                        jQuery("#name, #message, #phone, #email").val("")
+                    }).fail(function(e) {
+                        jQuery(dialog).removeClass("success").addClass("error"),
+                        jQuery(".darkness, .light-box").addClass("on"), 
+                        e.responseText !== "" ? jQuery(dialog).html(e.responseText) : jQuery(dialog).html(contentError)
+                    })
+                });
+            });
+            
         })
     });
 </script>
