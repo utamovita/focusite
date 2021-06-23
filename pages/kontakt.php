@@ -18,6 +18,7 @@
                 </div>
                 <div class="lg-8 sm-12">
                     <form class="contact-form" method="POST" action="<?php bloginfo('template_url'); ?>/mail.php">
+                        <input type="hidden" name="g-recaptcha-response" id="recaptchaRes" />
                         <table>
                             <tr>
                                 <td><label for="name">Imię i nazwisko:</label></td>
@@ -84,25 +85,51 @@
 
 <script>
     jQuery(function() {
-        var e = jQuery(".contact-form"),
-            a = jQuery("#form-messages");
-        e.submit(!1), jQuery(e).submit(function(s) {
+        var form = jQuery(".contact-form"),
+            dialog = jQuery("#form-messages");
+
+        var contentNoTerms = `
+                <h3><span><span class="purple-gradient">Ups!</span></span></h3>
+                <p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p>
+                <p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>
+            `,
+            contentError = `
+                <h3><span><span class="purple-gradient">Ups!</span></span></h3>
+                <p>Wystąpił błąd i Twoja wiadomość nie mogła zostać wysłana.</p>
+                <p>Spróbuj jeszcze raz.</p>
+            `;
+            
+        form.submit(!1), jQuery(form).submit(function(s) {
             s.preventDefault();
-            var r = jQuery(e).serialize();
-            if (!jQuery("input[type=checkbox]").is(":checked")) return jQuery(".darkness, .light-box").addClass("on"), void jQuery(a).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3><p>Musisz wyrazić zgodę, aby wysłać zapytanie.</p><p>Zaznacz odpowiednie pole i spróbuj ponownie.</p>');
-            jQuery.ajax({
-                type: "POST",
-                url: jQuery(e).attr("action"),
-                data: r
-            }).done(function(e) {
-                jQuery(a).removeClass("error"), jQuery(a).addClass("success"), jQuery(".darkness, .light-box").addClass("on"), jQuery(a).html(e), jQuery("#name").val(""), jQuery("#message").val(""), jQuery("#phone").val(""), jQuery("#email").val("")
-            }).fail(function(e) {
-                jQuery(a).removeClass("success"), jQuery(a).addClass("error"), jQuery(".darkness, .light-box").addClass("on"), "" !== e.responseText ? jQuery(a).html(e.responseText) : jQuery(a).html('<h3><span><span class="purple-gradient">Ups!</span></span></h3> <p>Wystąpił błąd i Twoja wiadomość nie mogła zostać wysłana.</p><p>Spróbuj jeszcze raz.</p>')
-            })
+
+            if (!jQuery("input[type=checkbox]").is(":checked")) return jQuery(".darkness, .light-box").addClass("on"), 
+            void jQuery(dialog).html(contentNoTerms);
+            
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6LchaOQZAAAAAJfHF0dVYc1Nk54B-KEtRiWghDnv', {action: 'submit'}).then(function(token) {
+                    jQuery('#recaptchaRes').val(token); 
+                    var formData = jQuery(form).serialize();
+
+                    jQuery.ajax({
+                        type: "POST",
+                        url: jQuery(form).attr("action"),
+                        data: formData,
+                    }).done(function(successContent) {
+                        console.log('xd ' + successContent);
+                        jQuery(dialog).removeClass("error").addClass("success").html(successContent), 
+                        jQuery(".darkness, .light-box").addClass("on"), 
+                        jQuery("#name, #message, #phone, #email").val("")
+                    }).fail(function(e) {
+                        jQuery(dialog).removeClass("success").addClass("error"),
+                        jQuery(".darkness, .light-box").addClass("on"), 
+                        e.responseText !== "" ? jQuery(dialog).html(e.responseText) : jQuery(dialog).html(contentError)
+                    })
+                });
+            });
+            
         })
     });
 </script>
 
 </body>
-
 </html>
