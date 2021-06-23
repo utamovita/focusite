@@ -1,7 +1,7 @@
 <?php /* Template Name: Wycena */ ?>
 <?php get_header(); ?>
 <main>
-    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple top wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="focusite fioletowa fala">
     <section class="section1">
         <div class="container">
             <div class="centered choosePricing">

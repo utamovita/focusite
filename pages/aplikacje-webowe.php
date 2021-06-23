@@ -6,7 +6,7 @@
     <section class="banner container">
         <div class="banner__box">
             <h1 class="banner__title">Aplikacje<span><span class="purple-gradient banner__title__fragment">webowe</span></span></h1>
-            <p class="banner__paragraph">Firma focusite tworzy aplikacje, które pozwalają na automatyzację procesów w firmie i nie tylko. Nazywane są aplikacjami webowymi, bo opierają swoje działanie na dowolnej przeglądarce żadnego oprogramowania - potrzebujesz jedynie internetu.</p>
+            <p class="banner__paragraph">Tworzenie aplikacji webowych oferowane przez firmę focusite pozwala na automatyzację procesów w firmie. Nazywane są aplikacjami webowymi, bo opierają swoje działanie na dowolnej przeglądarce żadnego oprogramowania - potrzebujesz jedynie internetu.</p>
             <ul class="banner__list">
                 <li class="banner__list__element">
                     <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/automatyzacja.svg" alt="automatyzacja procesów">
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <h3 class="benefits__sub-title">Opowiedz nam o swoim pomyśle, <span class="purple-gradient">my zrobimy resztę.</span></h3>
-            <a href="<?php site_url(); ?>/wycena" class="benefits__button btn">Zapytaj o wycenę</a>
+            <a href="/wycena/" class="benefits__button btn">Zapytaj o wycenę</a>
         </div>
     </section>
     <section class="arguments">
@@ -110,7 +110,7 @@
         <div class="info-box">
             <h2>Masz <span><span class="purple-gradient">pytania?</span></span></h2>
             <h5>Zobacz dział najczęsciej zadawanych pytań. <br>Lub po prostu odezwij się do nas ;)</h5>
-            <a href="<?php site_url(); ?>/faq" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="<?php site_url(); ?>/kontakt" class="btn orange" title="kontakt">Skontaktuj się</a>
+            <a href="/faq/" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="/kontakt/" class="btn orange" title="kontakt">Skontaktuj się</a>
         </div>
     </section>
 </main>

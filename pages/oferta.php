@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <main>
-    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="focusite fioletowa fala">
     <section class="banner">
         <div class="container">
             <div class="row">
@@ -11,26 +11,26 @@
                     <p>Zapoznaj się z szerokim wachlarzem naszych usług. Działamy w tej branży od wielu lat tworząc strony internetowe, sklepy internetowe i aplikacje. Kreatywni graficy, zdolni copywriterzy i najlepsi programiści zadbają o to by Twoja firma zaistniała w internecie.</p>
                     <ul>
                         <li>
-                            <img src="<?php bloginfo('template_url'); ?>/img/svg/szerokie_doswiadczenie.svg" alt="focusite experience">
+                            <img src="<?php bloginfo('template_url'); ?>/img/svg/szerokie_doswiadczenie.svg" alt="doświadczenie">
                             Szerokie doświadczenie
                         </li>
                         <li>
-                            <img src="<?php bloginfo('template_url'); ?>/img/svg/konkurencyjne_ceny.svg" alt="focusite price">
+                            <img src="<?php bloginfo('template_url'); ?>/img/svg/konkurencyjne_ceny.svg" alt="cena">
                             Konkurencyjne ceny
                         </li>
                         <li>
-                            <img src="<?php bloginfo('template_url'); ?>/img/svg/wsparcie_24.svg" alt="focusite support">
+                            <img src="<?php bloginfo('template_url'); ?>/img/svg/wsparcie_24.svg" alt="wsparcie">
                             Wsparcie 24/7
                         </li>
                         <li>
-                            <img src="<?php bloginfo('template_url'); ?>/img/svg/dzialamy_do_skutku.svg" alt="focusite work">
+                            <img src="<?php bloginfo('template_url'); ?>/img/svg/dzialamy_do_skutku.svg" alt="praca">
                             Działamy do skutku
                         </li>
                     </ul>
                     <button class="btn scroll-down">Czym się zajmujemy?</button>
                 </div>
                 <div class="lg-6 sm-12">
-                    <img src="<?php bloginfo('template_url'); ?>/img/offer-laptop.png" class="laptop-img" alt="wireless computer">
+                    <img src="<?php bloginfo('template_url'); ?>/img/offer-laptop.png" class="laptop-img" alt="laptop">
                     <img src="<?php bloginfo('template_url'); ?>/img/wordpress-logo.png" class="wp-img" alt="wordpress logo">
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     <li>Podstawowy pakiet pozycjonowania (SEO)</li>
                 </ul>
                 <div class="button-box">
-                    <a href="strony-internetowe" class="btn">Szczegóły</a>
+                    <a href="/strony-internetowe/" class="btn">Szczegóły</a>
                 </div>
             </div>
             <div class="type second">
@@ -63,7 +63,7 @@
                     <li>Wtyczki do płatności elektronicznych</li>
                 </ul>
                 <div class="button-box">
-                    <a href="sklepy-internetowe" class="btn">Szczegóły</a>
+                    <a href="/sklepy-internetowe/" class="btn">Szczegóły</a>
                 </div>
             </div>
             <div class="type">
@@ -76,7 +76,7 @@
                     <li>Opowiedz nam o swoim pomyśle - my zrobimy resztę</li>
                 </ul>
                 <div class="button-box">
-                    <a href="aplikacje-webowe" class="btn">Szczegóły</a>
+                    <a href="/aplikacje-webowe/" class="btn">Szczegóły</a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
                     <li>Konfiguracja i zarządzanie usługami Google.</li>
                 </ul>
                 <div class="button-box">
-                    <a href="pozycjonowanie" class="btn">Szczegóły</a>
+                    <a href="/pozycjonowanie/" class="btn">Szczegóły</a>
                 </div>
             </div>
             <div class="type second">
@@ -107,7 +107,7 @@
                     <li>Dbamy o jakość tekstu i kwestie prawne.</li>
                 </ul>
                 <div class="button-box">
-                    <a href="copywriting" class="btn">Szczegóły</a>
+                    <a href="/copywriting/" class="btn">Szczegóły</a>
                 </div>
             </div>
             <div class="type">
@@ -120,7 +120,7 @@
                     <li>Wysoki wynik szybkości bez utraty na jakości.</li>
                 </ul>
                 <div class="button-box">
-                    <a href="optymalizacja" class="btn">Szczegóły</a>
+                    <a href="/optymalizacja/" class="btn">Szczegóły</a>
                 </div>
             </div>
         </div>
@@ -138,10 +138,10 @@
                     </ul>
                 </div>
                 <div class="lg-6 sm-12">
-                    <img src="<?php bloginfo('template_url'); ?>/img/team.png" alt="team sitting around the round table">
+                    <img src="<?php bloginfo('template_url'); ?>/img/team.png" alt="eksperci i zespół">
                 </div>
                 <div class="btn-box">
-                    <a href="kontakt" class="btn" title="kontakt">Skontaktuj się</a>
+                    <a href="/kontakt/" class="btn" title="kontakt">Skontaktuj się</a>
                 </div>
             </div>
         </div>

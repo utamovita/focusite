@@ -3,7 +3,7 @@
 
 <main>
     <section id="section1">
-        <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="top wave background">
+        <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="focusite fioletowa fala">
 
         <div class="container">
             <div class="row">
@@ -40,7 +40,7 @@
                                 <td></td>
                                 <td>
                                     <label class="checkbox-container">
-                                        Wyrażam zgodę na przetwarzanie przez „focusite” moich danych osobowych, zawartych w formularzu kontaktowym, w celu udzielenia odpowiedzi na przesłane przeze mnie zapytanie. <a class="privacy" href="polityka-prywatnosci">Polityka prywatności.</a>
+                                        Wyrażam zgodę na przetwarzanie przez „focusite” moich danych osobowych, zawartych w formularzu kontaktowym, w celu udzielenia odpowiedzi na przesłane przeze mnie zapytanie. <a class="privacy" href="/polityka-prywatnosci/">Polityka prywatności.</a>
                                         <input type="checkbox" id="checkbox">
                                         <span class="checkmark"></span>
                                     </label>
@@ -78,7 +78,7 @@
         </div>
         <div class="lg-6 copyright">© focusite <br>All rights reserved</div>
     </div>
-    <img src="<?php bloginfo('template_url'); ?>/img/wave-bottom.png" class="bottom-wave" alt="purple background bottom wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-bottom.png" class="bottom-wave" alt="fioletowa fala">
 </footer>
 
 <?php wp_footer(); ?>

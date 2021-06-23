@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <main>
     <section id="section1">
-        <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="">
+        <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="focusite fioletowa fala">
         <div class="container">
             <h1><span><span class="purple-gradient">Polityka prywatności</span></span></h1>
             <h3 class="first">Szanowny Użytkowniku!</h3>
@@ -123,7 +123,7 @@
 
             <h2>10. PYTANIA I ZASTRZEŻENIA</h2>
 
-            <p>W razie wszelkich pytań, wątpliwości, zastrzeżeń lub reklamacji dotyczących polityki prywatności, a także w przypadku realizacji uprawnień opisanych powyżej prosimy o kontakt za pośrednictwem <a href="kontakt">formularza kontaktowego</a> na stronie lub poprzez e-mail <a href="mailto:office@focusite.pl">office@focusite.pl</a></p>
+            <p>W razie wszelkich pytań, wątpliwości, zastrzeżeń lub reklamacji dotyczących polityki prywatności, a także w przypadku realizacji uprawnień opisanych powyżej prosimy o kontakt za pośrednictwem <a href="/kontakt/">formularza kontaktowego</a> na stronie lub poprzez e-mail <a href="mailto:office@focusite.pl">office@focusite.pl</a></p>
         </div>
     </section>
 </main>

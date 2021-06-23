@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main class="error404">
-    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top"
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="focusite fioletowa fala"
         alt="Focusite - strony www, sklepy internetowe, pozycjonowanie">
     <section id="section1">
         <div class="container">

@@ -6,7 +6,7 @@
     <section class="banner container">
         <div class="banner__box">
             <h1 class="banner__title">Co wyróżnia <span><span class="purple-gradient banner__title__fragment">nasze strony</span></span></h1>
-            <p class="banner__paragraph">Firma Focusite zajmuje się tworzeniem stron internetowych przystosowanych do urządzeń mobilnych. Używamy systemu CMS Wordpress - rozwiązanie idealne dla tych, którzy cenią sobie prostotę obsługi i możliwość samodzielnej edycji treści strony.</p>
+            <p class="banner__paragraph">Firma Focusite oferuje profesjonalne tworzenie stron internetowych przystosowanych do urządzeń mobilnych. Używamy systemu CMS Wordpress - rozwiązanie idealne dla tych, którzy cenią sobie prostotę obsługi i możliwość samodzielnej edycji treści portalu.</p>
             <ul class="banner__list">
                 <li class="banner__list__element">
                     <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/prostota_obslugi.svg" alt="prostota obsługi">
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <h3 class="benefits__sub-title">Strona to nie koszt, <span class="purple-gradient">to inwestycja.</span></h3>
-            <a href="<?php site_url(); ?>/wycena" class="benefits__button btn">Zapytaj o wycenę</a>
+            <a href="/wycena/" class="benefits__button btn">Zapytaj o wycenę</a>
         </div>
     </section>
     <section class="arguments">
@@ -82,7 +82,7 @@
                 </div>
                 <div class="arguments__box arguments__box--long">
                     <h4 class="arguments__subtitle">Wyróżnij się designem</h4>
-                    <p class="arguments__description">Zachęcamy wszystkim naszym klientom, którzy zdecydowali się na wykonanie przez nas strony internetowej na wybór indywidualnej szaty graficznej strony zamiast gotowego szablonu. Nasi kreatywni graficy zaprojektują dla Ciebie piękną stronę która wzbudza zaufanie i zatrzyma użytkowników na dłużej. Opcja droższa ale efekt jest tego wart.</p>
+                    <p class="arguments__description">Zachęcamy wszystkim naszym klientom, którzy zdecydowali się na wykonanie przez nas strony internetowej na wybór indywidualnej szaty graficznej strony zamiast gotowego szablonu. Nasi kreatywni graficy zaprojektują dla Ciebie piękną stronę która wzbudza zaufanie i zatrzyma użytkowników na dłużej.</p>
                 </div>
             </div>
             <div class="arguments__wrapper">
@@ -109,7 +109,7 @@
         <div class="info-box">
             <h2>Masz <span><span class="purple-gradient">pytania?</span></span></h2>
             <h5>Zobacz dział najczęsciej zadawanych pytań. <br>Lub po prostu odezwij się do nas ;)</h5>
-            <a href="<?php site_url(); ?>/faq" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="<?php site_url(); ?>/kontakt" class="btn orange" title="kontakt">Skontaktuj się</a>
+            <a href="/faq/" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="/kontakt/" class="btn orange" title="kontakt">Skontaktuj się</a>
         </div>
     </section>
 </main>

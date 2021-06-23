@@ -2,26 +2,26 @@
 <?php get_header(); ?>
 
 <main class="offer-subpage">
-    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="focusite fioletowa fala">
     <section class="banner container">
         <div class="banner__box">
             <h1 class="banner__title">Co to jest <span><span class="purple-gradient banner__title__fragment">optymalizacja?</span></span></h1>
             <p class="banner__paragraph">Optymalizacja stron to zestaw działań mających na celu poprawę pozycji w wyszukiwarce, zwiększenia szybkości ładowania i działania stron, polepszenie współczynnika CTR oraz ogólnego user experience. Szybko działająca strona lub sklep sprawia, że użytkownicy są bardziej chętni aby na nim pozostać, dokonać zakupu lub skontaktować się.</p>
             <ul class="banner__list">
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/szybkosc_dzialania.svg" alt="focusite pagespeed">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/szybkosc_dzialania.svg" alt="Szybkość">
                     Przyśpieszenie strony
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wysoka_pozycja.svg" alt="focusite high position">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wysoka_pozycja.svg" alt="Pozycja">
                     Wyższa pozycja w Google
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wiekszy_ctr.svg" alt="focusite article text">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wiekszy_ctr.svg" alt="Ctr">
                     Większy współczynnik CTR
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/bez_utraty_jakosci.svg" alt="focusite seo text">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/bez_utraty_jakosci.svg" alt="Jakość">
                     Bez utraty jakości
                 </li>
             </ul>
@@ -30,7 +30,7 @@
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/svg/optymalizacja.svg" class="banner__image" alt="focusite optimalize website">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/optymalizacja.svg" class="banner__image" alt="Optymalizacja">
         </div>
     </section>
     <section class="benefits scroll-to">
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <h3 class="benefits__sub-title">Zwiększ prędkość <span class="purple-gradient">strony lub e-sklepu</span></h3>
-            <a href="<?php site_url(); ?>/wycena" class="benefits__button btn">Wycena optymalizacji</a>
+            <a href="/wycena/" class="benefits__button btn">Wycena optymalizacji</a>
         </div>
     </section>
     <section class="container faq">
@@ -61,7 +61,7 @@
                 <div class="collapsible__question">
                     <h4>Ile kosztuje optymalizcja?</h4>
                     <div class="collapsible__question__answer">
-                        <p>Kwota ostateczna zależy od wielkości oraz aktualnego stanu serwisu. W przypadku prostych stron internetowych kwota graniczy w przedziałach <strong>200-400zł</strong>. Jeśli interesuje Cię ile kosztowałaby optymalizacja twojej witryny, wypełnij <a href="wycena">krótki brief</a> lub po prostu <a href="kontakt">napisz do nas</a>.</p>
+                        <p>Kwota ostateczna zależy od wielkości oraz aktualnego stanu serwisu. W przypadku prostych stron internetowych kwota graniczy w przedziałach <strong>200-400zł</strong>. Jeśli interesuje Cię ile kosztowałaby optymalizacja twojej witryny, wypełnij <a href="/wycena/">krótki brief</a> lub po prostu <a href="kontakt">napisz do nas</a>.</p>
                     </div>
                 </div>
             </li>
@@ -71,7 +71,7 @@
                     <div class="collapsible__question__answer">
                         <p>Przeważnie zajmuje od jednego <strong>do kilku dni</strong> roboczych. Prace kończymy w momencie, gdy wszystkie z czterech audytów (szybkość strony, dostępność, najlepsze praktyki oraz SEO) osiągają <strong>wynik minimum 90</strong>. Jest to bardzo dobry wynik, który zadowala naszych klientów i w zupełności wystarczy. Poniżej przykładowy wynik naszych działań - strona na której aktualnie się znajdujesz.
                         </p>
-                        <img src="<?php bloginfo('template_url'); ?>/img/lighthouse-score.png" alt="focusite lighthouse score">
+                        <img src="<?php bloginfo('template_url'); ?>/img/lighthouse-score.png" alt="Wynik lighthouse">
                         <p>Wynik lighthouse dla strony focusite.pl</p>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
         <div class="info-box">
             <h2>Masz <span><span class="purple-gradient">pytania?</span></span></h2>
             <h5>Zobacz dział najczęsciej zadawanych pytań. <br>Lub po prostu odezwij się do nas ;)</h5>
-            <a href="<?php site_url(); ?>/faq" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="<?php site_url(); ?>/kontakt" class="btn orange" title="kontakt">Skontaktuj się</a>
+            <a href="/faq/" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="/kontakt/" class="btn orange" title="kontakt">Skontaktuj się</a>
         </div>
     </section>
 </main>

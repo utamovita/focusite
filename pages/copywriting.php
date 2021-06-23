@@ -2,26 +2,26 @@
 <?php get_header(); ?>
 
 <main class="offer-subpage">
-    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="focusite fioletowa fala">
     <section class="banner container">
         <div class="banner__box">
             <h1 class="banner__title">Czym jest <span><span class="purple-gradient banner__title__fragment">copywriting?</span></span></h1>
             <p class="banner__paragraph">Krótko mówiąc, jest to tworzenie tematycznej oraz unikalnej treści. Odpowiednia ilość wartościowej treści na stronie www lub e-sklepie wpływa bardzo pozytywnie na algorytmy wyszukiwarki Google oraz zachęca użytkownika do dalszego czytania twojej oferty.</p>
             <ul class="banner__list">
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/tresci_do_www.svg" alt="focusite website content">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/tresci_do_www.svg" alt="focusite treśći">
                     Treść do stron www
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/opisy_produktow.svg" alt="focusite product description">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/opisy_produktow.svg" alt="focusite opisy">
                     Opisy produktów
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/artykuly_na_blogu.svg" alt="focusite article text">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/artykuly_na_blogu.svg" alt="focusite artykuły">
                     Artykuły na blogu
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/teksty_seo.svg" alt="focusite seo text">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/teksty_seo.svg" alt="focusite seo teksty">
                     Teksty SEO
                 </li>
             </ul>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <h3 class="benefits__sub-title">Profesjonalne <span class="purple-gradient">teksty SEO</span></h3>
-            <a href="<?php site_url(); ?>/wycena" class="benefits__button btn">Wycena copywritingu</a>
+            <a href="/wycena/" class="benefits__button btn">Wycena copywritingu</a>
         </div>
     </section>
     <section class="container faq">
@@ -62,7 +62,7 @@
                 <div class="collapsible__question">
                     <h4>Ile kosztuje copywriting?</h4>
                     <div class="collapsible__question__answer">
-                        <p>Dla merytorycznych tekstów do stron internetowych lub blogów, cena za każde 1000 znaków ze spacją wynosi <strong>25zł netto</strong>. Jeśli chcesz wiedzieć ile kosztowałoby napisanie treści do twojego serwisu, wypełnij <a href="wycena">krótki formularz</a>, a my niedługo się odezwiemy.</p>
+                        <p>Dla merytorycznych tekstów do stron internetowych lub blogów, cena za każde 1000 znaków ze spacją wynosi <strong>25zł netto</strong>. Jeśli chcesz wiedzieć ile kosztowałoby napisanie treści do twojego serwisu, wypełnij <a href="/wycena/">krótki formularz</a>, a my niedługo się odezwiemy.</p>
                     </div>
                 </div>
             </li>
@@ -96,7 +96,7 @@
         <div class="info-box">
             <h2>Masz <span><span class="purple-gradient">pytania?</span></span></h2>
             <h5>Zobacz dział najczęsciej zadawanych pytań. <br>Lub po prostu odezwij się do nas ;)</h5>
-            <a href="<?php site_url(); ?>/faq" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="<?php site_url(); ?>/kontakt" class="btn orange" title="kontakt">Skontaktuj się</a>
+            <a href="/faq/" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="/kontakt/" class="btn orange" title="kontakt">Skontaktuj się</a>
         </div>
     </section>
 </main>

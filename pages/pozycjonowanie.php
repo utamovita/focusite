@@ -2,26 +2,26 @@
 <?php get_header(); ?>
 
 <main class="offer-subpage">
-    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="purple background top wave">
+    <img src="<?php bloginfo('template_url'); ?>/img/wave-top.png" class="wave-top" alt="focusite fioletowa fala">
     <section class="banner container">
         <div class="banner__box">
             <h1 class="banner__title">Co to jest <span><span class="purple-gradient banner__title__fragment">pozycjonowanie?</span></span></h1>
-            <p class="banner__paragraph">Jest to zespół działań mających na celu osiągnięcie jak najwyższej pozycji w wyszukiwarce Google. Jednocześnie jest uznawany jako jeden z najbardziej efektywnych sposobów marketingu internetowego. Ma to bezpośredni wpływ na zwiększenie ruchu na portalu.</p>
+            <p class="banner__paragraph">Pozycjonowanie stron internetowych to zespół działań mających na celu osiągnięcie jak najwyższej pozycji w wynikach organicznych wyszukiwarki. Proces ten jest uznawany jako jeden z najbardziej efektywnych sposobów marketingu internetowego, gdyż ma on bezpośredni wpływ na zwiększenie ruchu na portalu.</p>
             <ul class="banner__list">
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie_www.svg" alt="focusite website seo">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie_www.svg" alt="Pozycjonowanie stron">
                     Pozycjonowanie stron www
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie_sklepow.svg" alt="focusite e-commerce seo">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie_sklepow.svg" alt="Pozycjonowanie sklepów">
                     Pozycjonowanie e-sklepów
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wysoka_pozycja.svg" alt="focusite high position">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wysoka_pozycja.svg" alt="Pozycja">
                     Wysoka pozycja w wyszukiwarce
                 </li>
                 <li class="banner__list__element">
-                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wiekszy_ruch.svg" alt="focusite more traffic">
+                    <img class="banner__list__element__icon" src="<?php bloginfo('template_url'); ?>/img/svg/wiekszy_ruch.svg" alt="Ruch na stronie">
                     Większy ruch na stronie
                 </li>
             </ul>
@@ -30,7 +30,7 @@
             </button>
         </div>
         <div class="banner__box">
-            <img src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie.svg" class="banner__image" alt="focusite seo picture">
+            <img src="<?php bloginfo('template_url'); ?>/img/svg/pozycjonowanie.svg" class="banner__image" alt="Pozycjonowanie">
         </div>
     </section>
     <section class="benefits scroll-to">
@@ -39,11 +39,11 @@
             <div class="benefits__box">
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Zwiększenie ruchu</span></h3>
-                    <p class="benefits__type__description">Pozycjonowanie (ang. SEO - Search engine optimization) sprawia przede wszystkim, że twoja witryna będzie widoczna. Portal, którego nie da się znaleźć w wyszukiwarce, choćby miał piękny design to jest bezużyteczny. Jeśli narzekasz na widoczność swojej strony lub sklepu i zależy Ci na większej ilości wejść na twoją stronę to jest to opcja dla Ciebie.</p>
+                    <p class="benefits__type__description">Pozycjonowanie stron (ang. SEO - Search engine optimization) sprawia, że twoja witryna będzie widoczna w wynikach wyszukiwania. Portal, którego nie da się znaleźć w sieci, choćby miał piękny design to jest bezużyteczny. Jeśli narzekasz na widoczność swojej strony lub sklepu i zależy Ci na większej ilości wejść na twoją stronę to jest to opcja dla Ciebie.</p>
                 </div>
                 <div class="benefits__type">
                     <h3 class="benefits__type__title"><span>Niskie koszty reklamy</span></h3>
-                    <p class="benefits__type__description">Reklamowanie swojego serwisu poprzez SEO, obniża koszty za każdy inny rodzaj reklamy. Co więcej, pozycjonowanie samo w sobie nie należy do drogich inwestycji. Ostateczna cena jest zależna jest zależna od ilości fraz oraz ich popularności. Koszt pozycjonowania jednej frazy waha się między 150zł a 300zł netto miesięcznie.</p>
+                    <p class="benefits__type__description">Reklamowanie swojego serwisu poprzez SEO, obniża koszty za każdy inny rodzaj reklamy. Co więcej, pozycjonowanie stron samo w sobie nie należy do drogich inwestycji. Ostateczna cena jest zależna jest zależna od ilości fraz oraz ich popularności. Koszt pozycjonowania jednej frazy waha się między 150zł a 300zł netto miesięcznie.</p>
                 </div>
 
                 <div class="benefits__type">
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <h3 class="benefits__sub-title">Wejdź na szczyt <span class="purple-gradient">wyników Google</span></h3>
-            <a href="<?php site_url(); ?>/wycena" class="benefits__button btn">Wycena pozycjonowania</a>
+            <a href="/wycena/" class="benefits__button btn">Wycena pozycjonowania</a>
         </div>
     </section>
     <section class="container faq">
@@ -60,9 +60,9 @@
         <ol class="collapsible">
             <li class="collapsible__question__wrapper">
                 <div class="collapsible__question">
-                    <h4>Ile kosztuje pozycjonowanie?</h4>
+                    <h4>Ile kosztuje pozycjonowanie stron internetowych?</h4>
                     <div class="collapsible__question__answer">
-                        <p>Niestety, jest zbyt wiele czynników aby móc podać konkretną kwotę pozycjonowania. W jednym przypadku może się okazać, że za wprowadzenie zmian SEO oraz monitorowanie ich przez następne kilka miesięcy, cena wyniesie <strong>zaledwie 1000zł</strong> (w przypadku małych stron www, z wcześniejszymi działaniami SEO). W innym przypadku koszt może sięgać kilkunastu tysięcy złotych (w przypadku dużych sklepów internetowych). Jeśli jesteś ciekaw ile kosztowałoby pozycjonowanie twojego serwisu, wypełnij <a href="wycena">krótki formularz</a>, a my niedługo się odezwiemy.</p>
+                        <p>Niestety, jest zbyt wiele czynników aby móc podać konkretną kwotę pozycjonowania. W jednym przypadku może się okazać, że za wprowadzenie zmian SEO oraz monitorowanie ich przez następne kilka miesięcy, cena wyniesie <strong>zaledwie 1000zł</strong> (w przypadku małych stron www, z wcześniejszymi działaniami SEO). W innym przypadku koszt może sięgać kilkunastu tysięcy złotych (w przypadku dużych sklepów internetowych). Jeśli jesteś ciekaw ile kosztowałoby pozycjonowanie twojego serwisu, wypełnij <a href="/wycena/">krótki formularz</a>, a my niedługo się odezwiemy.</p>
                     </div>
                 </div>
             </li>
@@ -98,7 +98,7 @@
         <div class="info-box">
             <h2>Masz <span><span class="purple-gradient">pytania?</span></span></h2>
             <h5>Zobacz dział najczęsciej zadawanych pytań. <br>Lub po prostu odezwij się do nas ;)</h5>
-            <a href="<?php site_url(); ?>/faq" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="<?php site_url(); ?>/kontakt" class="btn orange" title="kontakt">Skontaktuj się</a>
+            <a href="/faq/" title="faq" class="btn orange">FAQ</a><span class="or">lub</span><a href="/kontakt/" class="btn orange" title="kontakt">Skontaktuj się</a>
         </div>
     </section>
 </main>
